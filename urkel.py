@@ -24,12 +24,11 @@ import os
 import aiohttp
 
 def _initialize(bot):
-    plugins.register_user_command(["rust"])
+    plugins.register_user_command(["fpl"])
     plugins.register_user_command(["players"])
     plugins.register_user_command(["uptime"])
-    plugins.register_user_command(["top"])
 
-def rust(bot, event, *args):
+def fpl(bot, event, *args):
     if "ping" in args:
         ping_stuff = ping()
         yield from bot.coro_send_message(event.conv_id, ping_stuff)
@@ -59,13 +58,15 @@ def get_status(players=False):
     r = urllib.request.Request(url=url, headers=header)
     page = urllib.request.urlopen(r)
     soup = BeautifulSoup(page.read(), "lxml")
-    string = '.ism-section-title , td .ism-section-title'
+    string = '.ism-main h2.ism-section-title, .ism-table--standings tr:nth-of-type(1) td:nth-of-type(1), .ism-table--standings tr:nth-of-type(1) td:nth-of-type(1) strong'
     data = soup.select(string)
 
     title = data[1].contents[0].strip()
-    test = data[2].contents[0].strip()
+    rank = data[2].contents[0].strip()
+    teamName = data[3].contents[0].strip()
     return title
     return test
+    return teamName
 
 
 def ping():
