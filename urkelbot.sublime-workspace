@@ -1,0 +1,858 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"styl",
+				"stylesheet"
+			],
+			[
+				"b",
+				"browserSync"
+			],
+			[
+				"animation",
+				"animation-delay"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"min-w",
+				"min-width"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"backgroun",
+				"background-size"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"list-",
+				"list-style"
+			],
+			[
+				"Sans",
+				"sans-serif"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"logo",
+				"logo-orange"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"loo",
+				"logo-green"
+			],
+			[
+				"dark",
+				"darkblue"
+			],
+			[
+				"bloc",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"dar",
+				"darkgrey"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"logo-",
+				"logo-green"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"pro",
+				"proxima-nova-alt"
+			],
+			[
+				"lightgre",
+				"lightgreen"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ff",
+				"ff-meta-web-pro"
+			],
+			[
+				"light",
+				"lightgrey"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"li",
+				"lightgrey"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"lig",
+				"lightgrey"
+			],
+			[
+				"ligh",
+				"lightgreen"
+			],
+			[
+				"lighr",
+				"lightgreen"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fotn",
+				"font-family"
+			],
+			[
+				"darke",
+				"darkerblue"
+			],
+			[
+				"bas",
+				"ff-basic-gothic-web-pro"
+			],
+			[
+				"br",
+				"brandon-grotesque"
+			],
+			[
+				"meta",
+				"ff-meta-web-pro"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"magi",
+				"margin-right"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"fut",
+				"futura-pt"
+			],
+			[
+				"futu",
+				"futura-pt"
+			],
+			[
+				"futura",
+				"futura-pt-condensed"
+			],
+			[
+				"nopad",
+				"nopad"
+			],
+			[
+				"fu",
+				"futura-pt"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"md",
+				"mdgrey"
+			],
+			[
+				"f",
+				"futura-pt"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"icon_",
+				"icon_bottle"
+			],
+			[
+				"nor",
+				"no-repeat"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"med",
+				"medgrey"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"u",
+				"ul\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/projects/python/hello.py",
+			"settings":
+			{
+				"buffer_size": 45,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#!/usr/bin/env python3"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/projects/urkelbot/urkel.py",
+		"/C/Users/Sky/AppData/Local/Temp/scp24205/uploads/want.txt",
+		"/C/Program Files/OpenVPN/config/client.ovpn",
+		"/C/Users/Sky/AppData/Local/Temp/scp00687/home/sky/ca.crt",
+		"/C/Users/Sky/AppData/Local/Temp/scp00942/uploads/want.txt",
+		"/C/Users/Sky/AppData/Local/Temp/scp44535/uploads/want.txt",
+		"/H/games/ps2/DreamMixTVWorldFighters.7z",
+		"/H/games/amiga/_DOX/10000_Ohm_ASCII_Collection_DOX_AMIGA-ARTCORE/AC!-OHM.TXT",
+		"/C/Users/Sky/AppData/Local/Temp/scp00627/uploads/want.txt",
+		"/H/games/amiga/_DOX/Virus_Warning_AMIGA-SKIDROW/SR-VIR1.TXT",
+		"/C/Users/Sky/AppData/Local/Temp/scp30956/uploads/want.txt",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.512/AGG_0193.TXT",
+		"/C/Users/Sky/AppData/Local/Temp/scp32932/uploads/want.txt",
+		"/C/Users/Sky/AppData/Local/Temp/scp48813/games/kuribo's scene archive/gb/_TRAINERS/True_Lies_Plus1_Trainer_GB-ASGARD/ASG-REL.NFO",
+		"/C/Users/Sky/AppData/Local/Temp/scp14676/uploads/want.txt",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.466/Lastminute.txt",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.335/ecoder.txt",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.142/os-genhi.txt",
+		"/H/games/genesis/_DOX/Chiki_Chiki_Boys_Manual_DOX_SMD-DEXTROSE/chikiusa.txt",
+		"/D/projects/datahelicopter/res/ascii_logo.txt",
+		"/E/juarez/Apps/FlashFXP v4.1.3 Build 1658 Final Multilingual/key.txt",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.838/sk-upuap.txt",
+		"/G/roms/gbc/Corrupt_Console_Issue_3-CC/corr!003.txt",
+		"/G/roms/gbc/Corrupt_Console_Issue_2-CC/corr!002.txt",
+		"/G/roms/gbc/Corrupt_Console_Issue_4-CC/corr!004.txt",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.195/readme.txt",
+		"/G/dreamcast/Dreamcast Self-Booting_Toolkit-ECHELON/TUTORIAL.TXT",
+		"/G/dreamcast/PBA_Bowling_2001_USA_DC-BELOKK/PBA Bowling 2001-Belokk.txt",
+		"/D/projects/datahelicopter/dh-wp/index.php",
+		"/D/projects/datahelicopter/intro/scss/style.scss",
+		"/D/projects/datahelicopter/intro/CODEF-master/tutorials/81_music.html",
+		"/D/projects/datahelicopter/intro/footer.txt",
+		"/D/projects/datahelicopter/intro/index.php",
+		"/D/projects/datahelicopter/intro/header.txt",
+		"/E/roms/GBC/misc/cw-gba06.txt",
+		"/E/roms/GBC/misc/cw-gba01.txt",
+		"/E/roms/GBC/misc/cw-gba05.txt",
+		"/E/roms/GBC/misc/cw-gba03.txt",
+		"/E/roms/GBC/misc/f.txt",
+		"/E/roms/GBC/roms/batch.bat",
+		"/E/roms/GBC/misc/gba-ch01.txt",
+		"/G/ASCII/sixteencolors-archive/2016/break_10/h7-alpha-ascii.txt",
+		"/C/Users/Sky/AppData/Local/Temp/scp21591/sites/iodized.net/hn.iodized.net/main.htm",
+		"/D/music/Bit Shifter - Life’s A Bit Shifter/Bit Shifter - Life’s A Bit Shifter - info.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14802655165.tmp/ai14802655165.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14802656626.tmp/ai14802656626.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14802653504.tmp/ai14802653504.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14802653193.tmp/ai14802653193.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14802649201.tmp/ai14802649201.txt",
+		"/D/projects/datahelicopter/scripts.js",
+		"/D/projects/datahelicopter/js/jquery-migrate-3.0.0.js",
+		"/C/Users/Sky/AppData/Local/Microsoft/Windows/INetCache/IE/A9Q6HQTM/jquery-migrate-3.0.0.js",
+		"/D/projects/datahelicopter/index-vivus.html",
+		"/D/projects/datahelicopter/header-vivus.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14800277546.tmp/ai14800277546.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14800286888.tmp/ai14800286888.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14800278177.tmp/ai14800278177.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14800070703.tmp/ai14800070703.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14800084324.tmp/ai14800084324.txt",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$EXa0.486/vivus-master/index.html",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$EXa0.525/vivus-master/index.html",
+		"/D/projects/datahelicopter/footer.txt",
+		"/C/Users/Sky/AppData/Local/Temp/ai14800059922.tmp/ai14800059922.txt",
+		"/D/projects/datahelicopter/css/monokai-sublime.css",
+		"/D/projects/datahelicopter/scss/style.scss",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.058/material-icons.css",
+		"/D/projects/datahelicopter/index.php",
+		"/D/projects/datahelicopter/js/smoothscroll.min.js",
+		"/D/projects/datahelicopter/excitebyte-wp/footer.php",
+		"/D/projects/datahelicopter/excitebyte-wp/archive.php",
+		"/D/projects/datahelicopter/excitebyte-wp/header.php",
+		"/D/projects/datahelicopter/excitebyte-wp/page.php",
+		"/D/projects/datahelicopter/excitebyte-wp/search.php",
+		"/D/projects/datahelicopter/excitebyte-wp/sidebar.php",
+		"/D/projects/datahelicopter/excitebyte-wp/single.php",
+		"/D/projects/datahelicopter/excitebyte-wp/index.php",
+		"/D/projects/datahelicopter/gulpfile.js",
+		"/D/projects/datahelicopter/package.json",
+		"/C/necrobot/Config/config.json",
+		"/C/Users/Sky/Desktop/necro/NecroBot.exe.config",
+		"/C/Users/Sky/Desktop/necro/NecroConfig.exe.config",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.714/README.txt",
+		"/C/Users/Sky/Desktop/pgm/BlossomsPogoManager.jar",
+		"/C/necrobot/Config/auth.json",
+		"/C/necrobot/NecroBot.vshost.exe.config",
+		"/C/necrobot/NecroBot.exe.config",
+		"/C/necrobot/Config/config.json.old",
+		"/C/necrobot/Config/auth.json.old",
+		"/C/Users/Sky/Desktop/PokeBuddy-master/PokeBuddy.exe.config",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$EXa0.880/beat/beat.html",
+		"/E/Drive/Repro Stuff/NES/ROMs/Ice Ice Hockey Challenge (TxROM)/readme.txt",
+		"/E/emulators/Ootake/Ootake/Readme.txt",
+		"/E/emulators/Ootake/Readme.txt",
+		"/E/emulators/neopop/readme.txt",
+		"/D/projects/excitebyte/js/smoothscroll.js",
+		"/D/projects/excitebyte/robots.txt",
+		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.902/twentytwenty.css",
+		"/E/dreamcast/Sturmwind_DC-PAROVOZ/prz-sturm.txt",
+		"/D/projects/excitebyte/excitebyte-wp/single.php",
+		"/C/repos/accel/js/respond.js",
+		"/C/repos/accel/Gruntfile.js",
+		"/C/repos/accel/js/modernizr.js",
+		"/C/repos/accel/css/ie.css",
+		"/C/repos/accel/sass/land.scss",
+		"/C/repos/accel/sass/default.scss",
+		"/Y/Downloads/Adobe.Acrobat.Pro.DC.v2015.010.20060.Multilingual-P2P/ADOBE_ACROBAT_PRO_DC_V2015_MULTI-XFORCE/Crack-Windows-DC/install.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/repos/accel/accel-wp/content-single.php",
+		"/C/repos/accel/package.json",
+		"/C/repos/accel/gulpfile.js",
+		"/C/repos/accel/css/slider-pro.css",
+		"/C/repos/accel/js/bootstrap.js",
+		"/C/repos/xtremeclean/wp/single.php",
+		"/C/repos/accel/css/bootstrap.css",
+		"/C/repos/accel/sass/ie.scss",
+		"/C/repos/accel/portfolio-b_and_b.php",
+		"/C/repos/accel/css/flexslider.original.css",
+		"/C/repos/accel/accel-wp/header.php",
+		"/C/repos/accel/accel-wp/footer-home.php",
+		"/C/repos/accel/accel-wp/footer.php",
+		"/C/repos/xtremeclean/wp/content.php",
+		"/C/repos/accel/accel-wp/index.php",
+		"/C/repos/accel/landing-veh_2.html",
+		"/C/repos/accel/landing-logo_2.html",
+		"/C/repos/accel/landing-wen_2.html",
+		"/C/repos/accel/sass/style.scss",
+		"/C/repos/accel/new_pages.txt",
+		"/C/repos/easyparty/sass/style.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rust",
+			"numplayers",
+			"rust",
+			"get_status",
+			"get_st",
+			"rust-ser",
+			"./",
+			"./elements",
+			"./core",
+			"h2",
+			"hr {",
+			"contact-form",
+			"col-xs-1",
+			"darken($mint",
+			"h1",
+			"tags",
+			"darkblue",
+			"tag",
+			"4rem",
+			"header",
+			"25",
+			"evolve",
+			"pokestop",
+			"softban",
+			"trans",
+			"radius",
+			"dup",
+			"pokeball",
+			"incub",
+			"hr {",
+			"        <!--",
+			"$red",
+			"more",
+			"more-link",
+			"chimney-pro",
+			"chimney_pro",
+			"nopad",
+			":before",
+			"Red Bank",
+			"nashville",
+			"Memphis",
+			"East Ridge",
+			"East Brainerd",
+			"Collegedale",
+			"Cleveland",
+			"Chattanooga",
+			"Tyrone",
+			"GA",
+			"Smyrna",
+			"Sandy Springs",
+			"Roswell",
+			"Rome",
+			"Peachtree City",
+			"Marietta",
+			"Kennesaw",
+			"Johns Creek",
+			"East Point",
+			"Dunwoody",
+			"Duluth",
+			"Decatur",
+			"Dalton",
+			"Cartersville",
+			"Atlanta",
+			"Alpharetta",
+			"Tuscaloosa",
+			"Tusca",
+			"Talladega",
+			"Scottsboro",
+			"Rainsville",
+			"Montgomery",
+			"Jasper",
+			"Huntsville",
+			"Gadsden",
+			"Florence",
+			"Decatur",
+			"Cullman",
+			"Centre",
+			"Birmingham",
+			"Athens",
+			"Anniston",
+			"web",
+			"Montgomery",
+			"Montgomery, AL",
+			"Rainsville",
+			"Red Bank",
+			"Nashville",
+			"Memphis",
+			"East Ridge",
+			"East Brainerd",
+			"Collegedale",
+			"Cleveland",
+			"Chattanooga",
+			"Tyrone",
+			"GA",
+			"Smyrna",
+			"Sandy Springs",
+			"Roswell",
+			"Rome",
+			"Peachtree City",
+			"Marietta",
+			"Kennesaw",
+			"Johns Creek",
+			"East Point",
+			"Easy Point",
+			"Dunwoody",
+			"Decatur",
+			"Dalton",
+			"Cartersville",
+			"Atlanta",
+			"Alpharetta",
+			"AL",
+			"Tuscaloosa",
+			"Talladega",
+			"Scottsboro",
+			"Rainsville",
+			"Jasper",
+			"Huntsville",
+			"Gadsden",
+			"Florence",
+			"Decatur",
+			"Cullman",
+			"Centre",
+			"Birmingham",
+			"Auburn",
+			"auburn",
+			"Athens",
+			"Anniston",
+			"Decatur"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"get_table",
+			"",
+			"elements",
+			"core",
+			"col-xs-2 col-sm-1",
+			"mint",
+			"$mint",
+			"excitebyte",
+			"Soddy-Daisy",
+			"Red Bank",
+			"Nashville",
+			"Memphis",
+			"East Ridge",
+			"East Brainerd",
+			"Collegedale",
+			"Cleveland",
+			"Chattanooga",
+			"Tyrone",
+			"Smyrna",
+			"Sandy Springs",
+			"Roswell",
+			"Rome",
+			"Peachtree City",
+			"Marietta",
+			"Kennesaw",
+			"Johns Creek",
+			"East Point",
+			"Dunwoody",
+			"Duluth",
+			"Decatur",
+			"Dalton",
+			"Cartersville",
+			"Atlanta",
+			"Alpharetta",
+			"Tuscaloosa",
+			"Talladega",
+			"Scottsboro",
+			"Rainsville",
+			"Montgomery",
+			"Jasper",
+			"Huntsville",
+			"Gadsden",
+			"Florence",
+			"Decatur",
+			"Cullman",
+			"Centre",
+			"Birmingham",
+			"Athens",
+			"Duluth",
+			"Duluth, GA",
+			"Montgomery",
+			"Soddy-Daisy",
+			"Nashville",
+			"Memphis",
+			"East Ridge",
+			"East Brainerd",
+			"Collegedale",
+			"Cleveland",
+			"Chattanooga",
+			"TN",
+			"Tyrone",
+			"Smyrna",
+			"Sandy Springs",
+			"Roswell",
+			"Rome",
+			"Peachtree City",
+			"Marietta",
+			"Kennesaw",
+			"Johns Creek",
+			"East Point",
+			"Easy Point",
+			"Dunwoody",
+			"Decatur",
+			"Dalton",
+			"Cartersville",
+			"Atlanta",
+			"Alpharetta",
+			"Tuscaloosa",
+			"Talladega",
+			"Scottsboro",
+			"Rainsville",
+			"Jasper",
+			"Huntsville",
+			"Gadsden",
+			"Florence",
+			"Decatur",
+			"Cullman",
+			"Centre",
+			"Birmingham",
+			"Auburn",
+			"Athens",
+			"Anniston",
+			"Tuscaloosa",
+			"Scottsboro",
+			"Gadsden",
+			"Huntsville",
+			"Birmingham",
+			"Chattanooga",
+			"Centre",
+			"Athens",
+			"Cartersville",
+			"Dalton",
+			"Nashville",
+			"Memphis",
+			"Soddy-Daisy",
+			"Collegedale",
+			"Red Bank",
+			"East Brainerd",
+			"East Ridge",
+			"Collegedale",
+			"Red Bank",
+			"East Brainerd",
+			"East Point",
+			"Atlanta",
+			"Dunwoody",
+			"Tyrone",
+			"Duluth",
+			"Smyrna",
+			"Peachtree City",
+			"Sandy Springs",
+			"Johns Creek",
+			"Kennesaw",
+			"Marietta",
+			"Decatur",
+			"Roswell",
+			"Alpharetta",
+			"orange",
+			"ff-basic-gothic-web-pro"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/projects/python/hello.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#!/usr/bin/env python3",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"file": "/D/wrasslin/PWG BOLA 2016/BOLA2016.jpg",
+					"semi_transient": false,
+					"stack_index": 0,
+					"type": "image"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "urkelbot.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"asd",
+				"C:\\repos\\accel\\sass\\default.scss"
+			],
+			[
+				"",
+				"C:\\repos\\accel\\services-logos.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 140.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
