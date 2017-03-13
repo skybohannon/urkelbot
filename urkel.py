@@ -12,14 +12,8 @@ urkelbot
 """
 from __future__ import print_function
 import plugins
-import requests
 import re
 import subprocess
-import json
-import io
-import os
-import aiohttp
-import csv
 import urllib.parse
 from bs4 import BeautifulSoup
 
@@ -29,7 +23,7 @@ def _initialize(bot):
     plugins.register_user_command(["fpl"])
     plugins.register_user_command(["ping"])
 
-def uptime(bot, event, *args):
+def uptime(bot, event):
     proc1 = subprocess.check_output(['uptime']).decode('utf-8').strip("\n")
     time = re.search(r'up (.* days)?', proc1)
     proc2 = subprocess.check_output(['uptime', '-p']).decode('utf-8').strip("\n")
@@ -38,7 +32,7 @@ def uptime(bot, event, *args):
     time_stuff = " ".join(time_strings)
     yield from bot.coro_send_message(event.conv_id, time_stuff)
 
-def fpl(bot, event, *args):
+def fpl(bot, event):
     url = 'http://www.fplstatistics.co.uk/Home/IndexWG'
     header = {'User-Agent': 'Mozilla/5.0'}
 
@@ -53,13 +47,17 @@ def fpl(bot, event, *args):
     playerPrice = data[2].contents[0].strip()
     playerTarget = data[3].contents[0].strip()
 
-    fpl_strings = [playerName, playerTeam, playerPrice, playerTarget] 
+    fpl_strings = [playerName, playerTeam, playerPrice, playerTarget]
+
+    # This will print to console
     print(" ".join(fpl_strings))
-    return "<br/>".join(fpl_strings)
 
-    yield from bot.coro_send_message(event.conv_id, fpl_strings)
+    # This preps the strings for printing in Hagnouts
+    fpl_stuff = "<br/>".join(fpl_strings)
 
-def ping(bot, event, *args):
+    yield from bot.coro_send_message(event.conv_id, fpl_stuff)
+
+def ping(bot, event):
     server = "209.95.56.13"
     try:
         proc = subprocess.check_output(['ping', '-c1', server])
