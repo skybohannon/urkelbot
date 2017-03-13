@@ -53,11 +53,15 @@ def fpl(bot, event, *args):
     playerPrice = data[2].contents[0].strip()
     playerTarget = data[3].contents[0].strip()
 
-    fpl_strings = [playerName, playerTeam, playerPrice, playerTarget] 
-    print(" ".join(fpl_strings))
-    return "<br/>".join(fpl_strings)
+    fpl_strings = [playerName, playerTeam, playerPrice, playerTarget]
 
-    yield from bot.coro_send_message(event.conv_id, fpl_strings)
+    # This will print to console
+    print(" ".join(fpl_strings))
+
+    # This preps the strings for printing in Hagnouts
+    fpl_stuff = "<br/>".join(fpl_strings)
+
+    yield from bot.coro_send_message(event.conv_id, fpl_stuff)
 
 def ping(bot, event, *args):
     server = "209.95.56.13"
