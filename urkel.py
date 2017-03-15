@@ -12,6 +12,7 @@ urkelbot
 """
 from __future__ import print_function
 import plugins
+import random
 import re
 import subprocess
 import urllib.parse
@@ -20,8 +21,9 @@ from bs4 import BeautifulSoup
 
 def _initialize(bot):
     plugins.register_user_command(["uptime"])
-    plugins.register_user_command(["fpl"])
+    plugins.register_user_command(["rising"])
     plugins.register_user_command(["ping"])
+    plugins.register_user_command(["dogfacts"])
 
 def uptime(bot, event):
     proc1 = subprocess.check_output(['uptime']).decode('utf-8').strip("\n")
@@ -32,29 +34,49 @@ def uptime(bot, event):
     time_stuff = " ".join(time_strings)
     yield from bot.coro_send_message(event.conv_id, time_stuff)
 
-def fpl(bot, event):
+def dogfacts (bot, event):
+    lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/dogfacts.txt').read().splitlines()
+    myword=random.choice(lines)
+    print(myword)
+    dog_stuff = "<b>DOG FACTS!!</b>\n\n" + myword
+    
+    yield from bot.coro_send_message(event.conv_id, dog_stuff)
+
+def rising(bot, event):
     url = 'http://www.fplstatistics.co.uk/Home/IndexWG'
     header = {'User-Agent': 'Mozilla/5.0'}
 
     r = urllib.request.Request(url=url, headers=header)
     page = urllib.request.urlopen(r)
     soup = BeautifulSoup(page.read(), "lxml")
-    string = 'tbody tr:nth-of-type(1) td:nth-of-type(1), tbody tr:nth-of-type(1) td:nth-of-type(2), tbody tr:nth-of-type(1) td:nth-of-type(6), tbody tr:nth-of-type(1) td:nth-of-type(9) div'
+    string = 'tbody tr:nth-of-type(1) td:nth-of-type(1), tbody tr:nth-of-type(1) td:nth-of-type(2), tbody tr:nth-of-type(1) td:nth-of-type(6), tbody tr:nth-of-type(1) td:nth-of-type(9) div, tbody tr:nth-of-type(2) td:nth-of-type(1), tbody tr:nth-of-type(2) td:nth-of-type(2), tbody tr:nth-of-type(2) td:nth-of-type(6), tbody tr:nth-of-type(2) td:nth-of-type(9) div, tbody tr:nth-of-type(3) td:nth-of-type(1), tbody tr:nth-of-type(3) td:nth-of-type(2), tbody tr:nth-of-type(3) td:nth-of-type(6), tbody tr:nth-of-type(3) td:nth-of-type(9) div, tbody tr:nth-of-type(4) td:nth-of-type(1), tbody tr:nth-of-type(4) td:nth-of-type(2), tbody tr:nth-of-type(4) td:nth-of-type(6), tbody tr:nth-of-type(4) td:nth-of-type(9) div'
     data = soup.select(string)
 
-    playerName = data[0].contents[0].strip()
-    playerTeam = data[1].contents[0].strip()
-    playerPrice = data[2].contents[0].strip()
-    playerTarget = data[3].contents[0].strip()
+    player1Name = data[0].contents[0].strip()
+    player1Team = data[1].contents[0].strip()
+    player1Price = data[2].contents[0].strip()
+    player1Target = data[3].contents[0].strip()
 
-    fpl_strings = [playerName, playerTeam, playerPrice, playerTarget]
+    player2Name = data[4].contents[0].strip()
+    player2Team = data[5].contents[0].strip()
+    player2Price = data[6].contents[0].strip()
+    player2Target = data[7].contents[0].strip()
+
+    player3Name = data[8].contents[0].strip()
+    player3Team = data[9].contents[0].strip()
+    player3Price = data[10].contents[0].strip()
+    player3Target = data[11].contents[0].strip()
+
+
+    fpl_strings1 = [player1Name, player1Team, player1Price, player1Target]
+    fpl_strings2 = [player2Name, player2Team, player2Price, player2Target]
+    fpl_strings3 = [player3Name, player3Team, player3Price, player3Target]
 
     # This will print to console
-    print(" ".join(fpl_strings))
+    print(" ".join(fpl_strings1))
 
     # This preps the strings for printing in Hagnouts
-    fpl_stuff = "<br/>".join(fpl_strings)
-
+    fpl_stuff = "  ".join(fpl_strings1)+"<br />"+ " ".join(fpl_strings2)+"<br />"+ " ".join(fpl_strings3)+"<br />"
     yield from bot.coro_send_message(event.conv_id, fpl_stuff)
 
 def ping(bot, event):
