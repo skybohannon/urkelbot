@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"eth",
+				"eth_strings"
+			],
+			[
 				"styl",
 				"stylesheet"
 			],
@@ -264,13 +268,12 @@
 	"buffers":
 	[
 		{
-			"file": "/D/projects/python/hello.py",
+			"file": "urkel.py",
 			"settings":
 			{
-				"buffer_size": 45,
+				"buffer_size": 5844,
 				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "#!/usr/bin/env python3"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -306,6 +309,40 @@
 	},
 	"file_history":
 	[
+		"/D/projects/python/.gitignore",
+		"/D/projects/urkelbot/.gitignore",
+		"/K/06 Program Flow Control in Python/attached_files/030 Challenge - If Then Else/lecture-30-challenge.txt",
+		"/E/juarez/Apps/JetBrains.IntelliJ.IDEA.Ultimate.2017.1.5.Incl.KeyMaker-DVT/d251cje3/d-000je/I_LOVE_DVT/readme.txt",
+		"/C/Users/sky_2/Google Drive/Repro Stuff/PS2/Modbo 4.0 Diagrams/readme.txt",
+		"/K/system/config.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa15924.11772/config.txt",
+		"/K/config.txt",
+		"/E/juarez/Apps/AFFINITY.DESIGNER.V1.5.3-XFORCE/xad15301/xfdes153/Crack/install.txt",
+		"/E/juarez/Apps/Autodesk.EAGLE.v8.3.1.X64-AMPED/ampqei21/amped/AMPED/amped.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/scp35735/uploads/organization error reporting.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/scp35252/uploads/want.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/scp35306/uploads/requests.txt",
+		"/E/juarez/Apps/WinRAR 5.50 incl Patch 32bit + 64bit/Patch_WinRar_5.50/ReadMe.txt",
+		"/E/juarez/Apps/Directory Opus Pro v12.2 Build 6138 Multilingual/Fix with instructions/Read first!.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/scp35503/uploads/requests.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa0.622/readme.txt",
+		"/D/projects/urkelbot/hackers.txt",
+		"/E/juarez/Apps/L0pht.Holdings.L0phtCrack.Enterprise.v7.0.15.X64.Incl.Keygen-AMPED/ampaoc01/amped/AMPED/amped.txt",
+		"/C/Users/sky_2/Google Drive/btc.txt",
+		"/C/Users/sky_2/OpenVPN/config/ca.crt",
+		"/C/Users/sky_2/OpenVPN/config/ephraim.ovpn",
+		"/C/Users/sky_2/OpenVPN/config/crash.ovpn",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa0.983/MCSCI-5.TXT",
+		"/C/Users/sky_2/Desktop/phantom.motd.tcl",
+		"/C/Users/sky_2/AppData/Local/Temp/scp31959/uploads/want.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/scp35617/uploads/want.txt",
+		"/G/mame/roms/_ReadMe_.txt",
+		"/G/games/Other/Scene/_DOX/32bit_Rocks_Major_Ass_DOX_CONSOLE-ALLIANCE/001.TXT",
+		"/G/games/Other/Scene/_DOX/MCI_Bust_Announcement_DOX_CONSOLE-iND/MCIBUST!.TXT",
+		"/G/games/Other/Scene/_DOX/LSD_Lives_On_DOX_CONSOLE-LSD/LSD-LIVE.TXT",
+		"/G/games/Other/Scene/_DOX/FUCK_Changes_Name_To_BGD_DOX_CONSOLE-BGD/FUCK2BGD.TXT",
+		"/D/projects/python/hello.py",
+		"/D/wrasslin/PWG BOLA 2016/BOLA2016.jpg",
 		"/D/projects/urkelbot/urkel.py",
 		"/C/Users/Sky/AppData/Local/Temp/scp24205/uploads/want.txt",
 		"/C/Program Files/OpenVPN/config/client.ovpn",
@@ -399,45 +436,11 @@
 		"/E/Drive/Repro Stuff/NES/ROMs/Ice Ice Hockey Challenge (TxROM)/readme.txt",
 		"/E/emulators/Ootake/Ootake/Readme.txt",
 		"/E/emulators/Ootake/Readme.txt",
-		"/E/emulators/neopop/readme.txt",
-		"/D/projects/excitebyte/js/smoothscroll.js",
-		"/D/projects/excitebyte/robots.txt",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.902/twentytwenty.css",
-		"/E/dreamcast/Sturmwind_DC-PAROVOZ/prz-sturm.txt",
-		"/D/projects/excitebyte/excitebyte-wp/single.php",
-		"/C/repos/accel/js/respond.js",
-		"/C/repos/accel/Gruntfile.js",
-		"/C/repos/accel/js/modernizr.js",
-		"/C/repos/accel/css/ie.css",
-		"/C/repos/accel/sass/land.scss",
-		"/C/repos/accel/sass/default.scss",
-		"/Y/Downloads/Adobe.Acrobat.Pro.DC.v2015.010.20060.Multilingual-P2P/ADOBE_ACROBAT_PRO_DC_V2015_MULTI-XFORCE/Crack-Windows-DC/install.txt",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/repos/accel/accel-wp/content-single.php",
-		"/C/repos/accel/package.json",
-		"/C/repos/accel/gulpfile.js",
-		"/C/repos/accel/css/slider-pro.css",
-		"/C/repos/accel/js/bootstrap.js",
-		"/C/repos/xtremeclean/wp/single.php",
-		"/C/repos/accel/css/bootstrap.css",
-		"/C/repos/accel/sass/ie.scss",
-		"/C/repos/accel/portfolio-b_and_b.php",
-		"/C/repos/accel/css/flexslider.original.css",
-		"/C/repos/accel/accel-wp/header.php",
-		"/C/repos/accel/accel-wp/footer-home.php",
-		"/C/repos/accel/accel-wp/footer.php",
-		"/C/repos/xtremeclean/wp/content.php",
-		"/C/repos/accel/accel-wp/index.php",
-		"/C/repos/accel/landing-veh_2.html",
-		"/C/repos/accel/landing-logo_2.html",
-		"/C/repos/accel/landing-wen_2.html",
-		"/C/repos/accel/sass/style.scss",
-		"/C/repos/accel/new_pages.txt",
-		"/C/repos/easyparty/sass/style.scss"
+		"/E/emulators/neopop/readme.txt"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -451,6 +454,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"idea",
+			"Nikon",
+			"phantom",
+			"mur",
 			"rust",
 			"numplayers",
 			"rust",
@@ -574,11 +581,7 @@
 			"Cullman",
 			"Centre",
 			"Birmingham",
-			"Auburn",
-			"auburn",
-			"Athens",
-			"Anniston",
-			"Decatur"
+			"Auburn"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -586,6 +589,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Lord Nikon",
 			"get_table",
 			"",
 			"elements",
@@ -712,8 +716,7 @@
 			"Decatur",
 			"Roswell",
 			"Alpharetta",
-			"orange",
-			"ff-basic-gothic-web-pro"
+			"orange"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -724,43 +727,39 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/D/projects/python/hello.py",
+					"file": "urkel.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 45,
+						"buffer_size": 5844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								45,
-								45
+								4044,
+								4045
 							]
 						],
 						"settings":
 						{
-							"auto_name": "#!/usr/bin/env python3",
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 930.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"file": "/D/wrasslin/PWG BOLA 2016/BOLA2016.jpg",
-					"semi_transient": false,
 					"stack_index": 0,
-					"type": "image"
+					"type": "text"
 				}
 			]
 		}
