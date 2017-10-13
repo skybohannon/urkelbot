@@ -22,7 +22,6 @@ from bs4 import BeautifulSoup
 def _initialize(bot):
     plugins.register_user_command(["uptime"])
     plugins.register_user_command(["rising"])
-    plugins.register_user_command(["ping"])
     plugins.register_user_command(["dogfacts"])
     plugins.register_user_command(["hackers"])
 
@@ -87,14 +86,3 @@ def rising(bot, event):
     # This preps the strings for printing in Hangouts
     fpl_stuff = "<b>FPL Soon To Rise</b><br /><br />"+ " ".join(fpl_strings1)+"<br />"+ " ".join(fpl_strings2)+"<br />"+ " ".join(fpl_strings3)
     yield from bot.coro_send_message(event.conv_id, fpl_stuff)
-    
-def ping(bot, event):
-    server = "209.95.56.13"
-    try:
-        proc = subprocess.check_output(['ping', '-c1', server])
-        string = proc.decode('utf-8')
-        ping = re.search(r'rtt min/avg/max/mdev = \d+\.\d+/(\d+\.\d+)/\d+\.\d+/', string)
-        ping_stuff = ping.group(1)
-        yield from bot.coro_send_message(event.conv.id_, server + ": " + ping_stuff)
-    except subprocess.CalledProcessError:
-        yield from bot.coro_send_message(event.conv.id_, "Ping command doesn't work right now")
