@@ -6,11 +6,10 @@ header = {'User-Agent': 'Mozilla/5.0'}
 
 r = urllib.request.Request(url=url, headers=header)
 page = urllib.request.urlopen(r)
-soup = BeautifulSoup(page.read(), "lxml")
+soup = BeautifulSoup(page.read(), "html.parser")
 string = 'tbody tr:nth-of-type(1) td:nth-of-type(1), tbody tr:nth-of-type(1) td:nth-of-type(2), tbody tr:nth-of-type(1) td:nth-of-type(6), tbody tr:nth-of-type(2) td:nth-of-type(1), tbody tr:nth-of-type(2) td:nth-of-type(2), tbody tr:nth-of-type(2) td:nth-of-type(6), tbody tr:nth-of-type(3) td:nth-of-type(1), tbody tr:nth-of-type(3) td:nth-of-type(2), tbody tr:nth-of-type(3) td:nth-of-type(6), tbody tr:nth-of-type(4) td:nth-of-type(1), tbody tr:nth-of-type(4) td:nth-of-type(2), tbody tr:nth-of-type(4) td:nth-of-type(6)'
 
 data = soup.select(string)
-print(data)
 
 player1Name = data[0].contents[0].strip()
 player1Team = data[1].contents[0].strip()
@@ -29,3 +28,5 @@ fpl_strings2 = ["<b>"+player2Name+"</b>", player2Team, "<i>"+player2Price+"</i>"
 fpl_strings3 = ["<b>"+player3Name+"</b>", player3Team, "<i>"+player3Price+"</i>"]
 
 print(" ".join(fpl_strings1))
+print(" ".join(fpl_strings2))
+print(" ".join(fpl_strings3))

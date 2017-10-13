@@ -23,6 +23,7 @@ def _initialize(bot):
     plugins.register_user_command(["uptime"])
     plugins.register_user_command(["rising"])
     plugins.register_user_command(["dogfacts"])
+    plugins.register_user_command(["catfacts"])
     plugins.register_user_command(["hackers"])
 
 def uptime(bot, event):
@@ -40,19 +41,22 @@ def uptime(bot, event):
 
 def dogfacts (bot, event):
     lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/dogfacts.txt').read().splitlines()
-    myword=random.choice(lines)
-    print(myword)
-    dog_stuff = "<b>DOG FACTS!!!</b>\n\n" + myword
+    dogFact=random.choice(lines)
+    print(dogFact)
+    dogFactAll = "<b>DOG FACTS!!!</b>\n\n" + dogFact
     
-    yield from bot.coro_send_message(event.conv_id, dog_stuff)
+    yield from bot.coro_send_message(event.conv_id, dogFactAll)
+
+def catfacts(bot, event):
+    catFact = "<b>CAT FACTS!!!</b>\n\n" + "Cats are stupid"
+    yield from bot.coro_send_message(event.conv_id, catFact)
 
 def hackers (bot, event):
     lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/hackers.txt').read().splitlines()
-    myword=random.choice(lines)
-    print(myword)
-    dog_stuff = myword
+    hackersQuote=random.choice(lines)
+    print(hackersQuote)
     
-    yield from bot.coro_send_message(event.conv_id, dog_stuff)
+    yield from bot.coro_send_message(event.conv_id, hackersQuote)
 
 def rising(bot, event):
     url = 'http://www.fplstatistics.co.uk/Home/IndexWG'
