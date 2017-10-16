@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"data",
+				"dataNumber\tstatement"
+			],
+			[
+				"play",
+				"playerNumber\tstatement"
+			],
+			[
 				"eth",
 				"eth_strings"
 			],
@@ -271,9 +279,26 @@
 			"file": "urkel.py",
 			"settings":
 			{
-				"buffer_size": 5844,
+				"buffer_size": 9095,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "rising.py",
+			"settings":
+			{
+				"buffer_size": 1819,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<tr class=\"webgrid-row-style\">\n            <td class=\"text-align-center\">Elliot</td>\n            <td class=\"text-align-center\">Newcastle</td>\n            <td class=\"text-align-center\">G</td>\n            <td class=\"text-align-center\">A</td>\n            <td class=\"text-align-center\">25.5</td>\n            <td class=\"text-align-center\">$4.1m</td>\n            <td class=\"text-align-center\">0</td>\n            <td class=\"text-align-center\">0</td>\n            <td>\n<div style=\"border: 1px solid blue; text-align: center\">101.1</div>                </td>\n        </tr>\n        <tr class=\"webgrid-alternating-row\">\n            <td class=\"text-align-center\">Mbemba</td>\n            <td class=\"text-align-center\">Newcastle</td>\n            <td class=\"text-align-center\">D</td>\n            <td class=\"text-align-center\">A</td>\n            <td class=\"text-align-center\">13.6</td>\n            <td class=\"text-align-center\">$4.0m</td>\n            <td class=\"text-align-center\">0</td>\n            <td class=\"text-align-center\">0</td>\n            <td>\n<div style=\"border: 1px solid blue; text-align: center\">100.6</div>                </td>\n        </tr>\n        <tr class=\"webgrid-row-style\">\n            <td class=\"text-align-center\">Forster</td>\n            <td class=\"text-align-center\">Southampton</td>\n            <td class=\"text-align-center\">G</td>\n            <td class=\"text-align-center\">A</td>\n            <td class=\"text-align-center\">9</td>\n            <td class=\"text-align-center\">$5.0m</td>\n            <td class=\"text-align-center\">0</td>\n            <td class=\"text-align-center\">0</td>\n            <td>\n<div style=\"border: 1px solid blue; text-align: center\">100.5</div>                </td>\n        </tr>\n",
+			"settings":
+			{
+				"buffer_size": 1711,
+				"line_ending": "Windows",
+				"name": "<tr class=\"webgrid-row-style\">"
 			}
 		}
 	],
@@ -309,6 +334,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/sky_2/Downloads/lecture-56-challenge.txt",
+		"/C/Users/sky_2/Downloads/lecture-58-challenge.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa36588.17099/challenge.py",
+		"/C/Users/sky_2/Downloads/lecture-38-challenge.txt",
+		"/K/06 Program Flow Control in Python/attached_files/035 Challenge - Program Flow - Part 1/Lecture 35 - Challenge - Program Flow - Part 1 - Source code/ProgramFlowChallenge/challenge.py",
 		"/D/projects/python/.gitignore",
 		"/D/projects/urkelbot/.gitignore",
 		"/K/06 Program Flow Control in Python/attached_files/030 Challenge - If Then Else/lecture-30-challenge.txt",
@@ -431,12 +461,7 @@
 		"/C/necrobot/NecroBot.exe.config",
 		"/C/necrobot/Config/config.json.old",
 		"/C/necrobot/Config/auth.json.old",
-		"/C/Users/Sky/Desktop/PokeBuddy-master/PokeBuddy.exe.config",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$EXa0.880/beat/beat.html",
-		"/E/Drive/Repro Stuff/NES/ROMs/Ice Ice Hockey Challenge (TxROM)/readme.txt",
-		"/E/emulators/Ootake/Ootake/Readme.txt",
-		"/E/emulators/Ootake/Readme.txt",
-		"/E/emulators/neopop/readme.txt"
+		"/C/Users/Sky/Desktop/PokeBuddy-master/PokeBuddy.exe.config"
 	],
 	"find":
 	{
@@ -454,6 +479,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ping",
 			"idea",
 			"Nikon",
 			"phantom",
@@ -580,8 +606,7 @@
 			"Decatur",
 			"Cullman",
 			"Centre",
-			"Birmingham",
-			"Auburn"
+			"Birmingham"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -727,7 +752,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -736,26 +761,97 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5844,
+						"buffer_size": 9095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4044,
-								4045
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 930.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rising.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								605,
+								582
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<tr class=\"webgrid-row-style\">",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
