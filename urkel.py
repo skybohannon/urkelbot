@@ -41,7 +41,7 @@ def uptime(bot, event):
     yield from bot.coro_send_message(event.conv_id, time_stuff)
 
 def dogfacts (bot, event):
-    lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/dogfacts.txt').read().splitlines()
+    lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/dogfacts.txt','r').read().splitlines()
     dogFact=random.choice(lines)
     print(dogFact)
     dogFactAll = "<b>DOG FACTS!!!</b>\n\n" + dogFact
@@ -53,7 +53,7 @@ def catfacts(bot, event):
     yield from bot.coro_send_message(event.conv_id, catFact)
 
 def hackers (bot, event):
-    lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/hackers.txt').read().splitlines()
+    lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/hackers.txt','r').read().splitlines()
     hackersQuote=random.choice(lines)
     print(hackersQuote)
     

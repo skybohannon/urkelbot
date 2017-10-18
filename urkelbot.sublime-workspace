@@ -279,7 +279,7 @@
 			"file": "urkel.py",
 			"settings":
 			{
-				"buffer_size": 9095,
+				"buffer_size": 6944,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -291,20 +291,31 @@
 				"buffer_size": 1819,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"contents": "<tr class=\"webgrid-row-style\">\n            <td class=\"text-align-center\">Elliot</td>\n            <td class=\"text-align-center\">Newcastle</td>\n            <td class=\"text-align-center\">G</td>\n            <td class=\"text-align-center\">A</td>\n            <td class=\"text-align-center\">25.5</td>\n            <td class=\"text-align-center\">$4.1m</td>\n            <td class=\"text-align-center\">0</td>\n            <td class=\"text-align-center\">0</td>\n            <td>\n<div style=\"border: 1px solid blue; text-align: center\">101.1</div>                </td>\n        </tr>\n        <tr class=\"webgrid-alternating-row\">\n            <td class=\"text-align-center\">Mbemba</td>\n            <td class=\"text-align-center\">Newcastle</td>\n            <td class=\"text-align-center\">D</td>\n            <td class=\"text-align-center\">A</td>\n            <td class=\"text-align-center\">13.6</td>\n            <td class=\"text-align-center\">$4.0m</td>\n            <td class=\"text-align-center\">0</td>\n            <td class=\"text-align-center\">0</td>\n            <td>\n<div style=\"border: 1px solid blue; text-align: center\">100.6</div>                </td>\n        </tr>\n        <tr class=\"webgrid-row-style\">\n            <td class=\"text-align-center\">Forster</td>\n            <td class=\"text-align-center\">Southampton</td>\n            <td class=\"text-align-center\">G</td>\n            <td class=\"text-align-center\">A</td>\n            <td class=\"text-align-center\">9</td>\n            <td class=\"text-align-center\">$5.0m</td>\n            <td class=\"text-align-center\">0</td>\n            <td class=\"text-align-center\">0</td>\n            <td>\n<div style=\"border: 1px solid blue; text-align: center\">100.5</div>                </td>\n        </tr>\n",
-			"settings":
-			{
-				"buffer_size": 1711,
-				"line_ending": "Windows",
-				"name": "<tr class=\"webgrid-row-style\">"
-			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Anaconda Python Builder",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -334,6 +345,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/sky_2/Downloads/lecture-60-challenge.txt",
+		"/C/Users/sky_2/Downloads/lecture-56-challenge (2).txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa35760.32310/sample.txt",
+		"/C/Users/sky_2/Downloads/lecture-58-challenge (1).txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa63740.31172/challenge.py",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa65552.29995/challenge.py",
+		"/C/Users/sky_2/Downloads/lecture-56-challenge (1).txt",
 		"/C/Users/sky_2/Downloads/lecture-56-challenge.txt",
 		"/C/Users/sky_2/Downloads/lecture-58-challenge.txt",
 		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa36588.17099/challenge.py",
@@ -454,14 +472,7 @@
 		"/C/necrobot/Config/config.json",
 		"/C/Users/Sky/Desktop/necro/NecroBot.exe.config",
 		"/C/Users/Sky/Desktop/necro/NecroConfig.exe.config",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.714/README.txt",
-		"/C/Users/Sky/Desktop/pgm/BlossomsPogoManager.jar",
-		"/C/necrobot/Config/auth.json",
-		"/C/necrobot/NecroBot.vshost.exe.config",
-		"/C/necrobot/NecroBot.exe.config",
-		"/C/necrobot/Config/config.json.old",
-		"/C/necrobot/Config/auth.json.old",
-		"/C/Users/Sky/Desktop/PokeBuddy-master/PokeBuddy.exe.config"
+		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.714/README.txt"
 	],
 	"find":
 	{
@@ -752,7 +763,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -761,15 +772,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9095,
+						"buffer_size": 6944,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2208,
+								2208
 							]
 						],
 						"settings":
@@ -791,10 +802,10 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -810,8 +821,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1069,
+								1069
 							]
 						],
 						"settings":
@@ -825,36 +836,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1711,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								605,
-								582
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<tr class=\"webgrid-row-style\">",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -891,6 +872,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 103.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
