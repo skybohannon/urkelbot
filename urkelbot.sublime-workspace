@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bch",
+				"bchOutput"
+			],
+			[
 				"data",
 				"dataNumber\tstatement"
 			],
@@ -279,7 +283,16 @@
 			"file": "urkel.py",
 			"settings":
 			{
-				"buffer_size": 6944,
+				"buffer_size": 7445,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/sky_2/Google Drive/btc.txt",
+			"settings":
+			{
+				"buffer_size": 155,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -293,7 +306,7 @@
 			}
 		}
 	],
-	"build_system": "Anaconda Python Builder",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -313,6 +326,22 @@
 			],
 			[
 				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
 				""
 			]
 		]
@@ -345,6 +374,24 @@
 	},
 	"file_history":
 	[
+		"/C/btcrecover-master/tokens.txt",
+		"/C/Users/sky_2/Google Drive/wallet.dat",
+		"/C/Users/sky_2/Google Drive/wallet_10_04_2013_23_20_07.aes.json",
+		"/C/Users/sky_2/Google Drive/keypair.gpg",
+		"/C/Users/sky_2/Google Drive/btc.txt",
+		"/C/Users/sky_2/Google Drive/Repro Stuff/PS1/view-source_modchip.aeug.org_modchipfaq.txt",
+		"/C/Users/sky_2/Google Drive/Repro Stuff/SNES/SNES Roms/Tengai Makyou Zero/TM Zero (Eng) Readme.txt",
+		"/D/music/Sachiko Kanenobu - Misora (1972)/info.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/scp11207/uploads/want.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/scp11890/uploads/requests.txt",
+		"/C/Users/sky_2/Downloads/lecture-84-challenge.txt",
+		"/C/Users/sky_2/Downloads/lecture-77-challenge.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa22388.5379/jOINTRO.tXT",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa4988.30525/example.py",
+		"/C/Users/sky_2/Downloads/lecture-70-challenge.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa4988.29532/cave_initialise.py",
+		"/C/Users/sky_2/Downloads/lecture-64-challenge.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa70612.20538/sample.txt",
 		"/C/Users/sky_2/Downloads/lecture-60-challenge.txt",
 		"/C/Users/sky_2/Downloads/lecture-56-challenge (2).txt",
 		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa35760.32310/sample.txt",
@@ -376,7 +423,6 @@
 		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa0.622/readme.txt",
 		"/D/projects/urkelbot/hackers.txt",
 		"/E/juarez/Apps/L0pht.Holdings.L0phtCrack.Enterprise.v7.0.15.X64.Incl.Keygen-AMPED/ampaoc01/amped/AMPED/amped.txt",
-		"/C/Users/sky_2/Google Drive/btc.txt",
 		"/C/Users/sky_2/OpenVPN/config/ca.crt",
 		"/C/Users/sky_2/OpenVPN/config/ephraim.ovpn",
 		"/C/Users/sky_2/OpenVPN/config/crash.ovpn",
@@ -455,24 +501,7 @@
 		"/D/projects/datahelicopter/footer.txt",
 		"/C/Users/Sky/AppData/Local/Temp/ai14800059922.tmp/ai14800059922.txt",
 		"/D/projects/datahelicopter/css/monokai-sublime.css",
-		"/D/projects/datahelicopter/scss/style.scss",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.058/material-icons.css",
-		"/D/projects/datahelicopter/index.php",
-		"/D/projects/datahelicopter/js/smoothscroll.min.js",
-		"/D/projects/datahelicopter/excitebyte-wp/footer.php",
-		"/D/projects/datahelicopter/excitebyte-wp/archive.php",
-		"/D/projects/datahelicopter/excitebyte-wp/header.php",
-		"/D/projects/datahelicopter/excitebyte-wp/page.php",
-		"/D/projects/datahelicopter/excitebyte-wp/search.php",
-		"/D/projects/datahelicopter/excitebyte-wp/sidebar.php",
-		"/D/projects/datahelicopter/excitebyte-wp/single.php",
-		"/D/projects/datahelicopter/excitebyte-wp/index.php",
-		"/D/projects/datahelicopter/gulpfile.js",
-		"/D/projects/datahelicopter/package.json",
-		"/C/necrobot/Config/config.json",
-		"/C/Users/Sky/Desktop/necro/NecroBot.exe.config",
-		"/C/Users/Sky/Desktop/necro/NecroConfig.exe.config",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.714/README.txt"
+		"/D/projects/datahelicopter/scss/style.scss"
 	],
 	"find":
 	{
@@ -763,7 +792,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -772,15 +801,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6944,
+						"buffer_size": 7445,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2208,
-								2208
+								7348,
+								7348
 							]
 						],
 						"settings":
@@ -794,6 +823,10 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
@@ -802,14 +835,42 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 2368.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/sky_2/Google Drive/btc.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "rising.py",
 					"semi_transient": false,
 					"settings":
@@ -821,8 +882,8 @@
 						"selection":
 						[
 							[
-								1069,
-								1069
+								199,
+								165
 							]
 						],
 						"settings":
@@ -835,7 +896,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -874,13 +935,13 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 103.0
+		"height": 187.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
 	"project": "urkelbot.sublime-project",
 	"replace":
 	{

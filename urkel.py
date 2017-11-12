@@ -26,6 +26,9 @@ def _initialize(bot):
     plugins.register_user_command(["dogfacts"])
     plugins.register_user_command(["catfacts"])
     plugins.register_user_command(["hackers"])
+    plugins.register_user_command(["bch"])
+    plugins.register_user_command(["eth"])
+    plugins.register_user_command(["crypto"])
 
 def uptime(bot, event):
     proc1 = subprocess.check_output(['uptime']).decode('utf-8').strip("\n")
@@ -167,3 +170,80 @@ def standings(bot, event):
         team11) + '<br/>' + ''.join(team12)
     print(topOutput)
     yield from bot.coro_send_message(event.conv_id, topOutput)
+
+
+def bch(bot, event):
+    import urllib.request
+    from bs4 import BeautifulSoup
+
+    url = 'https://coinmarketcap.com/currencies/bitcoin-cash/'
+    page = urllib.request.urlopen(url)
+    soup = BeautifulSoup(page.read(), "html.parser")
+
+    string = '#quote_price'
+
+    data = soup.select(string)
+    stripped = data[0].text.strip()
+
+    bchOutput = str(stripped)
+    print(bchOutput)
+    yield from bot.coro_send_message(event.conv_id, bchOutput)
+
+def eth(bot, event):
+    import urllib.request
+    from bs4 import BeautifulSoup
+
+    url = 'https://coinmarketcap.com/currencies/ethereum/'
+    page = urllib.request.urlopen(url)
+    soup = BeautifulSoup(page.read(), "html.parser")
+
+    string = '#quote_price'
+
+    data = soup.select(string)
+    stripped = data[0].text.strip()
+
+    ethOutput = str(stripped)
+
+
+    print(ethOutput)
+    yield from bot.coro_send_message(event.conv_id, ethOutput)
+
+def crypto(bot, event):
+    import urllib.request
+    from bs4 import BeautifulSoup
+
+    url = 'https://coinmarketcap.com/currencies/ethereum/'
+    page = urllib.request.urlopen(url)
+    soup = BeautifulSoup(page.read(), "html.parser")
+
+    string = '#quote_price'
+
+    data = soup.select(string)
+    stripped = data[0].text.strip()
+
+    ethOutput = str(stripped)
+
+    url = 'https://coinmarketcap.com/currencies/bitcoin-cash/'
+    page = urllib.request.urlopen(url)
+    soup = BeautifulSoup(page.read(), "html.parser")
+
+    string = '#quote_price'
+
+    data = soup.select(string)
+    stripped = data[0].text.strip()
+
+    bchOutput = str(stripped)
+
+    url = 'https://coinmarketcap.com/currencies/bitcoin/'
+    page = urllib.request.urlopen(url)
+    soup = BeautifulSoup(page.read(), "html.parser")
+
+    string = '#quote_price'
+
+    data = soup.select(string)
+    stripped = data[0].text.strip()
+
+    btcOutput = str(stripped)
+
+    allOutput = "BTC: " + btcOutput + "\nBCH: " + bchOutput + "\nETH: " + ethOutput
+    yield from bot.coro_send_message(event.conv_id, allOutput)
