@@ -17,7 +17,8 @@ import re
 import subprocess
 import urllib.parse
 from bs4 import BeautifulSoup
-
+import urllib.request
+import json
 
 def _initialize(bot):
     plugins.register_user_command(["uptime"])
@@ -26,8 +27,6 @@ def _initialize(bot):
     plugins.register_user_command(["dogfacts"])
     plugins.register_user_command(["catfacts"])
     plugins.register_user_command(["hackers"])
-    plugins.register_user_command(["bch"])
-    plugins.register_user_command(["eth"])
     plugins.register_user_command(["crypto"])
 
 def uptime(bot, event):
@@ -108,8 +107,6 @@ def rising(bot, event):
     yield from bot.coro_send_message(event.conv_id, risingOutput)
 
 def standings(bot, event):
-    import urllib.request
-    from bs4 import BeautifulSoup
 
     url = 'https://fplmystats.com/league/116940/'
     page = urllib.request.urlopen(url)
@@ -172,78 +169,21 @@ def standings(bot, event):
     yield from bot.coro_send_message(event.conv_id, topOutput)
 
 
-def bch(bot, event):
-    import urllib.request
-    from bs4 import BeautifulSoup
-
-    url = 'https://coinmarketcap.com/currencies/bitcoin-cash/'
-    page = urllib.request.urlopen(url)
-    soup = BeautifulSoup(page.read(), "html.parser")
-
-    string = '#quote_price'
-
-    data = soup.select(string)
-    stripped = data[0].text.strip()
-
-    bchOutput = str(stripped)
-    print(bchOutput)
-    yield from bot.coro_send_message(event.conv_id, bchOutput)
-
-def eth(bot, event):
-    import urllib.request
-    from bs4 import BeautifulSoup
-
-    url = 'https://coinmarketcap.com/currencies/ethereum/'
-    page = urllib.request.urlopen(url)
-    soup = BeautifulSoup(page.read(), "html.parser")
-
-    string = '#quote_price'
-
-    data = soup.select(string)
-    stripped = data[0].text.strip()
-
-    ethOutput = str(stripped)
-
-
-    print(ethOutput)
-    yield from bot.coro_send_message(event.conv_id, ethOutput)
-
 def crypto(bot, event):
-    import urllib.request
-    from bs4 import BeautifulSoup
+    urlData = "https://api.coinmarketcap.com/v1/ticker/?convert=USD&limit=5"
+    webURL = urllib.request.urlopen(urlData)
+    data = webURL.read()
+    encoding = webURL.info().get_content_charset('utf-8')
+    crypto_list = json.loads(data.decode(encoding))
 
-    url = 'https://coinmarketcap.com/currencies/ethereum/'
-    page = urllib.request.urlopen(url)
-    soup = BeautifulSoup(page.read(), "html.parser")
+    for coin in crypto_list:
+        if coin["symbol"] == "BTC":
+            btc_price = coin["price_usd"]
+        elif coin["symbol"] == "ETH":
+            eth_price = coin["price_usd"]
+        elif coin["symbol"] == "BCH":
+            bch_price = coin["price_usd"]
 
-    string = '#quote_price'
+    crypto_output = "<b>BTC</b>: ${}\n<b>BCH</b>: ${}\n<b>ETH</b>: ${}".format(btc_price, bch_price, eth_price)
 
-    data = soup.select(string)
-    stripped = data[0].text.strip()
-
-    ethOutput = str(stripped)
-
-    url = 'https://coinmarketcap.com/currencies/bitcoin-cash/'
-    page = urllib.request.urlopen(url)
-    soup = BeautifulSoup(page.read(), "html.parser")
-
-    string = '#quote_price'
-
-    data = soup.select(string)
-    stripped = data[0].text.strip()
-
-    bchOutput = str(stripped)
-
-    url = 'https://coinmarketcap.com/currencies/bitcoin/'
-    page = urllib.request.urlopen(url)
-    soup = BeautifulSoup(page.read(), "html.parser")
-
-    string = '#quote_price'
-
-    data = soup.select(string)
-    stripped = data[0].text.strip()
-
-    btcOutput = str(stripped)
-
-    allOutput = "BTC: " + btcOutput + "\nBCH: " + bchOutput + "\nETH: " + ethOutput
-    yield from bot.coro_send_message(event.conv_id, allOutput)
+    yield from bot.coro_send_message(event.conv_id, crypto_output)
