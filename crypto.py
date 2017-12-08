@@ -1,7 +1,7 @@
 import urllib.request
 import json
 
-urlData = "https://api.coinmarketcap.com/v1/ticker/?convert=USD&limit=10"
+urlData = "https://api.coinmarketcap.com/v1/ticker/?convert=USD&limit=30"
 webURL = urllib.request.urlopen(urlData)
 data = webURL.read()
 encoding = webURL.info().get_content_charset('utf-8')
@@ -18,7 +18,12 @@ for coin in crypto_list:
         btg_price = round(float(coin["price_usd"]), 2)
     elif coin["symbol"] == "LTC":
         ltc_price = round(float(coin["price_usd"]), 2)
+    elif coin["symbol"] == "XLM":
+        xlm_price = round(float(coin["price_usd"]), 3)
+    elif coin["symbol"] == "NXT":
+        nxt_price = round(float(coin["price_usd"]), 2)
 
-crypto_output = "<b>BTC</b>: ${}\n<b>BCH</b>: ${}\n<b>ETH</b>: ${}\n<b>BCG</b>: ${}\n<b>LTC</b>: ${}".format(btc_price, bch_price, eth_price, btg_price, ltc_price)
+
+crypto_output = "<b>BTC</b>: ${}\n<b>BCH</b>: ${}\n<b>ETH</b>: ${}\n<b>BCG</b>: ${}\n<b>LTC</b>: ${}\n<b>XLM</b>: ${}\n<b>NXT</b>: ${}".format(btc_price, bch_price, eth_price, btg_price, ltc_price, xlm_price, nxt_price)
 
 print(crypto_output)
