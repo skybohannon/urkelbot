@@ -183,15 +183,15 @@ def crypto(bot, event):
             eth_price = round(float(coin["price_usd"]), 2)
         elif coin["symbol"] == "BCH":
             bch_price = round(float(coin["price_usd"]), 2)
-        elif coin["symbol"] == "BTG":
-            btg_price = round(float(coin["price_usd"]), 2)
         elif coin["symbol"] == "LTC":
             ltc_price = round(float(coin["price_usd"]), 2)
         elif coin["symbol"] == "XLM":
             xlm_price = round(float(coin["price_usd"]), 3)
         elif coin["symbol"] == "NXT":
             nxt_price = round(float(coin["price_usd"]), 2)
+        elif coin["symbol"] == "XRP":
+            xrp_price = round(float(coin["price_usd"]), 2)
 
-    crypto_output = "<b>BTC</b>: ${}\n<b>BCH</b>: ${}\n<b>ETH</b>: ${}\n<b>BCG</b>: ${}\n<b>LTC</b>: ${}\n<b>XLM</b>: ${}\n<b>NXT</b>: ${}".format(btc_price, bch_price, eth_price, btg_price, ltc_price, xlm_price, nxt_price)
+    crypto_output = "<b>BTC</b>: ${}\n<b>BCH</b>: ${}\n<b>ETH</b>: ${}\n<b>LTC</b>: ${}\n<b>XLM</b>: ${}\n<b>NXT</b>: ${}\n<b>XRP</b>: ${}".format(btc_price, bch_price, eth_price, ltc_price, xlm_price, nxt_price, xrp_price)
 
     yield from bot.coro_send_message(event.conv_id, crypto_output)
