@@ -12,14 +12,14 @@ table_dict = SortedDict({1:{}, 2:{}, 3:{}, 4:{}, 5:{}, 6:{}, 7:{}, 8:{}, 9:{}, 1
 game_week = prem_table[0]["round"]
 
 for team in prem_table:
-    team_posi = team["position"]
-    table_dict[int(team_posi)]["name"] = team["team_name"]
-    table_dict[int(team_posi)]["points"] = team["points"]
-    table_dict[int(team_posi)]["form"] = team["recent_form"]
-    table_dict[int(team_posi)]["gd"] = team["gd"]
-    table_dict[int(team_posi)]["gs"] = team["overall_gs"]
-    table_dict[int(team_posi)]["ga"] = team["overall_ga"]
-    table_dict[int(team_posi)]["position"] = team["position"]
+    team_posi = int(team["position"])
+    table_dict[team_posi]["name"] = team["team_name"]
+    table_dict[team_posi]["points"] = team["points"]
+    table_dict[team_posi]["form"] = team["recent_form"]
+    table_dict[team_posi]["gd"] = team["gd"]
+    table_dict[team_posi]["gs"] = team["overall_gs"]
+    table_dict[team_posi]["ga"] = team["overall_ga"]
+    table_dict[team_posi]["position"] = team["position"]
 
 count = 1
 print_string = ""
