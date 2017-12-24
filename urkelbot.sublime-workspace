@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"cry",
+				"crypto_output\tstatement"
+			],
+			[
 				"eth",
 				"ethOutput\tstatement"
 			],
@@ -284,19 +288,19 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/sky_2/Google Drive/btc.txt",
+			"file": "rising.py",
 			"settings":
 			{
-				"buffer_size": 155,
-				"encoding": "UTF-8",
+				"buffer_size": 2570,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "rising.py",
+			"file": "crypto.py",
 			"settings":
 			{
-				"buffer_size": 1819,
+				"buffer_size": 1319,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -304,28 +308,9 @@
 			"file": "urkel.py",
 			"settings":
 			{
-				"buffer_size": 9058,
+				"buffer_size": 10049,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/claymore/Claymore CryptoNote CPU Miner v3.5 Beta - POOL/pools.txt",
-			"settings":
-			{
-				"buffer_size": 37,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/sky_2/Google Drive/Electroneum/info.txt",
-			"settings":
-			{
-				"buffer_size": 471,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "Electroneum Address"
 			}
 		}
 	],
@@ -372,18 +357,23 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
-		"last_filter": "",
+		"height": 137.0,
+		"last_filter": "install ",
 		"selected_items":
 		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 131.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -397,11 +387,31 @@
 	},
 	"file_history":
 	[
-		"/C/btcrecover-master/tokens.txt",
+		"/C/Users/sky_2/AppData/Roaming/NXT/conf/nxt.properties",
+		"/E/backup/AppData/Roaming/Litecoin/litecoin.conf",
+		"/E/btc/bitcoin.conf",
+		"/C/Users/sky_2/AppData/Roaming/Electrum/wallets/default_wallet",
+		"/C/Users/sky_2/Google Drive/Electroneum/info.txt",
+		"/C/Users/sky_2/Google Drive/Sia/sia.txt",
 		"/C/Users/sky_2/Google Drive/wallet.dat",
-		"/C/Users/sky_2/Google Drive/wallet_10_04_2013_23_20_07.aes.json",
+		"/E/bitcoin/readme.txt",
+		"/E/backup/AppData/Roaming/Bitcoin/blkindex.dat",
+		"/E/backup/AppData/Roaming/Bitcoin/wallet.dat",
+		"/E/backup/AppData/Roaming/Bitcoin/peers.dat",
 		"/C/Users/sky_2/Google Drive/keypair.gpg",
+		"/C/Users/sky_2/Google Drive/BTC/xlm.txt",
+		"/C/Users/sky_2/Google Drive/BTC/ltc.txt",
+		"/C/Users/sky_2/Google Drive/BTC/metamak.txt",
+		"/C/Users/sky_2/Google Drive/BTC/btc.txt",
+		"/D/projects/urkelbot/data.txt",
+		"/C/Users/sky_2/Google Drive/Repro Stuff/SNES/SNES Roms/Marvelous/MarvelousATI_EN_Readme.txt",
+		"/C/Users/sky_2/Downloads/_ReadMe_.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa109136.15446/Anamanaguchi.06Nov2012.Drunken.Unicorn.Atl.Ga.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa76616.12108/MarvelousATI_EN_Readme.txt",
 		"/C/Users/sky_2/Google Drive/btc.txt",
+		"/C/claymore/Claymore CryptoNote CPU Miner v3.5 Beta - POOL/pools.txt",
+		"/C/btcrecover-master/tokens.txt",
+		"/C/Users/sky_2/Google Drive/wallet_10_04_2013_23_20_07.aes.json",
 		"/C/Users/sky_2/Google Drive/Repro Stuff/PS1/view-source_modchip.aeug.org_modchipfaq.txt",
 		"/C/Users/sky_2/Google Drive/Repro Stuff/SNES/SNES Roms/Tengai Makyou Zero/TM Zero (Eng) Readme.txt",
 		"/D/music/Sachiko Kanenobu - Misora (1972)/info.txt",
@@ -504,27 +514,7 @@
 		"/G/ASCII/sixteencolors-archive/2016/break_10/h7-alpha-ascii.txt",
 		"/C/Users/Sky/AppData/Local/Temp/scp21591/sites/iodized.net/hn.iodized.net/main.htm",
 		"/D/music/Bit Shifter - Life’s A Bit Shifter/Bit Shifter - Life’s A Bit Shifter - info.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14802655165.tmp/ai14802655165.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14802656626.tmp/ai14802656626.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14802653504.tmp/ai14802653504.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14802653193.tmp/ai14802653193.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14802649201.tmp/ai14802649201.txt",
-		"/D/projects/datahelicopter/scripts.js",
-		"/D/projects/datahelicopter/js/jquery-migrate-3.0.0.js",
-		"/C/Users/Sky/AppData/Local/Microsoft/Windows/INetCache/IE/A9Q6HQTM/jquery-migrate-3.0.0.js",
-		"/D/projects/datahelicopter/index-vivus.html",
-		"/D/projects/datahelicopter/header-vivus.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14800277546.tmp/ai14800277546.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14800286888.tmp/ai14800286888.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14800278177.tmp/ai14800278177.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14800070703.tmp/ai14800070703.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14800084324.tmp/ai14800084324.txt",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$EXa0.486/vivus-master/index.html",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$EXa0.525/vivus-master/index.html",
-		"/D/projects/datahelicopter/footer.txt",
-		"/C/Users/Sky/AppData/Local/Temp/ai14800059922.tmp/ai14800059922.txt",
-		"/D/projects/datahelicopter/css/monokai-sublime.css",
-		"/D/projects/datahelicopter/scss/style.scss"
+		"/C/Users/Sky/AppData/Local/Temp/ai14802655165.tmp/ai14802655165.txt"
 	],
 	"find":
 	{
@@ -542,6 +532,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"address",
 			"ping",
 			"idea",
 			"Nikon",
@@ -668,8 +659,7 @@
 			"Florence",
 			"Decatur",
 			"Cullman",
-			"Centre",
-			"Birmingham"
+			"Centre"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -815,52 +805,24 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/sky_2/Google Drive/btc.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 155,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								155,
-								155
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "rising.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1819,
+						"buffer_size": 2570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								199,
-								165
+								1354,
+								1354
 							]
 						],
 						"settings":
@@ -870,10 +832,39 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "crypto.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								611,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -882,15 +873,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9058,
+						"buffer_size": 10049,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7983,
-								7983
+								667,
+								667
 							]
 						],
 						"settings":
@@ -912,69 +903,16 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2760.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/claymore/Claymore CryptoNote CPU Miner v3.5 Beta - POOL/pools.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 37,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								37,
-								37
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/sky_2/Google Drive/Electroneum/info.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 471,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								471,
-								471
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Electroneum Address",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -992,7 +930,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{

@@ -1,7 +1,11 @@
 import urllib.request
 import json
 
-urlData = "http://api.football-api.com/2.0/standings/1204?Authorization=565ec012251f932ea4000001fa542ae9d994470e73fdb314a8a56d76"
+with open("premkey.txt", "r") as apikey:
+    key = apikey.read()
+
+urlData = "http://api.football-api.com/2.0/standings/1204?Authorization=" + key
+
 webURL = urllib.request.urlopen(urlData)
 data = webURL.read()
 encoding = webURL.info().get_content_charset('utf-8')
@@ -23,7 +27,9 @@ for team in prem_table:
         "position": team["position"]
     }
 
+print_string = ""
 for i in range(len(table_dict)):
-    print_string = "<b>" + str(i+1) + "</b> - " + table_dict[i+1]["name"] + " (" + table_dict[i+1]["points"] + ")\n"
-    print_string = "<b>Premier League GW{}</b>\n\n".format(game_week) + print_string
-    print(print_string)
+    print_string = print_string + "<b>" + str(i+1) + "</b> - " + table_dict[i+1]["name"] + " (" + table_dict[i+1]["points"] + ")\n"
+
+print_string = "<b>Premier League GW{}</b>\n\n".format(game_week) + print_string
+print(print_string)
