@@ -28,6 +28,7 @@ def _initialize(bot):
     plugins.register_user_command(["catfacts"])
     plugins.register_user_command(["hackers"])
     plugins.register_user_command(["crypto"])
+    plugins.register_user_command(["table"])
 
 def uptime(bot, event):
     proc1 = subprocess.check_output(['uptime']).decode('utf-8').strip("\n")
@@ -189,7 +190,51 @@ def crypto(bot, event):
             xlm_price = round(float(coin["price_usd"]), 3)
         elif coin["symbol"] == "XRP":
             xrp_price = round(float(coin["price_usd"]), 2)
+        elif coin["symbol"] == "XRB":
+            xrb_price = round(float(coin["price_usd"]), 2)
+        elif coin["symbol"] == "NXT":
+            nxt_price = round(float(coin["price_usd"]), 2)
 
-    crypto_output = "<b>BTC</b>: ${}\n<b>BCH</b>: ${}\n<b>ETH</b>: ${}\n<b>LTC</b>: ${}\n<b>XLM</b>: ${}\n<b>XRP</b>: ${}".format(btc_price, bch_price, eth_price, ltc_price, xlm_price, xrp_price)
+    crypto_output = "<b>BTC</b>: ${}\n<b>BCH</b>: ${}\n<b>ETH</b>: ${}\n<b>LTC</b>: ${}\n" \
+                    "<b>XLM</b>: ${}\n<b>XRP</b>: ${}\n<b>XRB</b>: ${}\n<b>NXT</b>: ${}" \
+        .format(btc_price, bch_price, eth_price, ltc_price, xlm_price, xrp_price, xrb_price, nxt_price)
 
     yield from bot.coro_send_message(event.conv_id, crypto_output)
+
+
+def table(bot, event):
+    import urllib.request
+    import json
+    from sortedcontainers import SortedDict
+
+    urlData = "http://api.football-api.com/2.0/standings/1204?Authorization=565ec012251f932ea4000001fa542ae9d994470e73fdb314a8a56d76"
+    webURL = urllib.request.urlopen(urlData)
+    data = webURL.read()
+    encoding = webURL.info().get_content_charset('utf-8')
+    prem_table = json.loads(data.decode(encoding))
+
+    table_dict = SortedDict(
+        {1: {}, 2: {}, 3: {}, 4: {}, 5: {}, 6: {}, 7: {}, 8: {}, 9: {}, 10: {}, 11: {}, 12: {}, 13: {}, 14: {}, 15: {},
+         16: {}, 17: {}, 18: {}, 19: {}, 20: {}})
+    game_week = prem_table[0]["round"]
+
+    for team in prem_table:
+        team_posi = team["position"]
+        table_dict[int(team_posi)]["name"] = team["team_name"]
+        table_dict[int(team_posi)]["points"] = team["points"]
+        table_dict[int(team_posi)]["form"] = team["recent_form"]
+        table_dict[int(team_posi)]["gd"] = team["gd"]
+        table_dict[int(team_posi)]["gs"] = team["overall_gs"]
+        table_dict[int(team_posi)]["ga"] = team["overall_ga"]
+        table_dict[int(team_posi)]["position"] = team["position"]
+
+    count = 1
+    print_string = ""
+    while count <= 20:
+        print_string = print_string + "<b>" + str(count) + "</b> - " + table_dict[count]["name"] + " (" + \
+                       table_dict[count]["points"] + ")\n"
+        count += 1
+    print_string = "<b>Premier League GW{}</b>\n\n".format(game_week) + print_string
+
+    yield from bot.coro_send_message(event.conv_id, print_string)
+
