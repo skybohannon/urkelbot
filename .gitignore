@@ -141,3 +141,6 @@ $RECYCLE.BIN/
 \.idea/workspace\.xml
 
 rising\.py
+
+# Key file
+premkey.txt
