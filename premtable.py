@@ -31,5 +31,6 @@ print_string = ""
 for i in range(len(table_dict)):
     print_string = print_string + "<b>" + str(i+1) + "</b> - " + table_dict[i+1]["name"] + " (" + table_dict[i+1]["points"] + ")\n"
 
-print_string = "<b>Premier League GW{}</b>\n\n".format(game_week) + print_string
+# [:-1] to remove the last \n
+print_string = "<b>Premier League GW{}</b>\n\n".format(game_week) + print_string[:-1]
 print(print_string)
