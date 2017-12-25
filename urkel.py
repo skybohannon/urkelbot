@@ -179,21 +179,21 @@ def crypto(bot, event):
 
     for coin in crypto_list:
         if coin["symbol"] == "BTC":
-            btc_price = round(float(coin["price_usd"]), 2)
+            btc_price = float(coin["price_usd"])
         elif coin["symbol"] == "BCH":
-            bch_price = round(float(coin["price_usd"]), 2)
+            bch_price = float(coin["price_usd"])
         elif coin["symbol"] == "ETH":
-            eth_price = round(float(coin["price_usd"]), 2)
+            eth_price = float(coin["price_usd"])
         elif coin["symbol"] == "ICX":
-            icx_price = round(float(coin["price_usd"]), 2)
+            icx_price = float(coin["price_usd"])
         elif coin["symbol"] == "LTC":
-            ltc_price = round(float(coin["price_usd"]), 2)
+            ltc_price = float(coin["price_usd"])
         elif coin["symbol"] == "NXT":
-            nxt_price = round(float(coin["price_usd"]), 2)
+            nxt_price = float(coin["price_usd"])
         elif coin["symbol"] == "XLM":
-            xlm_price = round(float(coin["price_usd"]), 3)
+            xlm_price = float(coin["price_usd"])
         elif coin["symbol"] == "XRB":
-            xrb_price = round(float(coin["price_usd"]), 2)
+            xrb_price = float(coin["price_usd"])
 
     crypto_output = "<b>BTC</b>: ${:,.2f}\n<b>BCH</b>: ${:,.2f}\n<b>ETH</b>: ${:,.2f}\n<b>ICX</b>: ${:,.2f}\n<b>LTC</b>: " \
                     "${:,.2f}\n<b>NXT</b>: ${:,.2f}\n<b>XLM</b>: ${:,.2f}\n<b>XRB</b>: ${:,.2f}" \
