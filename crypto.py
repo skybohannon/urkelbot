@@ -8,21 +8,21 @@ encoding = webURL.info().get_content_charset('utf-8')
 crypto_list = json.loads(data.decode(encoding))
 
 for coin in crypto_list:
-    if coin["symbol"] == "BTC":
+    if coin["id"] == "bitcoin":
         btc_price = float(coin["price_usd"])
-    elif coin["symbol"] == "BCH":
+    elif coin["id"] == "bitcoin-cash":
         bch_price = float(coin["price_usd"])
-    elif coin["symbol"] == "ETH":
+    elif coin["id"] == "ethereum":
         eth_price = float(coin["price_usd"])
-    elif coin["symbol"] == "ICX":
+    elif coin["id"] == "icon":
         icx_price = float(coin["price_usd"])
-    elif coin["symbol"] == "LTC":
+    elif coin["id"] == "litecoin":
         ltc_price = float(coin["price_usd"])
-    elif coin["symbol"] == "NXT":
+    elif coin["id"] == "nxt":
         nxt_price = float(coin["price_usd"])
-    elif coin["symbol"] == "XLM":
+    elif coin["id"] == "stellar":
         xlm_price = float(coin["price_usd"])
-    elif coin["symbol"] == "XRB":
+    elif coin["id"] == "raiblocks":
         xrb_price = float(coin["price_usd"])
 
 crypto_output = "<b>BTC</b>: ${:,.2f}\n<b>BCH</b>: ${:,.2f}\n<b>ETH</b>: ${:,.2f}\n<b>ICX</b>: ${:,.2f}\n<b>LTC</b>: " \
