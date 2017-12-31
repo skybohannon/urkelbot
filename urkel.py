@@ -1,5 +1,5 @@
 """
-urkelbot
+urkelbot v1.5
            _________._____ /\__.____.
            \    ___/     //   /_   / \_
          __ \\__   /   _/ \____/__,   /
@@ -11,14 +11,18 @@ urkelbot
                               \/
 """
 from __future__ import print_function
+from datetime import datetime
+from bs4 import BeautifulSoup
 import plugins
 import random
 import re
 import subprocess
 import urllib.parse
-from bs4 import BeautifulSoup
 import urllib.request
 import json
+import os
+import pytz
+
 
 def _initialize(bot):
     plugins.register_user_command(["uptime"])
@@ -31,6 +35,8 @@ def _initialize(bot):
     plugins.register_user_command(["crypto"])
     plugins.register_user_command(["table"])
     plugins.register_user_command(["scores"])
+    plugins.register_user_command(["fortune"])
+
 
 def uptime(bot, event):
     proc1 = subprocess.check_output(['uptime']).decode('utf-8').strip("\n")
@@ -45,6 +51,7 @@ def uptime(bot, event):
         time_stuff = " ".join(time_strings)
     yield from bot.coro_send_message(event.conv_id, time_stuff)
 
+
 def dogfacts (bot, event):
     lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/dogfacts.txt','r').read().splitlines()
     dogFact=random.choice(lines)
@@ -53,9 +60,11 @@ def dogfacts (bot, event):
     
     yield from bot.coro_send_message(event.conv_id, dogFactAll)
 
+
 def catfacts(bot, event):
     catFact = "<b>CAT FACTS!!!</b>\n\n" + "Cats are stupid"
     yield from bot.coro_send_message(event.conv_id, catFact)
+
 
 def hackers (bot, event):
     lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/hackers.txt','r').read().splitlines()
@@ -118,8 +127,8 @@ def rising(bot, event):
     risingOutput = '<b>FPL Soon To Rise</b><br /><br />' + ''.join(player1) + ''.join(player2) + ''.join(player3)
     yield from bot.coro_send_message(event.conv_id, risingOutput)
 
-def standings(bot, event):
 
+def standings(bot, event):
     url = 'https://fplmystats.com/league/116940/'
     page = urllib.request.urlopen(url)
     soup = BeautifulSoup(page.read(), "html.parser")
@@ -214,8 +223,6 @@ def crypto(bot, event):
 
 
 def table(bot, event):
-    import urllib.request
-    import json
 
     with open("/home/sky/hangoutsbot/hangupsbot/plugins/premkey.txt", "r") as apikey:
         key = apikey.read()
@@ -254,10 +261,6 @@ def table(bot, event):
 
 
 def scores(bot, event):
-    import urllib.request
-    import json
-    from datetime import datetime
-    import pytz
 
     with open("/home/sky/hangoutsbot/hangupsbot/plugins/premkey.txt", "r") as apikey:
         key = apikey.read()
@@ -303,3 +306,9 @@ def scores(bot, event):
     print(print_string)
 
     yield from bot.coro_send_message(event.conv_id, print_string)
+
+
+def fortune(bot, event):
+    fortune = subprocess.getoutput("/usr/games/fortune fortunes")
+    print(fortune)
+    yield from bot.coro_send_message(event.conv_id, fortune)

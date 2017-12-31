@@ -7,7 +7,6 @@ with open("premkey.txt", "r") as apikey:
     key = apikey.read()
 
 tz = pytz.timezone('America/Chicago')
-
 current_date = datetime.now(tz=tz).strftime("%d.%m.%Y")
 
 urlData = "http://api.football-api.com/2.0/matches?comp_id=1204&match_date=" + current_date + "&Authorization=" + key
