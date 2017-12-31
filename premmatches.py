@@ -1,11 +1,16 @@
 import urllib.request
 import json
-import datetime
+from datetime import datetime
+import pytz
 
 with open("premkey.txt", "r") as apikey:
     key = apikey.read()
 
-urlData = "http://api.football-api.com/2.0/matches?comp_id=1204&Authorization=" + key
+tz = pytz.timezone('America/Chicago')
+
+current_date = datetime.now(tz=tz).strftime("%d.%m.%Y")
+
+urlData = "http://api.football-api.com/2.0/matches?comp_id=1204&match_date=" + current_date + "&Authorization=" + key
 
 webURL = urllib.request.urlopen(urlData)
 data = webURL.read()
@@ -14,7 +19,7 @@ matches = json.loads(data.decode(encoding))
 
 matches_dict = {}
 matches_date = matches[0]["formatted_date"]
-matches_date = datetime.datetime.strptime(matches_date, '%d.%m.%Y').strftime('%m/%d/%Y')
+matches_date = datetime.strptime(matches_date, '%d.%m.%Y').strftime('%m/%d/%Y')
 
 count = 1
 for match in matches:
