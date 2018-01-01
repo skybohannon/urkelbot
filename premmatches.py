@@ -6,6 +6,18 @@ import pytz
 with open("premkey.txt", "r") as apikey:
     key = apikey.read()
 
+
+def timeConvert(time):
+    miliTime = time
+    hours, minutes = miliTime.split(":")
+    hours, minutes = int(hours) - 1, int(minutes)
+    setting = "AM"
+    if hours > 12:
+        setting = "PM"
+        hours -= 12
+    return ("%02d:%02d" + setting) % (hours, minutes)
+
+
 tz = pytz.timezone('America/Chicago')
 current_date = datetime.now(tz=tz).strftime("%d.%m.%Y")
 
@@ -34,6 +46,10 @@ for match in matches:
         matches_dict[match_id]["status"] = str(int(matches_dict[match_id]["status"])) + "'"
     except ValueError:
         matches_dict[match_id]["status"] = matches_dict[match_id]["status"]
+
+    if len(matches_dict[match_id]["status"]) == 5:
+        matches_dict[match_id]["status"] = timeConvert(matches_dict[match_id]["status"])
+
     count += 1
 
 print_string = ""
