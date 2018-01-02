@@ -269,12 +269,12 @@ def scores(bot, event):
     def timeConvert(time):
         miliTime = time
         hours, minutes = miliTime.split(":")
-        hours, minutes = int(hours) - 1, int(minutes)
+        hours, minutes = int(hours) - 6, int(minutes)
         setting = "AM"
         if hours > 12:
             setting = "PM"
             hours -= 12
-        return ("%02d:%02d" + setting) % (hours, minutes)
+            return "{}:{}".format(hours, minutes) + setting
 
 
     tz = pytz.timezone('America/Chicago')
