@@ -18,15 +18,15 @@ for coin in crypto_list:
         icx_price = float(coin["price_usd"])
     elif coin["id"] == "litecoin":
         ltc_price = float(coin["price_usd"])
-    elif coin["id"] == "nxt":
-        nxt_price = float(coin["price_usd"])
     elif coin["id"] == "stellar":
         xlm_price = float(coin["price_usd"])
     elif coin["id"] == "raiblocks":
         xrb_price = float(coin["price_usd"])
+    elif coin["id"] == "ripple":
+        xrp_price = float(coin["price_usd"])
 
 crypto_output = "<b>BTC</b>: ${:,.2f}\n<b>BCH</b>: ${:,.2f}\n<b>ETH</b>: ${:,.2f}\n<b>ICX</b>: ${:,.2f}\n<b>LTC</b>: " \
-                "${:,.2f}\n<b>NXT</b>: ${:,.2f}\n<b>XLM</b>: ${:,.3f}\n<b>XRB</b>: ${:,.2f}"\
-                .format(btc_price, bch_price, eth_price, icx_price, ltc_price, nxt_price, xlm_price, xrb_price)
+                "${:,.2f}\n<b>XLM</b>: ${:,.3f}\n<b>XRB</b>: ${:,.2f}\n<b>XRP</b>: ${:,.2f}"\
+                .format(btc_price, bch_price, eth_price, icx_price, ltc_price, xlm_price, xrb_price, xrp_price)
 
 print(crypto_output)

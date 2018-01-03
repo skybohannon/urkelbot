@@ -8,14 +8,16 @@ with open("premkey.txt", "r") as apikey:
 
 
 def timeConvert(time):
-    miliTime = time
-    hours, minutes = miliTime.split(":")
-    hours, minutes = int(hours) - 6, int(minutes)
-    setting = "AM"
+
+    mil_time = time
+    hours, minutes = mil_time.split(":")
+    hours, minutes = int(hours) - 1, int(minutes)
+    am_pm = "AM"
+
     if hours > 12:
-        setting = "PM"
+        am_pm = "PM"
         hours -= 12
-    return "{}:{}".format(hours,minutes) + setting
+    return "{}:{}".format(hours, minutes) + setting
 
 
 tz = pytz.timezone('America/Chicago')
