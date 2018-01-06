@@ -232,14 +232,14 @@ def crypto(bot, event):
     crypto_output = "<b>BTC</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
                     "<b>BCH</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
                     "<b>ETH</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    "<b>ICX</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
                     "<b>LTC</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+                    "<b>BNTY</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+                    "<b>ICX</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
                     "<b>REQ</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
                     "<b>XLM</b>: ${:,.3f}  <i>{:+.2f}%</i>\n" \
                     "<b>XRB</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
                     "<b>XRP</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    "<b>BNTY</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, icx_price, icx_change, ltc_price, ltc_change, req_price, req_change, xlm_price, xlm_change, xrb_price, xrb_change, xrp_price, xrp_change, bnty_price, bnty_change)
+                    .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnty_price, bnty_change, icx_price, icx_change, req_price, req_change, xlm_price, xlm_change, xrb_price, xrb_change, xrp_price, xrp_change)
 
     yield from bot.coro_send_message(event.conv_id, crypto_output)
 
