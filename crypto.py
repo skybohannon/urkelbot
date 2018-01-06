@@ -10,23 +10,45 @@ crypto_list = json.loads(data.decode(encoding))
 for coin in crypto_list:
     if coin["id"] == "bitcoin":
         btc_price = float(coin["price_usd"])
+        btc_change = float(coin["percent_change_24h"])
     elif coin["id"] == "bitcoin-cash":
         bch_price = float(coin["price_usd"])
+        bch_change = float(coin["percent_change_24h"])
     elif coin["id"] == "ethereum":
         eth_price = float(coin["price_usd"])
+        eth_change = float(coin["percent_change_24h"])
     elif coin["id"] == "icon":
         icx_price = float(coin["price_usd"])
+        icx_change = float(coin["percent_change_24h"])
     elif coin["id"] == "litecoin":
         ltc_price = float(coin["price_usd"])
+        ltc_change = float(coin["percent_change_24h"])
     elif coin["id"] == "stellar":
         xlm_price = float(coin["price_usd"])
+        xlm_change = float(coin["percent_change_24h"])
     elif coin["id"] == "raiblocks":
         xrb_price = float(coin["price_usd"])
+        xrb_change = float(coin["percent_change_24h"])
+    elif coin["id"] == "request-network":
+        req_price = float(coin["price_usd"])
+        req_change = float(coin["percent_change_24h"])
     elif coin["id"] == "ripple":
         xrp_price = float(coin["price_usd"])
+        xrp_change = float(coin["percent_change_24h"])
+    elif coin["id"] == "bounty0x":
+        bnty_price = float(coin["price_usd"])
+        bnty_change = float(coin["percent_change_24h"])
 
-crypto_output = "<b>BTC</b>: ${:,.2f}\n<b>BCH</b>: ${:,.2f}\n<b>ETH</b>: ${:,.2f}\n<b>ICX</b>: ${:,.2f}\n<b>LTC</b>: " \
-                "${:,.2f}\n<b>XLM</b>: ${:,.3f}\n<b>XRB</b>: ${:,.2f}\n<b>XRP</b>: ${:,.2f}"\
-                .format(btc_price, bch_price, eth_price, icx_price, ltc_price, xlm_price, xrb_price, xrp_price)
+crypto_output = "<b>BTC</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+                "<b>BCH</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+                "<b>ETH</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+                "<b>ICX</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+                "<b>LTC</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+                "<b>REQ</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+                "<b>XLM</b>: ${:,.3f}  <i>{:+.2f}%</i>\n" \
+                "<b>XRB</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+                "<b>XRP</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+                "<b>BNTY</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
+    .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, icx_price, icx_change, ltc_price, ltc_change, req_price, req_change, xlm_price, xlm_change, xrb_price, xrb_change, xrp_price, xrp_change, bnty_price, bnty_change)
 
 print(crypto_output)

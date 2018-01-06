@@ -299,7 +299,7 @@
 			"file": "crypto.py",
 			"settings":
 			{
-				"buffer_size": 1279,
+				"buffer_size": 1507,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -308,7 +308,7 @@
 			"file": "urkel.py",
 			"settings":
 			{
-				"buffer_size": 12123,
+				"buffer_size": 12837,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -852,14 +852,14 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1279,
+						"buffer_size": 1507,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								611,
+								0,
 								0
 							]
 						],
@@ -881,7 +881,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12123,
+						"buffer_size": 12837,
 						"regions":
 						{
 						},
