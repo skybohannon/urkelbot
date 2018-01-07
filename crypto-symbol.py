@@ -7,13 +7,24 @@ data = webURL.read()
 encoding = webURL.info().get_content_charset('utf-8')
 crypto_list = json.loads(data.decode(encoding))
 
-def symbol(s):
-    price = ""
+def symbol(sym):
+
     for coin in crypto_list:
 
-        if coin["symbol"] == s.upper():
-            price = float(coin["price_usd"])
+        if coin["symbol"] == sym.upper():
+            coin_name = coin["name"]
+            usd_price = float(coin["price_usd"])
+            btc_price = float(coin["price_btc"])
+            change_24h = float(coin["percent_change_24h"])
+            change_1h = float(coin["percent_change_1h"])
 
-    return "<b>" + s.upper() + "</b>: ${:,.2f}".format(price)
+    symbol_output = "<b>" + coin_name + " (" + sym.upper() + ")</b>\n\n<b>USD</b>: ${:,.3f}\n"\
+        "<b>BTC</b>: {:.7f}\n"\
+        "<b>24H Change</b>: {:+.2f}%\n"\
+        "<b>1H Change</b>: {:+.2f}%"\
+        .format(usd_price, btc_price, change_1h, change_24h)
 
-print(symbol("bnty"))
+    return symbol_output
+
+
+print(symbol("aaa"))

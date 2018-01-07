@@ -33,6 +33,7 @@ def _initialize(bot):
     plugins.register_user_command(["hackers"])
     plugins.register_user_command(["majorleague"])
     plugins.register_user_command(["crypto"])
+    plugins.register_user_command(["symbol"])
     plugins.register_user_command(["table"])
     plugins.register_user_command(["scores"])
     plugins.register_user_command(["fortune"])
@@ -242,6 +243,32 @@ def crypto(bot, event):
                     .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnty_price, bnty_change, icx_price, icx_change, req_price, req_change, xlm_price, xlm_change, xrb_price, xrb_change, xrp_price, xrp_change)
 
     yield from bot.coro_send_message(event.conv_id, crypto_output)
+
+
+def symbol(bot, event, sym):
+
+    urlData = "https://api.coinmarketcap.com/v1/ticker/?convert=USD&limit=0"
+    webURL = urllib.request.urlopen(urlData)
+    data = webURL.read()
+    encoding = webURL.info().get_content_charset('utf-8')
+    crypto_list = json.loads(data.decode(encoding))
+
+    for coin in crypto_list:
+
+        if coin["symbol"] == sym.upper():
+            coin_name = coin["name"]
+            usd_price = float(coin["price_usd"])
+            btc_price = float(coin["price_btc"])
+            change_24h = float(coin["percent_change_24h"])
+            change_1h = float(coin["percent_change_1h"])
+
+    symbol_output = "<b>" + coin_name + " (" + sym.upper() + ")</b>\n\n<b>USD</b>: ${:,.3f}\n"\
+        "<b>BTC</b>: {:.7f}\n"\
+        "<b>24H Change</b>: {:+.2f}%\n"\
+        "<b>1H Change</b>: {:+.2f}%"\
+        .format(usd_price, btc_price, change_1h, change_24h)
+
+    yield from bot.coro_send_message(event.conv_id, symbol_output)
 
 
 def table(bot, event):
