@@ -254,6 +254,7 @@ def symbol(bot, event, sym):
     crypto_list = json.loads(data.decode(encoding))
 
     sym = sym.upper()
+
     for coin in crypto_list:
 
         if coin["symbol"] == sym:
@@ -268,6 +269,7 @@ def symbol(bot, event, sym):
                             "<b>24H Change</b>: {:+.2f}%\n" \
                             "<b>1H Change</b>: {:+.2f}%" \
                             .format(usd_price, btc_price, change_1h, change_24h)
+            break
         else:
             symbol_output = "There was no match for <b>\"{}\"</b>".format(sym)
 

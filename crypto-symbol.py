@@ -11,7 +11,7 @@ def symbol(sym):
     sym = sym.upper()
 
     for coin in crypto_list:
-        symbol_output = ""
+
         if coin["symbol"] == sym:
             coin_name = coin["name"]
             usd_price = float(coin["price_usd"])
