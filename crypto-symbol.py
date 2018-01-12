@@ -30,5 +30,4 @@ def symbol(sym):
 
     return symbol_output
 
-
-print(symbol("LTC"))
+print(symbol("XLM"))

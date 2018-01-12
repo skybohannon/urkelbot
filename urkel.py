@@ -37,6 +37,7 @@ def _initialize(bot):
     plugins.register_user_command(["table"])
     plugins.register_user_command(["scores"])
     plugins.register_user_command(["fortune"])
+    plugins.register_user_command(["binance"])
 
 
 def uptime(bot, event):
@@ -226,21 +227,25 @@ def crypto(bot, event):
         elif coin["id"] == "ripple":
             xrp_price = float(coin["price_usd"])
             xrp_change = float(coin["percent_change_24h"])
-        elif coin["id"] == "bounty0x":
-            bnty_price = float(coin["price_usd"])
-            bnty_change = float(coin["percent_change_24h"])
+        elif coin["id"] == "vechain":
+            ven_price = float(coin["price_usd"])
+            ven_change = float(coin["percent_change_24h"])
+        elif coin["id"] == "binance-coin":
+            bnb_price = float(coin["price_usd"])
+            bnb_change = float(coin["percent_change_24h"])
 
-    crypto_output = "<b>BTC</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    "<b>BCH</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    "<b>ETH</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    "<b>LTC</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    "<b>BNTY</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    "<b>ICX</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    "<b>REQ</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    "<b>XLM</b>: ${:,.3f}  <i>{:+.2f}%</i>\n" \
-                    "<b>XRB</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    "<b>XRP</b>: ${:,.2f}  <i>{:+.2f}%</i>\n" \
-                    .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnty_price, bnty_change, icx_price, icx_change, req_price, req_change, xlm_price, xlm_change, xrb_price, xrb_change, xrp_price, xrp_change)
+    crypto_output = "<b>BTC</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>BCH</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>ETH</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>LTC</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>BNB</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>ICX</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>REQ</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>VEN</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>XLM</b>: ${:,.3f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>XRB</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>XRP</b>: ${:,.2f}  (<i>{:+.2f}%</i>)" \
+        .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnb_price, bnb_change, icx_price, icx_change, req_price, req_change, ven_price, ven_change, xlm_price, xlm_change, xrb_price, xrb_change, xrp_price, xrp_change)
 
     yield from bot.coro_send_message(event.conv_id, crypto_output)
 
@@ -265,10 +270,10 @@ def symbol(bot, event, sym):
             change_1h = float(coin["percent_change_1h"])
 
             symbol_output = "<b>" + coin_name + " (" + sym + ")</b>\n\n<b>USD</b>: ${:,.3f}\n" \
-                            "<b>BTC</b>: {:.7f}\n" \
-                            "<b>24H Change</b>: {:+.2f}%\n" \
-                            "<b>1H Change</b>: {:+.2f}%" \
-                            .format(usd_price, btc_price, change_1h, change_24h)
+                                                             "<b>BTC</b>: {:.7f}\n" \
+                                                             "<b>24H Change</b>: {:+.2f}%\n" \
+                                                             "<b>1H Change</b>: {:+.2f}%" \
+                .format(usd_price, btc_price, change_1h, change_24h)
             break
         else:
             symbol_output = "There was no match for <b>\"{}\"</b>".format(sym)
@@ -382,3 +387,4 @@ def fortune(bot, event):
     fortune = subprocess.getoutput("/usr/games/fortune fortunes")
     print(fortune)
     yield from bot.coro_send_message(event.conv_id, fortune)
+
