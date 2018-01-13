@@ -6,6 +6,7 @@ import pytz
 with open("premkey.txt", "r") as apikey:
     key = apikey.read()
 
+
 # Convert time to normal time instead of military time, change time zone to Central
 def time_convert(time):
 
@@ -18,6 +19,7 @@ def time_convert(time):
         am_pm = "PM"
         hours -= 12
     return "{}:{:02d}".format(hours, minutes) + am_pm
+
 
 # Check events for goals, then return goals
 def get_events(l):
