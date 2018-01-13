@@ -34,6 +34,20 @@ matches_dict = {}
 matches_date = matches[0]["formatted_date"]
 matches_date = datetime.strptime(matches_date, '%d.%m.%Y').strftime('%m/%d/%Y')
 
+
+def get_events(l):
+    events = ""
+    event_list = []
+    for i in range(len(l)):
+        if l[i]["type"] == "goal":
+            player = l[i]["player"]
+            minute = l[i]["minute"]
+            single_event = player + " " + minute + "'"
+            event_list.append(single_event)
+            events = ", ".join(event_list)
+            i += 1
+    return events
+
 count = 1
 for match in matches:
     match_id = count
@@ -43,7 +57,9 @@ for match in matches:
         "home_score": match["localteam_score"],
         "visitor_score": match["visitorteam_score"],
         "status": match["status"],
+        "events": match["events"]
     }
+
     try:
         matches_dict[match_id]["status"] = str(int(matches_dict[match_id]["status"])) + "'"
     except ValueError:
@@ -57,6 +73,10 @@ for match in matches:
 print_string = ""
 for i in range(len(matches_dict)):
     print_string = print_string + matches_dict[i+1]["home"] + " <b>" + matches_dict[i+1]["home_score"] + " - " + matches_dict[i+1]["visitor_score"] + "</b> " + matches_dict[i+1]["visitor"] + " " + matches_dict[i+1]["status"] + "\n"
+    if len(get_events(matches_dict[i + 1]["events"])) > 0:
+        print_string = print_string + "<i>(" + get_events(matches_dict[i + 1]["events"]) + ")</i>\n\n"
+    else:
+        print_string = print_string + "\n"
 
 print_string = "<b>Match scores for " + matches_date + "</b>\n\n" + print_string[:-1]
 print(print_string)
