@@ -11,13 +11,13 @@ def timeConvert(time):
 
     mil_time = time
     hours, minutes = mil_time.split(":")
-    hours, minutes = int(hours) - 1, int(minutes)
+    hours, minutes = int(hours) - 6, int(minutes)
     am_pm = "AM"
 
     if hours > 12:
         am_pm = "PM"
         hours -= 12
-    return "{}:{}".format(hours, minutes) + setting
+    return "{}:{:02d}".format(hours, minutes) + am_pm
 
 
 tz = pytz.timezone('America/Chicago')

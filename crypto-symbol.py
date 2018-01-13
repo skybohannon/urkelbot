@@ -23,7 +23,7 @@ def symbol(sym):
                             "<b>BTC</b>: {:.7f}\n" \
                             "<b>24H Change</b>: {:+.2f}%\n" \
                             "<b>1H Change</b>: {:+.2f}%" \
-                            .format(usd_price, btc_price, change_1h, change_24h)
+                            .format(usd_price, btc_price, change_24h, change_1h)
             break
         else:
             symbol_output = "There was no match for <b>\"{}\"</b>".format(sym)

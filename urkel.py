@@ -273,7 +273,7 @@ def symbol(bot, event, sym):
                                                              "<b>BTC</b>: {:.7f}\n" \
                                                              "<b>24H Change</b>: {:+.2f}%\n" \
                                                              "<b>1H Change</b>: {:+.2f}%" \
-                .format(usd_price, btc_price, change_1h, change_24h)
+                .format(usd_price, btc_price, change_24h, change_1h)
             break
         else:
             symbol_output = "There was no match for <b>\"{}\"</b>".format(sym)
@@ -324,20 +324,19 @@ def scores(bot, event):
     with open("/home/sky/hangoutsbot/hangupsbot/plugins/premkey.txt", "r") as apikey:
         key = apikey.read()
 
-
     def timeConvert(time):
-        miliTime = time
-        hours, minutes = miliTime.split(":")
-        hours, minutes = int(hours) - 6, int(minutes)
-        setting = "AM"
-        if hours > 12:
-            setting = "PM"
-            hours -= 12
-            return "{}:{}".format(hours, minutes) + setting
 
+        mil_time = time
+        hours, minutes = mil_time.split(":")
+        hours, minutes = int(hours) - 6, int(minutes)
+        am_pm = "AM"
+
+        if hours > 12:
+            am_pm = "PM"
+            hours -= 12
+        return "{}:{:02d}".format(hours, minutes) + am_pm
 
     tz = pytz.timezone('America/Chicago')
-
     current_date = datetime.now(tz=tz).strftime("%d.%m.%Y")
 
     urlData = "http://api.football-api.com/2.0/matches?comp_id=1204&match_date=" + current_date + "&Authorization=" + key
