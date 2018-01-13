@@ -324,7 +324,8 @@ def scores(bot, event):
     with open("/home/sky/hangoutsbot/hangupsbot/plugins/premkey.txt", "r") as apikey:
         key = apikey.read()
 
-    def timeConvert(time):
+    # Convert time to normal time instead of military time, change time zone to Central
+    def time_convert(time):
 
         mil_time = time
         hours, minutes = mil_time.split(":")
@@ -335,6 +336,20 @@ def scores(bot, event):
             am_pm = "PM"
             hours -= 12
         return "{}:{:02d}".format(hours, minutes) + am_pm
+
+    # Check events for goals, then return goals
+    def get_events(l):
+        events = ""
+        event_list = []
+        for i in range(len(l)):
+            if l[i]["type"] == "goal":
+                player = l[i]["player"]
+                minute = l[i]["minute"]
+                single_event = player + " " + minute + "'"
+                event_list.append(single_event)
+                events = ", ".join(event_list)
+                i += 1
+        return events
 
     tz = pytz.timezone('America/Chicago')
     current_date = datetime.now(tz=tz).strftime("%d.%m.%Y")
@@ -381,7 +396,7 @@ def scores(bot, event):
             matches_dict[match_id]["status"] = matches_dict[match_id]["status"]
 
         if len(matches_dict[match_id]["status"]) == 5:
-            matches_dict[match_id]["status"] = timeConvert(matches_dict[match_id]["status"])
+            matches_dict[match_id]["status"] = time_convert(matches_dict[match_id]["status"])
 
         count += 1
 

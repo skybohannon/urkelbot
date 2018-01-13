@@ -6,8 +6,8 @@ import pytz
 with open("premkey.txt", "r") as apikey:
     key = apikey.read()
 
-
-def timeConvert(time):
+# Convert time to normal time instead of military time, change time zone to Central
+def time_convert(time):
 
     mil_time = time
     hours, minutes = mil_time.split(":")
@@ -18,6 +18,20 @@ def timeConvert(time):
         am_pm = "PM"
         hours -= 12
     return "{}:{:02d}".format(hours, minutes) + am_pm
+
+# Check events for goals, then return goals
+def get_events(l):
+    events = ""
+    event_list = []
+    for i in range(len(l)):
+        if l[i]["type"] == "goal":
+            player = l[i]["player"]
+            minute = l[i]["minute"]
+            single_event = player + " " + minute + "'"
+            event_list.append(single_event)
+            events = ", ".join(event_list)
+            i += 1
+    return events
 
 
 tz = pytz.timezone('America/Chicago')
@@ -33,20 +47,6 @@ matches = json.loads(data.decode(encoding))
 matches_dict = {}
 matches_date = matches[0]["formatted_date"]
 matches_date = datetime.strptime(matches_date, '%d.%m.%Y').strftime('%m/%d/%Y')
-
-
-def get_events(l):
-    events = ""
-    event_list = []
-    for i in range(len(l)):
-        if l[i]["type"] == "goal":
-            player = l[i]["player"]
-            minute = l[i]["minute"]
-            single_event = player + " " + minute + "'"
-            event_list.append(single_event)
-            events = ", ".join(event_list)
-            i += 1
-    return events
 
 count = 1
 for match in matches:
@@ -66,7 +66,7 @@ for match in matches:
         matches_dict[match_id]["status"] = matches_dict[match_id]["status"]
 
     if len(matches_dict[match_id]["status"]) == 5:
-        matches_dict[match_id]["status"] = timeConvert(matches_dict[match_id]["status"])
+        matches_dict[match_id]["status"] = time_convert(matches_dict[match_id]["status"])
 
     count += 1
 
