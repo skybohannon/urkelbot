@@ -22,7 +22,7 @@ import urllib.request
 import json
 import os
 import pytz
-
+file_path = "/home/sky/hangoutsbot/hangupsbot/plugins/"
 
 def _initialize(bot):
     plugins.register_user_command(["uptime"])
@@ -32,6 +32,7 @@ def _initialize(bot):
     plugins.register_user_command(["catfacts"])
     plugins.register_user_command(["hackers"])
     plugins.register_user_command(["majorleague"])
+    plugins.register_user_command(["quote"])
     plugins.register_user_command(["crypto"])
     plugins.register_user_command(["symbol"])
     plugins.register_user_command(["table"])
@@ -55,7 +56,7 @@ def uptime(bot, event):
 
 
 def dogfacts (bot, event):
-    lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/dogfacts.txt','r').read().splitlines()
+    lines = open(file_path + "dogfacts.txt","r").read().splitlines()
     dogFact=random.choice(lines)
     print(dogFact)
     dogFactAll = "<b>DOG FACTS!!!</b>\n\n" + dogFact
@@ -69,7 +70,7 @@ def catfacts(bot, event):
 
 
 def hackers (bot, event):
-    lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/hackers.txt','r').read().splitlines()
+    lines = open(file_path + "hackers.txt","r").read().splitlines()
     hackersQuote=random.choice(lines)
     print(hackersQuote)
     
@@ -77,11 +78,24 @@ def hackers (bot, event):
 
 
 def majorleague(bot, event):
-    lines = open('/home/sky/hangoutsbot/hangupsbot/plugins/majorleague.txt', 'r').read().splitlines()
+    lines = open(file_path + "majorleague.txt", "r").read().splitlines()
     mlQuote = random.choice(lines)
     print(mlQuote)
 
     yield from bot.coro_send_message(event.conv_id, mlQuote)
+
+
+def quote(bot,event):
+    hackers_quotes = open(file_path + 'hackers.txt', 'r').read().splitlines()
+    ml_quotes = open(file_path + 'majorleague.txt', 'r').read().splitlines()
+    d = {}
+    d["Hackers"] = hackers_quotes
+    d["Major League"] = ml_quotes
+    which_list = random.choice(list(d))
+    quote = random.choice(d[which_list])
+    quote_output = "<b>" + which_list + " Quote!!!</b>\n\n" + quote
+    print(quote_output)
+    yield from bot.coro_send_message(event.conv_id, quote_output)
 
 
 def rising(bot, event):
@@ -283,7 +297,7 @@ def symbol(bot, event, sym):
 
 def table(bot, event):
 
-    with open("/home/sky/hangoutsbot/hangupsbot/plugins/premkey.txt", "r") as apikey:
+    with open(file_path + "premkey.txt", "r") as apikey:
         key = apikey.read()
 
     urlData = "http://api.football-api.com/2.0/standings/1204?Authorization=" + key
@@ -321,7 +335,7 @@ def table(bot, event):
 
 def scores(bot, event):
 
-    with open("/home/sky/hangoutsbot/hangupsbot/plugins/premkey.txt", "r") as apikey:
+    with open(file_path + "premkey.txt", "r") as apikey:
         key = apikey.read()
 
     # Convert time to normal time instead of military time, change time zone to Central
