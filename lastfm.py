@@ -1,14 +1,23 @@
 import urllib.request
 import json
 
+
 def nowplaying(user):
-    with open("lastfm-api" + user + ".txt", "r") as api_key:
+    user = user.lower()
+    with open("lastfm-" + user + "-api.txt", "r") as api_key:
         api_key = api_key.read()
 
-    with open("lastfm-secret." + user + ".txt", "r") as api_secret:
+    with open("lastfm-" + user + "-secret.txt", "r") as api_secret:
         api_secret = api_secret.read()
 
-    urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=sbohannon&api_key=" + api_key +"&format=json"
+    if user == "sky":
+        username = "sbohannon"
+    elif user == "brett":
+        username = "auchief"
+    elif user == "brandon":
+        username = "superprime"
+
+    urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" + username + "&api_key=" + api_key +"&format=json"
 
     webURL = urllib.request.urlopen(urlData)
     data = webURL.read()
@@ -25,4 +34,6 @@ def nowplaying(user):
         counter += 1
 
     nowplaying = "<b>Now playing</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
-print(nowplaying())
+    return nowplaying
+
+print(nowplaying("sky"))

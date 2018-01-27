@@ -439,14 +439,22 @@ def fortune(bot, event):
     yield from bot.coro_send_message(event.conv_id, fortune)
 
 
-def nowplaying(bot, event):
-    with open(file_path + "lastfm-api.txt", "r") as api_key:
+def nowplaying(bot, event, user):
+    user = user.lower()
+    with open(file_path + "lastfm-" + user + "-api.txt", "r") as api_key:
         api_key = api_key.read()
 
-    with open(file_path + "lastfm-secret.txt", "r") as api_secret:
+    with open(file_path + "lastfm-" + user + "-secret.txt", "r") as api_secret:
         api_secret = api_secret.read()
 
-    urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=sbohannon&api_key=" + api_key + "&format=json"
+    if user == "sky":
+        username = "sbohannon"
+    elif user == "brett":
+        username = "auchief"
+    elif user == "brandon":
+        username = "superprime"
+
+    urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" + username + "&api_key=" + api_key + "&format=json"
 
     webURL = urllib.request.urlopen(urlData)
     data = webURL.read()
