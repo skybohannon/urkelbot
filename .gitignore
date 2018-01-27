@@ -147,3 +147,5 @@ rising\.py
 premkey.txt
 binance-secret.txt
 binance-api.txt
+*-api.txt
+*-secret.txt

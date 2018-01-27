@@ -7,5 +7,5 @@ d["Hackers"] = hackers_quotes
 d["Major League"] = ml_quotes
 which_list = random.choice(list(d))
 quote = random.choice(d[which_list])
-quote_output = "<b>" + which_list + " Quote!!</b>\n\n" + quote
+quote_output = "<b>" + which_list + " Quote!!!</b>\n\n" + quote
 print(quote_output)

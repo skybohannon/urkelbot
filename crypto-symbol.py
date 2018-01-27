@@ -16,14 +16,16 @@ def symbol(sym):
             coin_name = coin["name"]
             usd_price = float(coin["price_usd"])
             btc_price = float(coin["price_btc"])
+            change_7d = float(coin["percent_change_7d"])
             change_24h = float(coin["percent_change_24h"])
             change_1h = float(coin["percent_change_1h"])
 
             symbol_output = "<b>" + coin_name + " (" + sym + ")</b>\n\n<b>USD</b>: ${:,.3f}\n" \
                             "<b>BTC</b>: {:.7f}\n" \
+                            "<b>7D Change</b>: {:+.2f}%\n" \
                             "<b>24H Change</b>: {:+.2f}%\n" \
                             "<b>1H Change</b>: {:+.2f}%" \
-                            .format(usd_price, btc_price, change_24h, change_1h)
+                            .format(usd_price, btc_price, change_7d, change_24h, change_1h)
             break
         else:
             symbol_output = "There was no match for <b>\"{}\"</b>".format(sym)

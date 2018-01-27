@@ -39,6 +39,7 @@ def _initialize(bot):
     plugins.register_user_command(["scores"])
     plugins.register_user_command(["fortune"])
     plugins.register_user_command(["binance"])
+    plugins.register_user_command(["nowplaying"])
 
 
 def uptime(bot, event):
@@ -280,14 +281,16 @@ def symbol(bot, event, sym):
             coin_name = coin["name"]
             usd_price = float(coin["price_usd"])
             btc_price = float(coin["price_btc"])
+            change_7d = float(coin["percent_change_7d"])
             change_24h = float(coin["percent_change_24h"])
             change_1h = float(coin["percent_change_1h"])
 
             symbol_output = "<b>" + coin_name + " (" + sym + ")</b>\n\n<b>USD</b>: ${:,.3f}\n" \
-                                                             "<b>BTC</b>: {:.7f}\n" \
-                                                             "<b>24H Change</b>: {:+.2f}%\n" \
-                                                             "<b>1H Change</b>: {:+.2f}%" \
-                .format(usd_price, btc_price, change_24h, change_1h)
+                            "<b>BTC</b>: {:.7f}\n" \
+                            "<b>7D Change</b>: {:+.2f}%\n" \
+                            "<b>24H Change</b>: {:+.2f}%\n" \
+                            "<b>1H Change</b>: {:+.2f}%" \
+                            .format(usd_price, btc_price, change_7d, change_24h, change_1h)
             break
         else:
             symbol_output = "There was no match for <b>\"{}\"</b>".format(sym)
@@ -435,3 +438,30 @@ def fortune(bot, event):
     print(fortune)
     yield from bot.coro_send_message(event.conv_id, fortune)
 
+
+def nowplaying(bot, event):
+    with open(file_path + "lastfm-api.txt", "r") as api_key:
+        api_key = api_key.read()
+
+    with open(file_path + "lastfm-secret.txt", "r") as api_secret:
+        api_secret = api_secret.read()
+
+    urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=sbohannon&api_key=" + api_key + "&format=json"
+
+    webURL = urllib.request.urlopen(urlData)
+    data = webURL.read()
+    encoding = webURL.info().get_content_charset('utf-8')
+    recent_tracks = json.loads(data.decode(encoding))
+
+    tracks_dict = {}
+    counter = 1
+    for track in recent_tracks:
+        tracks_dict[counter] = {
+            "artist": recent_tracks["recenttracks"]["track"][0]["artist"]["#text"],
+            "title": recent_tracks["recenttracks"]["track"][0]["name"]
+        }
+        counter += 1
+
+    now_playing = "<b>Now playing</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
+    print(now_playing)
+    yield from bot.coro_send_message(event.conv_id, now_playing)

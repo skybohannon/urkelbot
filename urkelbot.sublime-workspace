@@ -299,25 +299,20 @@
 			"file": "crypto.py",
 			"settings":
 			{
-				"buffer_size": 1507,
+				"buffer_size": 2767,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": " \"\"\"\nurkelbot v1.5\n           _________._____ /\\__.____.\n           \\    ___/     //   /_   / \\_\n         __ \\\\__   /   _/ \\____/__,   /\n   _____/__________\\___\\____ / /_    /\n   \\     _/__._______\\   ___/_.__\\  /_._______._______._______.________\n   /    _    \\  __   //       \\___\\/   \\_   _  \\_   _  \\_  __  \\_   _  \\_\n  /    _/    /  \\   _/    /  _/   _/    /   /   /   /   /  \\    /   /   /\n  \\____\\____/\\\\_____\\____/___\\  ______//___/___/___/___/\\\\_____/___/___/\n                              \\/\n\"\"\"\nfrom __future__ import print_function\nfrom datetime import datetime\nfrom bs4 import BeautifulSoup\nimport plugins\nimport random\nimport re\nimport subprocess\nimport urllib.parse\nimport urllib.request\nimport json\nimport os\nimport pytz\nfile_path = \"/home/sky/hangoutsbot/hangupsbot/plugins/\"\n\ndef _initialize(bot):\n    plugins.register_user_command([\"uptime\"])\n    plugins.register_user_command([\"rising\"])\n    plugins.register_user_command([\"standings\"])\n    plugins.register_user_command([\"dogfacts\"])\n    plugins.register_user_command([\"catfacts\"])\n    plugins.register_user_command([\"hackers\"])\n    plugins.register_user_command([\"majorleague\"])\n    plugins.register_user_command([\"quote\"])\n    plugins.register_user_command([\"crypto\"])\n    plugins.register_user_command([\"symbol\"])\n    plugins.register_user_command([\"table\"])\n    plugins.register_user_command([\"scores\"])\n    plugins.register_user_command([\"fortune\"])\n    plugins.register_user_command([\"binance\"])\n\n\ndef uptime(bot, event):\n    proc1 = subprocess.check_output(['uptime']).decode('utf-8').strip(\"\\n\")\n    time = re.search(r'up (.* days)?', proc1)\n    proc2 = subprocess.check_output(['uptime', '-p']).decode('utf-8').strip(\"\\n\")\n    time_pretty = re.search(r'up (.*)?', proc2)\n    if time.group(1) is not None:\n        time_strings = [time_pretty.group(1), \"(\" + time.group(1) + \")\"]\n        time_stuff = \" \".join(time_strings)\n    else:\n        time_strings = [time_pretty.group(1)]\n        time_stuff = \" \".join(time_strings)\n    yield from bot.coro_send_message(event.conv_id, time_stuff)\n\n\ndef dogfacts (bot, event):\n    lines = open(file_path + \"dogfacts.txt\",\"r\").read().splitlines()\n    dogFact=random.choice(lines)\n    print(dogFact)\n    dogFactAll = \"<b>DOG FACTS!!!</b>\\n\\n\" + dogFact\n    \n    yield from bot.coro_send_message(event.conv_id, dogFactAll)\n\n\ndef catfacts(bot, event):\n    catFact = \"<b>CAT FACTS!!!</b>\\n\\n\" + \"Cats are stupid\"\n    yield from bot.coro_send_message(event.conv_id, catFact)\n\n\ndef hackers (bot, event):\n    lines = open(file_path + \"hackers.txt\",\"r\").read().splitlines()\n    hackersQuote=random.choice(lines)\n    print(hackersQuote)\n    \n    yield from bot.coro_send_message(event.conv_id, hackersQuote)\n\n\ndef majorleague(bot, event):\n    lines = open(file_path + \"majorleague.txt\", \"r\").read().splitlines()\n    mlQuote = random.choice(lines)\n    print(mlQuote)\n\n    yield from bot.coro_send_message(event.conv_id, mlQuote)\n\n\ndef quote(bot,event):\n    hackers_quotes = open(file_path + 'hackers.txt', 'r').read().splitlines()\n    ml_quotes = open(file_path + 'majorleague.txt', 'r').read().splitlines()\n    d = {}\n    d[\"Hackers\"] = hackers_quotes\n    d[\"Major League\"] = ml_quotes\n    which_list = random.choice(list(d))\n    quote = random.choice(d[which_list])\n    quote_output = \"<b>\" + which_list + \" Quote!!!</b>\\n\\n\" + quote\n    print(quote_output)\n    yield from bot.coro_send_message(event.conv_id, quote_output)\n\n\ndef rising(bot, event):\n    url = 'http://www.fplstatistics.co.uk/Home/IndexWG'\n    header = {'User-Agent': 'Mozilla/5.0'}\n\n    r = urllib.request.Request(url=url, headers=header)\n    page = urllib.request.urlopen(r)\n    soup = BeautifulSoup(page.read(), \"lxml\")\n    string = 'tbody tr:nth-of-type(1) td:nth-of-type(1), tbody tr:nth-of-type(1) td:nth-of-type(2), \\\n    tbody tr:nth-of-type(1) td:nth-of-type(6), tbody tr:nth-of-type(2) td:nth-of-type(1), tbody tr:nth-of-type(2) \\\n    td:nth-of-type(2), tbody tr:nth-of-type(2) td:nth-of-type(6), tbody tr:nth-of-type(3) td:nth-of-type(1), \\\n    tbody tr:nth-of-type(3) td:nth-of-type(2), tbody tr:nth-of-type(3) td:nth-of-type(6), tbody tr:nth-of-type(4) \\\n    td:nth-of-type(1), tbody tr:nth-of-type(4) td:nth-of-type(2), tbody tr:nth-of-type(4) td:nth-of-type(6)'\n    data = soup.select(string)\n    player1Name = data[0].text.strip()\n    player1Team = data[1].text.strip()\n    player1Price = data[2].text.strip()\n    player2Name = data[3].text.strip()\n    player2Team = data[4].text.strip()\n    player2Price = data[5].text.strip()\n    player3Name = data[6].text.strip()\n    player3Team = data[7].text.strip()\n    player3Price = data[8].text.strip()\n\n    lineup = {\n        1: {\"playerName\": player1Name,\n            \"playerTeam\": player1Team,\n            \"playerPrice\": player1Price},\n        2: {\"playerName\": player2Name,\n            \"playerTeam\": player2Team,\n            \"playerPrice\": player2Price},\n        3: {\"playerName\": player3Name,\n            \"playerTeam\": player3Team,\n            \"playerPrice\": player3Price},\n    }\n\n    player1 = '<b>' + lineup[1][\"playerName\"] + '</b> ' + lineup[1][\"playerTeam\"] + ' <i>' + lineup[1][\n        \"playerPrice\"] + '</i><br />'\n    player2 = '<b>' + lineup[2][\"playerName\"] + '</b> ' + lineup[2][\"playerTeam\"] + ' <i>' + lineup[2][\n        \"playerPrice\"] + '</i><br />'\n    player3 = '<b>' + lineup[3][\"playerName\"] + '</b> ' + lineup[3][\"playerTeam\"] + ' <i>' + lineup[3][\n        \"playerPrice\"] + '</i>'\n\n    risingOutput = '<b>FPL Soon To Rise</b><br /><br />' + ''.join(player1) + ''.join(player2) + ''.join(player3)\n    yield from bot.coro_send_message(event.conv_id, risingOutput)\n\n\ndef standings(bot, event):\n    url = 'https://fplmystats.com/league/116940/'\n    page = urllib.request.urlopen(url)\n    soup = BeautifulSoup(page.read(), \"html.parser\")\n\n    string = 'tbody tr:nth-of-type(1) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(2) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(3) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(4) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(5) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(6) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(7) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(8) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(9) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(10) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(11) td:nth-of-type(2), \\\n            tbody tr:nth-of-type(12) td:nth-of-type(2)'\n\n    data = soup.select(string)\n    print(data)\n\n    team1Owner = data[0].text.strip()\n    team2Owner = data[1].text.strip()\n    team3Owner = data[2].text.strip()\n    team4Owner = data[3].text.strip()\n    team5Owner = data[4].text.strip()\n    team6Owner = data[5].text.strip()\n    team7Owner = data[6].text.strip()\n    team8Owner = data[7].text.strip()\n    team9Owner = data[8].text.strip()\n    team10Owner = data[9].text.strip()\n    team11Owner = data[10].text.strip()\n    team12Owner = data[11].text.strip()\n\n    top = {\n        1: {\"teamName\": team1Owner},\n        2: {\"teamName\": team2Owner},\n        3: {\"teamName\": team3Owner},\n        4: {\"teamName\": team4Owner},\n        5: {\"teamName\": team5Owner},\n        6: {\"teamName\": team6Owner},\n        7: {\"teamName\": team7Owner},\n        8: {\"teamName\": team8Owner},\n        9: {\"teamName\": team9Owner},\n        10: {\"teamName\": team10Owner},\n        11: {\"teamName\": team11Owner},\n        12: {\"teamName\": team12Owner}\n    }\n\n    loc = 1\n    while loc <= 12:\n        globals()['team%s' % loc] = str(loc) + '. <b>' + top[loc][\"teamName\"] + '</b>'\n        loc += 1\n\n    topOutput = '<b>FPL Standings</b><br /><br />' + ''.join(team1) + '<br/>' + ''.join(team2) + '<br/>' + ''.join(\n        team3) + '<br/>' + ''.join(team4) + '<br/>' + ''.join(team5) + '<br/>' + ''.join(team6) + '<br/>' + ''.join(\n        team7) + '<br/>' + ''.join(team8) + '<br/>' + ''.join(team9) + '<br/>' + ''.join(team10) + '<br/>' + ''.join(\n        team11) + '<br/>' + ''.join(team12)\n    print(topOutput)\n    yield from bot.coro_send_message(event.conv_id, topOutput)\n\n\ndef crypto(bot, event):\n    urlData = \"https://api.coinmarketcap.com/v1/ticker/?convert=USD&limit=0\"\n    webURL = urllib.request.urlopen(urlData)\n    data = webURL.read()\n    encoding = webURL.info().get_content_charset('utf-8')\n    crypto_list = json.loads(data.decode(encoding))\n\n    for coin in crypto_list:\n        if coin[\"id\"] == \"bitcoin\":\n            btc_price = float(coin[\"price_usd\"])\n            btc_change = float(coin[\"percent_change_24h\"])\n        elif coin[\"id\"] == \"bitcoin-cash\":\n            bch_price = float(coin[\"price_usd\"])\n            bch_change = float(coin[\"percent_change_24h\"])\n        elif coin[\"id\"] == \"ethereum\":\n            eth_price = float(coin[\"price_usd\"])\n            eth_change = float(coin[\"percent_change_24h\"])\n        elif coin[\"id\"] == \"icon\":\n            icx_price = float(coin[\"price_usd\"])\n            icx_change = float(coin[\"percent_change_24h\"])\n        elif coin[\"id\"] == \"litecoin\":\n            ltc_price = float(coin[\"price_usd\"])\n            ltc_change = float(coin[\"percent_change_24h\"])\n        elif coin[\"id\"] == \"stellar\":\n            xlm_price = float(coin[\"price_usd\"])\n            xlm_change = float(coin[\"percent_change_24h\"])\n        elif coin[\"id\"] == \"raiblocks\":\n            xrb_price = float(coin[\"price_usd\"])\n            xrb_change = float(coin[\"percent_change_24h\"])\n        elif coin[\"id\"] == \"request-network\":\n            req_price = float(coin[\"price_usd\"])\n            req_change = float(coin[\"percent_change_24h\"])\n        elif coin[\"id\"] == \"ripple\":\n            xrp_price = float(coin[\"price_usd\"])\n            xrp_change = float(coin[\"percent_change_24h\"])\n        elif coin[\"id\"] == \"vechain\":\n            ven_price = float(coin[\"price_usd\"])\n            ven_change = float(coin[\"percent_change_24h\"])\n        elif coin[\"id\"] == \"binance-coin\":\n            bnb_price = float(coin[\"price_usd\"])\n            bnb_change = float(coin[\"percent_change_24h\"])\n\n    crypto_output = \"<b>BTC</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\\n\" \\\n                    \"<b>BCH</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\\n\" \\\n                    \"<b>ETH</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\\n\" \\\n                    \"<b>LTC</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\\n\" \\\n                    \"<b>BNB</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\\n\" \\\n                    \"<b>ICX</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\\n\" \\\n                    \"<b>REQ</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\\n\" \\\n                    \"<b>VEN</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\\n\" \\\n                    \"<b>XLM</b>: ${:,.3f}  (<i>{:+.2f}%</i>)\\n\" \\\n                    \"<b>XRB</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\\n\" \\\n                    \"<b>XRP</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\" \\\n        .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnb_price, bnb_change, icx_price, icx_change, req_price, req_change, ven_price, ven_change, xlm_price, xlm_change, xrb_price, xrb_change, xrp_price, xrp_change)\n\n    yield from bot.coro_send_message(event.conv_id, crypto_output)\n\n\ndef symbol(bot, event, sym):\n\n    urlData = \"https://api.coinmarketcap.com/v1/ticker/?convert=USD&limit=0\"\n    webURL = urllib.request.urlopen(urlData)\n    data = webURL.read()\n    encoding = webURL.info().get_content_charset('utf-8')\n    crypto_list = json.loads(data.decode(encoding))\n\n    sym = sym.upper()\n\n    for coin in crypto_list:\n\n        if coin[\"symbol\"] == sym:\n            coin_name = coin[\"name\"]\n            usd_price = float(coin[\"price_usd\"])\n            btc_price = float(coin[\"price_btc\"])\n            change_24h = float(coin[\"percent_change_24h\"])\n            change_1h = float(coin[\"percent_change_1h\"])\n\n            symbol_output = \"<b>\" + coin_name + \" (\" + sym + \")</b>\\n\\n<b>USD</b>: ${:,.3f}\\n\" \\\n                                                             \"<b>BTC</b>: {:.7f}\\n\" \\\n                                                             \"<b>24H Change</b>: {:+.2f}%\\n\" \\\n                                                             \"<b>1H Change</b>: {:+.2f}%\" \\\n                .format(usd_price, btc_price, change_24h, change_1h)\n            break\n        else:\n            symbol_output = \"There was no match for <b>\\\"{}\\\"</b>\".format(sym)\n\n    yield from bot.coro_send_message(event.conv_id, symbol_output)\n\n\ndef table(bot, event):\n\n    with open(file_path + \"premkey.txt\", \"r\") as apikey:\n        key = apikey.read()\n\n    urlData = \"http://api.football-api.com/2.0/standings/1204?Authorization=\" + key\n\n    webURL = urllib.request.urlopen(urlData)\n    data = webURL.read()\n    encoding = webURL.info().get_content_charset('utf-8')\n    prem_table = json.loads(data.decode(encoding))\n\n    table_dict = {}\n    game_week = prem_table[0][\"round\"]\n\n    for team in prem_table:\n        team_posi = int(team[\"position\"])\n\n        table_dict[team_posi] = {\n            \"name\": team[\"team_name\"],\n            \"points\": team[\"points\"],\n            \"form\": team[\"recent_form\"],\n            \"gd\": team[\"gd\"],\n            \"gs\": team[\"overall_gs\"],\n            \"ga\": team[\"overall_ga\"],\n            \"position\": team[\"position\"]\n        }\n\n    print_string = \"\"\n    for i in range(len(table_dict)):\n        print_string = print_string + \"<b>\" + str(i + 1) + \"</b> - \" + table_dict[i + 1][\"name\"] + \" (\" + \\\n                       table_dict[i + 1][\"points\"] + \")\\n\"\n\n    print_string = \"<b>Premier League GW{}</b>\\n\\n\".format(game_week) + print_string[:-1]\n\n    yield from bot.coro_send_message(event.conv_id, print_string)\n\n\ndef scores(bot, event):\n\n    with open(file_path + \"premkey.txt\", \"r\") as apikey:\n        key = apikey.read()\n\n    # Convert time to normal time instead of military time, change time zone to Central\n    def time_convert(time):\n\n        mil_time = time\n        hours, minutes = mil_time.split(\":\")\n        hours, minutes = int(hours) - 6, int(minutes)\n        am_pm = \"AM\"\n\n        if hours > 12:\n            am_pm = \"PM\"\n            hours -= 12\n        return \"{}:{:02d}\".format(hours, minutes) + am_pm\n\n    # Check events for goals, then return goals\n    def get_events(l):\n        events = \"\"\n        event_list = []\n        for i in range(len(l)):\n            if l[i][\"type\"] == \"goal\":\n                player = l[i][\"player\"]\n                minute = l[i][\"minute\"]\n                single_event = player + \" \" + minute + \"'\"\n                event_list.append(single_event)\n                events = \", \".join(event_list)\n                i += 1\n        return events\n\n    tz = pytz.timezone('America/Chicago')\n    current_date = datetime.now(tz=tz).strftime(\"%d.%m.%Y\")\n\n    urlData = \"http://api.football-api.com/2.0/matches?comp_id=1204&match_date=\" + current_date + \"&Authorization=\" + key\n\n    webURL = urllib.request.urlopen(urlData)\n    data = webURL.read()\n    encoding = webURL.info().get_content_charset('utf-8')\n    matches = json.loads(data.decode(encoding))\n\n    matches_dict = {}\n    matches_date = matches[0][\"formatted_date\"]\n    matches_date = datetime.strptime(matches_date, '%d.%m.%Y').strftime('%m/%d/%Y')\n\n    def get_events(l):\n        events = \"\"\n        event_list = []\n        for i in range(len(l)):\n            if l[i][\"type\"] == \"goal\":\n                player = l[i][\"player\"]\n                minute = l[i][\"minute\"]\n                single_event = player + \" \" + minute + \"'\"\n                event_list.append(single_event)\n                events = \", \".join(event_list)\n                i += 1\n        return events\n\n    count = 1\n    for match in matches:\n        match_id = count\n        matches_dict[match_id] = {\n            \"home\": match[\"localteam_name\"],\n            \"visitor\": match[\"visitorteam_name\"],\n            \"home_score\": match[\"localteam_score\"],\n            \"visitor_score\": match[\"visitorteam_score\"],\n            \"status\": match[\"status\"],\n            \"events\": match[\"events\"]\n        }\n\n        try:\n            matches_dict[match_id][\"status\"] = str(int(matches_dict[match_id][\"status\"])) + \"'\"\n        except ValueError:\n            matches_dict[match_id][\"status\"] = matches_dict[match_id][\"status\"]\n\n        if len(matches_dict[match_id][\"status\"]) == 5:\n            matches_dict[match_id][\"status\"] = time_convert(matches_dict[match_id][\"status\"])\n\n        count += 1\n\n    print_string = \"\"\n    for i in range(len(matches_dict)):\n        print_string = print_string + matches_dict[i + 1][\"home\"] + \" <b>\" + matches_dict[i + 1][\"home_score\"] + \" - \" + \\\n                       matches_dict[i + 1][\"visitor_score\"] + \"</b> \" + matches_dict[i + 1][\"visitor\"] + \" \" + \\\n                       matches_dict[i + 1][\"status\"] + \"\\n\"\n        if len(get_events(matches_dict[i + 1][\"events\"])) > 0:\n            print_string = print_string + \"<i>(\" + get_events(matches_dict[i + 1][\"events\"]) + \")</i>\\n\\n\"\n        else:\n            print_string = print_string + \"\\n\"\n\n    print_string = \"<b>Match scores for \" + matches_date + \"</b>\\n\\n\" + print_string[:-1]\n    print(print_string)\n\n    yield from bot.coro_send_message(event.conv_id, print_string)\n\n\ndef fortune(bot, event):\n    fortune = subprocess.getoutput(\"/usr/games/fortune fortunes\")\n    print(fortune)\n    yield from bot.coro_send_message(event.conv_id, fortune)\n\n",
 			"file": "urkel.py",
+			"file_size": 17629,
+			"file_write_time": 131603688921793913,
 			"settings":
 			{
-				"buffer_size": 12837,
+				"buffer_size": 17193,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "\nxrb_3f9855qnf141ua8ukfmj9a8a5ue8d1wy36zayrnz8nf1b9ss5wognoeybia1\nxrb_3wy5a5wycitamjbqdakb1ieac8goi45p9ftwt1yt5bw678r5mahymcj4d5x7\n\nxrb_1mw68bekr1xbe9up57fom8fuudniwsu3dnx3kfagmgja7g6pgnwesapkg7sr",
-			"settings":
-			{
-				"buffer_size": 196,
 				"line_ending": "Windows"
 			}
 		}
@@ -395,6 +390,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/sky_2/Google Drive/turtle.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/scp01133/uploads/sheek wants.txt",
 		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa273308.14840/SuperMarioUnlimitedManual.txt",
 		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa280268.1206/readme.txt",
 		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa280268.29198/readme.txt",
@@ -520,9 +517,7 @@
 		"/E/roms/GBC/misc/cw-gba05.txt",
 		"/E/roms/GBC/misc/cw-gba03.txt",
 		"/E/roms/GBC/misc/f.txt",
-		"/E/roms/GBC/roms/batch.bat",
-		"/E/roms/GBC/misc/gba-ch01.txt",
-		"/G/ASCII/sixteencolors-archive/2016/break_10/h7-alpha-ascii.txt"
+		"/E/roms/GBC/roms/batch.bat"
 	],
 	"find":
 	{
@@ -813,7 +808,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -843,7 +838,7 @@
 						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -852,7 +847,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1507,
+						"buffer_size": 2767,
 						"regions":
 						{
 						},
@@ -872,7 +867,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -881,15 +876,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12837,
+						"buffer_size": 17193,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1,
+								1
 							]
 						],
 						"settings":
@@ -921,34 +916,6 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 196,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								196,
-								132
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
