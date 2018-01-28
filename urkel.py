@@ -39,7 +39,7 @@ def _initialize(bot):
     plugins.register_user_command(["scores"])
     plugins.register_user_command(["fortune"])
     plugins.register_user_command(["binance"])
-    plugins.register_user_command(["nowplaying"])
+    plugins.register_user_command(["np"])
 
 
 def uptime(bot, event):
@@ -236,9 +236,9 @@ def crypto(bot, event):
         elif coin["id"] == "raiblocks":
             xrb_price = float(coin["price_usd"])
             xrb_change = float(coin["percent_change_24h"])
-        elif coin["id"] == "request-network":
-            req_price = float(coin["price_usd"])
-            req_change = float(coin["percent_change_24h"])
+        elif coin["id"] == "kucoin-shares":
+            kcs_price = float(coin["price_usd"])
+            kcs_change = float(coin["percent_change_24h"])
         elif coin["id"] == "ripple":
             xrp_price = float(coin["price_usd"])
             xrp_change = float(coin["percent_change_24h"])
@@ -255,12 +255,12 @@ def crypto(bot, event):
                     "<b>LTC</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                     "<b>BNB</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                     "<b>ICX</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
-                    "<b>REQ</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>KCS</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                     "<b>VEN</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                     "<b>XLM</b>: ${:,.3f}  (<i>{:+.2f}%</i>)\n" \
                     "<b>XRB</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                     "<b>XRP</b>: ${:,.2f}  (<i>{:+.2f}%</i>)" \
-        .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnb_price, bnb_change, icx_price, icx_change, req_price, req_change, ven_price, ven_change, xlm_price, xlm_change, xrb_price, xrb_change, xrp_price, xrp_change)
+        .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnb_price, bnb_change, icx_price, icx_change, kcs_price, kcs_change, ven_price, ven_change, xlm_price, xlm_change, xrb_price, xrb_change, xrp_price, xrp_change)
 
     yield from bot.coro_send_message(event.conv_id, crypto_output)
 
@@ -439,37 +439,47 @@ def fortune(bot, event):
     yield from bot.coro_send_message(event.conv_id, fortune)
 
 
-def nowplaying(bot, event, user):
+def np(bot, event, user):
     user = user.lower()
-    with open(file_path + "lastfm-" + user + "-api.txt", "r") as api_key:
-        api_key = api_key.read()
-
-    with open(file_path + "lastfm-" + user + "-secret.txt", "r") as api_secret:
-        api_secret = api_secret.read()
 
     if user == "sky":
         username = "sbohannon"
     elif user == "brett":
-        username = "auchief"
+        username = "southcore"
+        user = "brett"
     elif user == "brandon":
         username = "superprime"
 
-    urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" + username + "&api_key=" + api_key + "&format=json"
+    try:
+        with open(file_path + "lastfm-" + user + "-api.txt", "r") as api_key:
+            api_key = api_key.read()
 
-    webURL = urllib.request.urlopen(urlData)
-    data = webURL.read()
-    encoding = webURL.info().get_content_charset('utf-8')
-    recent_tracks = json.loads(data.decode(encoding))
+        urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" + username + "&api_key=" + api_key + "&format=json"
 
-    tracks_dict = {}
-    counter = 1
-    for track in recent_tracks:
-        tracks_dict[counter] = {
-            "artist": recent_tracks["recenttracks"]["track"][0]["artist"]["#text"],
-            "title": recent_tracks["recenttracks"]["track"][0]["name"]
-        }
-        counter += 1
+        webURL = urllib.request.urlopen(urlData)
+        data = webURL.read()
+        encoding = webURL.info().get_content_charset('utf-8')
+        recent_tracks = json.loads(data.decode(encoding))
 
-    now_playing = "<b>Now playing</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
-    print(now_playing)
+        tracks_dict = {}
+        counter = 1
+        for track in recent_tracks:
+            tracks_dict[counter] = {
+                "artist": recent_tracks["recenttracks"]["track"][0]["artist"]["#text"],
+                "title": recent_tracks["recenttracks"]["track"][0]["name"],
+            }
+            try:
+                if recent_tracks["recenttracks"]["track"][0]["@attr"]["nowplaying"] == "true":
+                    tracks_dict[counter].update({"nowplaying": "true"})
+            except KeyError:
+                tracks_dict[counter].update({"nowplaying": "false"})
+
+        if tracks_dict[1]["nowplaying"] == "true":
+            now_playing = "<b>Now playing</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
+        else:
+            now_playing = "<b>Last played track</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
+
+    except FileNotFoundError:
+        now_playing = "Could not find user {}".format(user)
+
     yield from bot.coro_send_message(event.conv_id, now_playing)

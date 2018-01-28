@@ -2,20 +2,22 @@ import urllib.request
 import json
 
 
-def nowplaying(user):
+def np(user):
     user = user.lower()
-    with open("lastfm-" + user + "-api.txt", "r") as api_key:
-        api_key = api_key.read()
-
-    with open("lastfm-" + user + "-secret.txt", "r") as api_secret:
-        api_secret = api_secret.read()
 
     if user == "sky":
         username = "sbohannon"
     elif user == "brett":
-        username = "auchief"
+        username = "southcore"
+        user = "brett"
     elif user == "brandon":
         username = "superprime"
+
+    try:
+        with open("lastfm-" + user + "-api.txt", "r") as api_key:
+            api_key = api_key.read()
+    except FileNotFoundError:
+        return "Could not find user {}".format(user)
 
     urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" + username + "&api_key=" + api_key +"&format=json"
 
@@ -29,11 +31,19 @@ def nowplaying(user):
     for track in recent_tracks:
         tracks_dict[counter] = {
             "artist": recent_tracks["recenttracks"]["track"][0]["artist"]["#text"],
-            "title": recent_tracks["recenttracks"]["track"][0]["name"]
+            "title": recent_tracks["recenttracks"]["track"][0]["name"],
         }
-        counter += 1
+        try:
+            if recent_tracks["recenttracks"]["track"][0]["@attr"]["nowplaying"] == "true":
+                tracks_dict[counter].update({"nowplaying": "true"})
+        except KeyError:
+            tracks_dict[counter].update({"nowplaying": "false"})
 
-    nowplaying = "<b>Now playing</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
-    return nowplaying
+    if tracks_dict[1]["nowplaying"] == "true":
+        now_playing = "<b>Now playing</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
+    else:
+        now_playing = "<b>Last played track</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
 
-print(nowplaying("sky"))
+    return now_playing
+
+print(np("assfuck"))
