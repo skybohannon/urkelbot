@@ -46,4 +46,5 @@ def np(user):
 
     return now_playing
 
-print(np("assfuck"))
+print(np("sky"))
+print(np("invalid_user"))
