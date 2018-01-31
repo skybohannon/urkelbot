@@ -40,6 +40,7 @@ def _initialize(bot):
     plugins.register_user_command(["fortune"])
     plugins.register_user_command(["binance"])
     plugins.register_user_command(["np"])
+    plugins.register_user_command(["top10"])
 
 
 def uptime(bot, event):
@@ -475,11 +476,56 @@ def np(bot, event, user):
                 tracks_dict[counter].update({"nowplaying": "false"})
 
         if tracks_dict[1]["nowplaying"] == "true":
-            now_playing = "<b>Now playing</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
+            now_playing = "<b>{}'s Now Playing</b>:\n".format(user.capitalize()) + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
         else:
-            now_playing = "<b>Last played track</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
+            now_playing = "<b>{}'s Last Played Track</b>:\n".format(user.capitalize()) + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
 
     except FileNotFoundError:
         now_playing = "Could not find user {}".format(user)
 
     yield from bot.coro_send_message(event.conv_id, now_playing)
+
+
+def top10(bot, event, user):
+    user = user.lower()
+
+    if user == "sky":
+        username = "sbohannon"
+    elif user == "brett":
+        username = "southcore"
+        user = "brett"
+    elif user == "brandon":
+        username = "superprime"
+
+    try:
+        with open(file_path + "lastfm-" + user + "-api.txt", "r") as api_key:
+            api_key = api_key.read()
+    except FileNotFoundError:
+        return "Could not find user {}".format(user)
+
+    urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getweeklyartistchart&user=" + username + "&api_key=" + api_key + "&format=json"
+
+    webURL = urllib.request.urlopen(urlData)
+    data = webURL.read()
+    encoding = webURL.info().get_content_charset('utf-8')
+    weekly_chart = json.loads(data.decode(encoding))
+    weekly_chart.update(weekly_chart["weeklyartistchart"])
+
+    top_artists = {}
+    counter = 0
+    for item in weekly_chart["artist"]:
+        top_artists[counter] = {
+            "artist": item["name"],
+            "playcount": item["playcount"],
+            "rank": item["@attr"]["rank"]
+        }
+        counter += 1
+
+    top_10 = "<b>{}'s Top 10 Artists of the Week</b>:\n\n".format(user.capitalize())
+    for i in range(0,10):
+        top_10 = top_10 + "<b>" + str(i+1) + "</b>. " + top_artists[i]["artist"] + " (<i>" + top_artists[i]["playcount"] + "</i>)\n"
+
+    top_10 = top_10[:-1]
+
+    print(top_10)
+    yield from bot.coro_send_message(event.conv_id, top_10)

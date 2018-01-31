@@ -40,9 +40,9 @@ def np(user):
             tracks_dict[counter].update({"nowplaying": "false"})
 
     if tracks_dict[1]["nowplaying"] == "true":
-        now_playing = "<b>Now playing</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
+        now_playing = "<b>{}'s Now Playing</b>:\n".format(user.capitalize()) + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
     else:
-        now_playing = "<b>Last played track</b>:\n" + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
+        now_playing = "<b>{}'s Last Played Track</b>:\n".format(user.capitalize()) + tracks_dict[1]["artist"] + " - " + tracks_dict[1]["title"]
 
     return now_playing
 
