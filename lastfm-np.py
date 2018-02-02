@@ -48,10 +48,8 @@ def np(user):
                 user.capitalize()) + track_artist + " - " + track_title
 
         try:
-            image = track_art
-            imagelink = track_art
-            filename = os.path.basename(imagelink)
-            r = yield from aiohttp.request('get', imagelink)
+            filename = os.path.basename(track_art)
+            r = yield from aiohttp.request('get', track_art)
             raw = yield from r.read()
             image_data = io.BytesIO(raw)
             image_id = yield from bot._client.upload_image(image_data, filename=filename)
