@@ -7,7 +7,6 @@ def np(user):
         username = "sbohannon"
     elif user == "brett":
         username = "southcore"
-        user = "brett"
     elif user == "brandon":
         username = "superprime"
 
