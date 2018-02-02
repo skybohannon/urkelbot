@@ -1,9 +1,4 @@
-import urllib.request
-import json
-import os
-import aiohttp
-import io
-import re
+import urllib.request, json, os, aiohttp, io
 
 def np(user):
     user = user.lower()
