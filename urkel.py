@@ -23,7 +23,6 @@ import json
 import os
 import pytz
 import aiohttp
-import asyncio
 import io
 
 file_path = "/home/sky/hangoutsbot/hangupsbot/plugins/"

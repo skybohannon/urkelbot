@@ -3,7 +3,6 @@ import json
 import os
 import aiohttp
 import io
-import asyncio
 import re
 
 def np(user):
