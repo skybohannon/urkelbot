@@ -2,7 +2,7 @@ import urllib.request
 import json
 
 
-def top10(user):
+def alltime(user):
     user = user.lower()
 
     with open("lastfm.json", "r") as f:
@@ -13,13 +13,13 @@ def top10(user):
             username = usernames[user]["username"]
             api_key = usernames[user]["key"]
 
-        urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getweeklyartistchart&user=" + username + "&api_key=" + api_key + "&format=json"
+        urlData = "https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=" + username + "&api_key=" + api_key + "&period=overall&format=json"
 
         webURL = urllib.request.urlopen(urlData)
         data = webURL.read()
         encoding = webURL.info().get_content_charset('utf-8')
         weekly_chart = json.loads(data.decode(encoding))
-        weekly_chart.update(weekly_chart["weeklyartistchart"])
+        weekly_chart.update(weekly_chart["topartists"])
 
         top_artists = {}
         counter = 0
@@ -31,7 +31,7 @@ def top10(user):
             }
             counter += 1
 
-        top_10 = "<b>{}'s Top 10 Artists of the Week</b>:\n\n".format(user.capitalize())
+        top_10 = "<b>{}'s Top 10 Artists of All Time</b>:\n\n".format(user.capitalize())
         for i in range(0,10):
             top_10 = top_10 + "<b>" + str(i+1) + "</b>. " + top_artists[i]["artist"] + " (<i>" + top_artists[i]["playcount"] + "</i>)\n"
 
@@ -41,5 +41,5 @@ def top10(user):
     except UnboundLocalError:
         return("Could not find user {}".format(user))
 
-print(top10("brandon"))
-print(top10("invalid_user"))
+print(alltime("sky"))
+print(alltime("invalid_user"))

@@ -1,18 +1,16 @@
 import urllib.request, json, os, aiohttp, io
 
+
 def np(user):
     user = user.lower()
 
-    if user == "sky":
-        username = "sbohannon"
-    elif user == "brett":
-        username = "southcore"
-    elif user == "brandon":
-        username = "superprime"
+    with open("lastfm.json", "r") as f:
+        usernames = json.load(f)
 
     try:
-        with open("lastfm-" + user + "-api.txt", "r") as api_key:
-            api_key = api_key.read()
+        if user in usernames:
+            username = usernames[user]["username"]
+            api_key = usernames[user]["key"]
 
         urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" + username + "&api_key=" + api_key + "&format=json"
 
@@ -40,20 +38,20 @@ def np(user):
             now_playing = "<b>{}'s Last Played Track</b>:\n".format(
                 user.capitalize()) + track_artist + " - " + track_title
 
-        try:
-            filename = os.path.basename(track_art)
-            r = yield from aiohttp.request('get', track_art)
-            raw = yield from r.read()
-            image_data = io.BytesIO(raw)
-            image_id = yield from bot._client.upload_image(image_data, filename=filename)
-            yield from bot.coro_send_message(event.conv.id_, None, image_id=image_id)
-        except ValueError:
-            pass
+        # try:
+        #     filename = os.path.basename(track_art)
+        #     r = yield from aiohttp.request('get', track_art)
+        #     raw = yield from r.read()
+        #     image_data = io.BytesIO(raw)
+        #     image_id = yield from bot._client.upload_image(image_data, filename=filename)
+        #     yield from bot.coro_send_message(event.conv.id_, None, image_id=image_id)
+        # except ValueError:
+        #     pass
 
-    except FileNotFoundError:
-        return "Could not find user {}".format(user)
+        return now_playing
 
-    return now_playing
+    except UnboundLocalError:
+        return("Could not find user {}".format(user))
 
 print(np("sky"))
 print(np("invalid_user"))
