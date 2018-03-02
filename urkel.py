@@ -238,18 +238,12 @@ def crypto(bot, event):
         elif coin["id"] == "stellar":
             xlm_price = float(coin["price_usd"])
             xlm_change = float(coin["percent_change_24h"])
-        elif coin["id"] == "raiblocks":
-            xrb_price = float(coin["price_usd"])
-            xrb_change = float(coin["percent_change_24h"])
-        elif coin["id"] == "kucoin-shares":
-            kcs_price = float(coin["price_usd"])
-            kcs_change = float(coin["percent_change_24h"])
+        elif coin["id"] == "nano":
+            nano_price = float(coin["price_usd"])
+            nano_change = float(coin["percent_change_24h"])
         elif coin["id"] == "ripple":
             xrp_price = float(coin["price_usd"])
             xrp_change = float(coin["percent_change_24h"])
-        elif coin["id"] == "vechain":
-            ven_price = float(coin["price_usd"])
-            ven_change = float(coin["percent_change_24h"])
         elif coin["id"] == "binance-coin":
             bnb_price = float(coin["price_usd"])
             bnb_change = float(coin["percent_change_24h"])
@@ -260,12 +254,10 @@ def crypto(bot, event):
                     "<b>LTC</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                     "<b>BNB</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                     "<b>ICX</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
-                    "<b>KCS</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
-                    "<b>VEN</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                    "<b>NANO</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                     "<b>XLM</b>: ${:,.3f}  (<i>{:+.2f}%</i>)\n" \
-                    "<b>XRB</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                     "<b>XRP</b>: ${:,.2f}  (<i>{:+.2f}%</i>)" \
-        .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnb_price, bnb_change, icx_price, icx_change, kcs_price, kcs_change, ven_price, ven_change, xlm_price, xlm_change, xrb_price, xrb_change, xrp_price, xrp_change)
+        .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnb_price, bnb_change, icx_price, icx_change, nano_price, nano_change, xlm_price, xlm_change, xrp_price, xrp_change)
 
     yield from bot.coro_send_message(event.conv_id, crypto_output)
 
@@ -527,11 +519,14 @@ def top10(bot, event, user):
             counter += 1
 
         top_10 = "<b>{}'s Top 10 Artists of the Week</b>:\n\n".format(user.capitalize())
-        for i in range(0, 10):
-            top_10 = top_10 + "<b>" + str(i + 1) + "</b>. " + top_artists[i]["artist"] + " (<i>" + top_artists[i][
+        try:
+            for i in range(0, 10):
+                top_10 = top_10 + "<b>" + str(i + 1) + "</b>. " + top_artists[i]["artist"] + " (<i>" + top_artists[i][
                 "playcount"] + "</i>)\n"
 
-        top_10 = top_10[:-1]
+            top_10 = top_10[:-1]
+        except KeyError:
+            top_10 = "{}, you have less than 10 artists. Listen to some more music already you bum!".format(user.capitalize())
 
     except UnboundLocalError:
         top_10 = "Could not find user {}".format(user)

@@ -299,7 +299,7 @@
 			"file": "crypto.py",
 			"settings":
 			{
-				"buffer_size": 2765,
+				"buffer_size": 2539,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -308,7 +308,7 @@
 			"file": "urkel.py",
 			"settings":
 			{
-				"buffer_size": 20879,
+				"buffer_size": 22033,
 				"line_ending": "Windows"
 			}
 		},
@@ -326,6 +326,97 @@
 			"settings":
 			{
 				"buffer_size": 69341,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/sky_2/Google Drive/The Dump Site/Lizard/lizard.nes",
+			"settings":
+			{
+				"buffer_size": 1310760,
+				"encoding": "Hexadecimal",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/sky_2/Documents/Arduino/libraries/Adafruit_SSD1306-master/Adafruit_SSD1306.h",
+			"settings":
+			{
+				"buffer_size": 5769,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "ZZZ-UNK-SD SNATCHER JAPANESE FOR SCC+[DISK 1].DSK\nZZZ-UNK-SD SNATCHER JAPANESE FOR SCC+[DISK 2].DSK\nZZZ-UNK-SD SNATCHER JAPANESE FOR SCC+[DISK 3].DSK",
+			"file": "/G/games/Microsoft/SD Snatcher [T+En]/SD Snatcher (English).m3u",
+			"file_size": 151,
+			"file_write_time": 131637345592316613,
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Windows",
+				"name": "ZZZ-UNK-SD SNATCHER JAPANESE FOR SCC+[DISK 1].DSK"
+			}
+		},
+		{
+			"contents": "Happy Console Gamer\nhttps://www.youtube.com/channel/UC2vUKoTGIwNYq4LO0YWKPIg\n\nMy Life in Gaming\nhttps://www.youtube.com/channel/UCpvtp7mH0Cdq8FQUxcjDq0Q\n\nNakeyJakey\nhttps://www.youtube.com/channel/UCSdma21fnJzgmPodhC9SJ3g\n\nFamicom Dojo\nhttps://www.youtube.com/channel/UCHTsEtGgIv0_LRxP2Yontxw\n\nWWG\nhttps://www.youtube.com/channel/UCI7H1H_8lnxonZ1vIyfvAcg\n\nThis Does Not Compute\nhttps://www.youtube.com/channel/UCEp20NgOZHmgWdbQdHSxgjw\n\nThe Retro Future\nhttps://www.youtube.com/channel/UCefAbzsWZE4uXU-mqQMrr4Q/videos\n\nThe Game Chasers\nhttps://www.youtube.com/channel/UC78PzEVn5zWK4No0dPQHVQw\n\nThe Nostalgia Nerd\nhttps://www.youtube.com/user/nostalgianerdvideos/videos\n\nGame Dave\nhttps://www.youtube.com/channel/UCq5Ki7-K4WSYPNjbOdiZcww\n\nGame Sack\nhttps://www.youtube.com/channel/UCT6LaAC9VckZYJUzutUW3PQ\n\nThe Gaming Historian\nhttps://www.youtube.com/channel/UCnbvPS_rXp4PC21PG2k1UVg\n\nHard4Games\nhttps://www.youtube.com/channel/UCacYHKoNLHrVoN1L9uup86A\n\nIt's a Pixel Thing\nhttps://www.youtube.com/channel/UCBmhEEQ5dCAWfCuTNrSplMw\n\nRigg'd Games\nhttps://www.youtube.com/channel/UC8cZ9g1sopNc50D9NqVBbug\n\nKim Justice\nhttps://www.youtube.com/user/elmyrdehory/videos\n\nModern Vintage Gamer\nhttps://www.youtube.com/channel/UCjFaPUcJU1vwk193mnW_w1w",
+			"settings":
+			{
+				"buffer_size": 1239,
+				"line_ending": "Windows",
+				"name": "Happy Console Gamer"
+			}
+		},
+		{
+			"contents": "for %A in (*.sfc) do \"C:\\Program Files\\7-Zip\\7z.exe\" a -tzip \"%A.zip\" \"%A\"",
+			"file": "/H/1 US - A-C/zipem.bat",
+			"file_size": 77,
+			"file_write_time": 131642525220000000,
+			"settings":
+			{
+				"buffer_size": 74,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "for %%X in (*) do \"C:\\Program Files\\7-Zip\\7z.exe\""
+			}
+		},
+		{
+			"file": "/C/Users/sky_2/Desktop/gamelist.xml",
+			"settings":
+			{
+				"buffer_size": 668574,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "./Adventures of Rocky and Bullwinkle and Friends, The (USA).zip\n./AWS Pro Moves Soccer (USA).zip\n./Barkley Shut Up and Jam 2 (USA).zip\n./Battle Mania Daiginjou (Japan, Korea).zip\n./Berenstain Bears' Camping Adventure, The (USA).zip\n./Blockbuster World Video Game Championship II (USA).zip\n./Boxing Legends of the Ring (USA).zip\n./Brett Hull Hockey '95 (USA).zip\n./Cal Ripken Jr. Baseball (USA).zip\n./Castlevania - Bloodlines (USA).zip\n./Championship Bowling (USA).zip\n./Chavez II (USA).zip\n./Chi Chi's Pro Challenge Golf (USA).zip\n./Clay Fighter (USA).zip\n./College Football USA 96 (USA).zip",
+			"file": "/C/Users/sky_2/Desktop/wrong_games-genesis.txt",
+			"file_size": 2244,
+			"file_write_time": 131643359801520319,
+			"settings":
+			{
+				"buffer_size": 591,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "Actraiser 2"
+			}
+		},
+		{
+			"file": "/C/Users/sky_2/Desktop/wrong_games-snes.txt",
+			"settings":
+			{
+				"buffer_size": 2193,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/sky_2/Desktop/NOCLONES.dat",
+			"settings":
+			{
+				"buffer_size": 205487,
 				"line_ending": "Windows"
 			}
 		}
@@ -403,6 +494,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/sky_2/Desktop/gamelist.xml",
+		"/C/Users/sky_2/AppData/Local/Temp/scp29618/home/pi/RetroPie/roms/megadrive/_Megadrive_missing.txt",
+		"/C/Users/sky_2/Desktop/rondo/Patch/Dracula X ISO (Binchunker).cue",
+		"/C/Users/sky_2/Desktop/rondo/For users with BIN-CUE rips/instructions.txt",
+		"/C/Users/sky_2/Desktop/rondo/Patch/ISO-WAV Achive Here!.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/scp14054/uploads/sheek wants.txt",
+		"/C/Users/sky_2/Documents/Arduino/libraries/ACROBOTIC_SSD1306/ACROBOTIC_SSD1306.h",
 		"/C/Users/sky_2/AppData/Local/Temp/scp53968/sites/rekt.net/D4E68EE1547E3BABD8590BB8973630E8.txt",
 		"/C/Users/sky_2/Google Drive/turtle.txt",
 		"/C/Users/sky_2/AppData/Local/Temp/scp01133/uploads/sheek wants.txt",
@@ -523,14 +621,7 @@
 		"/D/projects/datahelicopter/dh-wp/index.php",
 		"/D/projects/datahelicopter/intro/scss/style.scss",
 		"/D/projects/datahelicopter/intro/CODEF-master/tutorials/81_music.html",
-		"/D/projects/datahelicopter/intro/footer.txt",
-		"/D/projects/datahelicopter/intro/index.php",
-		"/D/projects/datahelicopter/intro/header.txt",
-		"/E/roms/GBC/misc/cw-gba06.txt",
-		"/E/roms/GBC/misc/cw-gba01.txt",
-		"/E/roms/GBC/misc/cw-gba05.txt",
-		"/E/roms/GBC/misc/cw-gba03.txt",
-		"/E/roms/GBC/misc/f.txt"
+		"/D/projects/datahelicopter/intro/footer.txt"
 	],
 	"find":
 	{
@@ -548,6 +639,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".zip",
 			"lite",
 			"address",
 			"ping",
@@ -674,8 +766,7 @@
 			"Huntsville",
 			"Gadsden",
 			"Florence",
-			"Decatur",
-			"Cullman"
+			"Decatur"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -821,7 +912,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 13,
 			"sheets":
 			[
 				{
@@ -851,7 +942,7 @@
 						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -860,7 +951,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2765,
+						"buffer_size": 2539,
 						"regions":
 						{
 						},
@@ -880,7 +971,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -889,15 +980,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20879,
+						"buffer_size": 22033,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								0,
+								0
 							]
 						],
 						"settings":
@@ -934,7 +1025,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -962,7 +1053,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -987,6 +1078,266 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/sky_2/Google Drive/The Dump Site/Lizard/lizard.nes",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1310760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/sky_2/Documents/Arduino/libraries/Adafruit_SSD1306-master/Adafruit_SSD1306.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2310,
+								2310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/G/games/Microsoft/SD Snatcher [T+En]/SD Snatcher (English).m3u",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ZZZ-UNK-SD SNATCHER JAPANESE FOR SCC+[DISK 1].DSK",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1239
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Happy Console Gamer",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/H/1 US - A-C/zipem.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 74,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"auto_name": "for %%X in (*) do \"C:\\Program Files\\7-Zip\\7z.exe\"",
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/sky_2/Desktop/gamelist.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 668574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117919,
+								117923
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 29051.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/sky_2/Desktop/wrong_games-genesis.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								591,
+								591
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Actraiser 2",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Users/sky_2/Desktop/wrong_games-snes.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								838,
+								838
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/sky_2/Desktop/NOCLONES.dat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 205487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 35786.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
