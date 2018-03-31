@@ -57,4 +57,4 @@ def weekly(type, user):
     except UnboundLocalError:
         return("Could not find user {}".format(user))
 
-print(weekly("artists","sky"))
+print(weekly("tracks","sky"))

@@ -38,9 +38,10 @@ def top10(user):
 
             top_10 = top_10[:-1]
         except KeyError:
-            return "You have less than 10 artists, listen to some more music already!"
+            top_10 = "{}, you have less than 10 artists. Listen to some more music already you bum!".format(user.capitalize())
 
+        return top_10
     except UnboundLocalError:
         top_10 = "Could not find user {}".format(user)
 
-print(top10("brett"))
+print(top10("sky"))
