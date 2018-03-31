@@ -12,7 +12,7 @@ def time_convert(time):
 
     mil_time = time
     hours, minutes = mil_time.split(":")
-    hours, minutes = int(hours) - 6, int(minutes)
+    hours, minutes = int(hours) - 5, int(minutes)
     am_pm = "AM"
 
     if hours > 12:

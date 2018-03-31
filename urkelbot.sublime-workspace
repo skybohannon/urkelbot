@@ -299,7 +299,7 @@
 			"file": "crypto.py",
 			"settings":
 			{
-				"buffer_size": 2539,
+				"buffer_size": 2670,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -308,116 +308,34 @@
 			"file": "urkel.py",
 			"settings":
 			{
-				"buffer_size": 22033,
+				"buffer_size": 22211,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/sky_2/Google Drive/metamask.txt",
+			"file": "/G/games/Nintendo/Super Nintendo/Translations/English/Far East of Eden Zero/TM Zero readme.txt",
 			"settings":
 			{
-				"buffer_size": 783,
-				"encoding": "UTF-8",
+				"buffer_size": 11949,
+				"encoding": "Western (Windows 1252)",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "{'recenttracks': \n\t{'track': [{'artist': {'#text': 'Madonna', 'mbid': '79239441-bfd5-4981-a70c-55c3f15c1287'}, 'name': 'Open Your Heart', 'streamable': '0', 'mbid': '8748a759-af14-4d11-8aaf-ebbcea07bf9f', 'album': {'#text': 'Celebration (double disc version)', 'mbid': ''}, 'url': 'https://www.last.fm/music/Madonna/_/Open+Your+Heart', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/5724a6d380584439c4e84e5b57d31ccb.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/5724a6d380584439c4e84e5b57d31ccb.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/5724a6d380584439c4e84e5b57d31ccb.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/5724a6d380584439c4e84e5b57d31ccb.png', 'size': 'extralarge'}], '@attr': {'nowplaying': 'true'}}, {'artist': {'#text': 'Robert Palmer', 'mbid': 'd5a1b969-1a58-4df3-ac24-40c67462edf2'}, 'name': 'Addicted to Love', 'streamable': '0', 'mbid': 'd61550e0-6de4-4d75-9faf-a331f64ebe82', 'album': {'#text': 'Riptide', 'mbid': '8b7151cf-e3b3-4c02-bebf-a1830a7f1d6d'}, 'url': 'https://www.last.fm/music/Robert+Palmer/_/Addicted+to+Love', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/40e179c282b24bdbcbc5259ddcc78d1e.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/40e179c282b24bdbcbc5259ddcc78d1e.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/40e179c282b24bdbcbc5259ddcc78d1e.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/40e179c282b24bdbcbc5259ddcc78d1e.png', 'size': 'extralarge'}], 'date': {'uts': '1517452698', '#text': '01 Feb 2018, 02:38'}}, {'artist': {'#text': \"T'Pau\", 'mbid': ''}, 'name': 'Heart and Soul', 'streamable': '0', 'mbid': '', 'album': {'#text': \"Heart And Soul - The Very Best Of T'Pau\", 'mbid': ''}, 'url': 'https://www.last.fm/music/T%27Pau/_/Heart+and+Soul', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/9924dbcdf86b4b5a9b7eecd755333f93.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/9924dbcdf86b4b5a9b7eecd755333f93.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/9924dbcdf86b4b5a9b7eecd755333f93.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/9924dbcdf86b4b5a9b7eecd755333f93.png', 'size': 'extralarge'}], 'date': {'uts': '1517452440', '#text': '01 Feb 2018, 02:34'}}, {'artist': {'#text': 'Simple Minds', 'mbid': 'f41490ce-fe39-435d-86c0-ab5ce098b423'}, 'name': \"Don't You (Forget About Me)\", 'streamable': '0', 'mbid': '316352ac-0a96-4cfd-a5fb-d32e0344f000', 'album': {'#text': 'Once Upon A Time (Super Deluxe)', 'mbid': ''}, 'url': 'https://www.last.fm/music/Simple+Minds/_/Don%27t+You+(Forget+About+Me)', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/ee6126006d29b5e9d46732217dc7a850.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/ee6126006d29b5e9d46732217dc7a850.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/ee6126006d29b5e9d46732217dc7a850.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/ee6126006d29b5e9d46732217dc7a850.png', 'size': 'extralarge'}], 'date': {'uts': '1517451987', '#text': '01 Feb 2018, 02:26'}}, {'artist': {'#text': 'The Smiths', 'mbid': '40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27'}, 'name': 'Girlfriend In A Coma - 2011 Remastered Version', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Strangeways, Here We Come', 'mbid': '832c3cd6-effa-3e5f-a6e1-273cfd2d9c27'}, 'url': 'https://www.last.fm/music/The+Smiths/_/Girlfriend+In+A+Coma+-+2011+Remastered+Version', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'extralarge'}], 'date': {'uts': '1517451865', '#text': '01 Feb 2018, 02:24'}}, {'artist': {'#text': 'iLoveMakonnen', 'mbid': '047c7563-6c32-4619-a0b6-1dcf218b3e1b'}, 'name': 'Tuesday', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Tuesday', 'mbid': ''}, 'url': 'https://www.last.fm/music/iLoveMakonnen/_/Tuesday', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/1401673dd0bf4ad3ca15825ffd3e76e8.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/1401673dd0bf4ad3ca15825ffd3e76e8.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/1401673dd0bf4ad3ca15825ffd3e76e8.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/1401673dd0bf4ad3ca15825ffd3e76e8.png', 'size': 'extralarge'}], 'date': {'uts': '1517451651', '#text': '01 Feb 2018, 02:20'}}, {'artist': {'#text': 'Carnage', 'mbid': 'da9bd8dc-b9e7-4231-8545-aeab88b67187'}, 'name': 'I Like Tuh', 'streamable': '0', 'mbid': '', 'album': {'#text': 'I Like Tuh', 'mbid': ''}, 'url': 'https://www.last.fm/music/Carnage/_/I+Like+Tuh', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/1b4c1f77875ae6ab6340ded151e928d5.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/1b4c1f77875ae6ab6340ded151e928d5.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/1b4c1f77875ae6ab6340ded151e928d5.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/1b4c1f77875ae6ab6340ded151e928d5.png', 'size': 'extralarge'}], 'date': {'uts': '1517451464', '#text': '01 Feb 2018, 02:17'}}, {'artist': {'#text': 'The Smiths', 'mbid': '40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27'}, 'name': 'Girlfriend In A Coma - 2011 Remastered Version', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Strangeways, Here We Come', 'mbid': '832c3cd6-effa-3e5f-a6e1-273cfd2d9c27'}, 'url': 'https://www.last.fm/music/The+Smiths/_/Girlfriend+In+A+Coma+-+2011+Remastered+Version', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'extralarge'}], 'date': {'uts': '1517431931', '#text': '31 Jan 2018, 20:52'}}, {'artist': {'#text': 'Whitney Houston', 'mbid': '0307edfc-437c-4b48-8700-80680e66a228'}, 'name': 'I Wanna Dance with Somebody (Who Loves Me)', 'streamable': '0', 'mbid': 'df219e94-4f8c-4667-91b3-5dc276c25fdc', 'album': {'#text': 'Whitney', 'mbid': '9ce4a628-0608-42e5-8c4b-f0794c706e22'}, 'url': 'https://www.last.fm/music/Whitney+Houston/_/I+Wanna+Dance+with+Somebody+(Who+Loves+Me)', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/43a38e56fa6d46d4ae4efb62beb6b815.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/43a38e56fa6d46d4ae4efb62beb6b815.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/43a38e56fa6d46d4ae4efb62beb6b815.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/43a38e56fa6d46d4ae4efb62beb6b815.png', 'size': 'extralarge'}], 'date': {'uts': '1517431639', '#text': '31 Jan 2018, 20:47'}}, {'artist': {'#text': 'Yello', 'mbid': 'c616aef1-e21f-46f8-864f-b7bad96f41b2'}, 'name': 'Oh Yeah', 'streamable': '0', 'mbid': '247bae04-dbf3-40a5-90c0-fd7921e80353', 'album': {'#text': 'Essential Yello', 'mbid': '0c3dc1a5-e30d-3f77-958a-1ebda2dc2759'}, 'url': 'https://www.last.fm/music/Yello/_/Oh+Yeah', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/a46f13de1bc94a07ca062fe3b989a167.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/a46f13de1bc94a07ca062fe3b989a167.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/a46f13de1bc94a07ca062fe3b989a167.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/a46f13de1bc94a07ca062fe3b989a167.png', 'size': 'extralarge'}], 'date': {'uts': '1517431454', '#text': '31 Jan 2018, 20:44'}}, {'artist': {'#text': 'Janet Jackson', 'mbid': '6be2828f-6c0d-4059-99d4-fa18acf1a296'}, 'name': 'What Have You Done For Me Lately - Album Edit', 'streamable': '0', 'mbid': '', 'album': {'#text': 'The Best (UK Version)', 'mbid': ''}, 'url': 'https://www.last.fm/music/Janet+Jackson/_/What+Have+You+Done+For+Me+Lately+-+Album+Edit', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/9255c7bb3f9245b9a94598c45d21c03e.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/9255c7bb3f9245b9a94598c45d21c03e.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/9255c7bb3f9245b9a94598c45d21c03e.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/9255c7bb3f9245b9a94598c45d21c03e.png', 'size': 'extralarge'}], 'date': {'uts': '1517431173', '#text': '31 Jan 2018, 20:39'}}, {'artist': {'#text': 'Migos', 'mbid': '0221734a-35a8-40f7-b5c5-2f61a200bc7c'}, 'name': 'MotorSport', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Culture II', 'mbid': ''}, 'url': 'https://www.last.fm/music/Migos/_/MotorSport', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/51830f8079acc6b2f68691af53c71579.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/51830f8079acc6b2f68691af53c71579.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/51830f8079acc6b2f68691af53c71579.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/51830f8079acc6b2f68691af53c71579.png', 'size': 'extralarge'}], 'date': {'uts': '1517422774', '#text': '31 Jan 2018, 18:19'}}, {'artist': {'#text': 'Migos', 'mbid': '0221734a-35a8-40f7-b5c5-2f61a200bc7c'}, 'name': 'White Sand', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Culture II', 'mbid': ''}, 'url': 'https://www.last.fm/music/Migos/_/White+Sand', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/51830f8079acc6b2f68691af53c71579.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/51830f8079acc6b2f68691af53c71579.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/51830f8079acc6b2f68691af53c71579.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/51830f8079acc6b2f68691af53c71579.png', 'size': 'extralarge'}], 'date': {'uts': '1517422490', '#text': '31 Jan 2018, 18:14'}}, {'artist': {'#text': 'Migos', 'mbid': '0221734a-35a8-40f7-b5c5-2f61a200bc7c'}, 'name': 'Gang Gang', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Culture II', 'mbid': ''}, 'url': 'https://www.last.fm/music/Migos/_/Gang+Gang', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/51830f8079acc6b2f68691af53c71579.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/51830f8079acc6b2f68691af53c71579.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/51830f8079acc6b2f68691af53c71579.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/51830f8079acc6b2f68691af53c71579.png', 'size': 'extralarge'}], 'date': {'uts': '1517422309', '#text': '31 Jan 2018, 18:11'}}, {'artist': {'#text': 'Migos', 'mbid': '0221734a-35a8-40f7-b5c5-2f61a200bc7c'}, 'name': 'Too Much Jewelry', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Culture II', 'mbid': ''}, 'url': 'https://www.last.fm/music/Migos/_/Too+Much+Jewelry', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/51830f8079acc6b2f68691af53c71579.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/51830f8079acc6b2f68691af53c71579.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/51830f8079acc6b2f68691af53c71579.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/51830f8079acc6b2f68691af53c71579.png', 'size': 'extralarge'}], 'date': {'uts': '1517422063', '#text': '31 Jan 2018, 18:07'}}, {'artist': {'#text': 'Migos', 'mbid': '0221734a-35a8-40f7-b5c5-2f61a200bc7c'}, 'name': 'Stir Fry', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Culture II', 'mbid': ''}, 'url': 'https://www.last.fm/music/Migos/_/Stir+Fry', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/51830f8079acc6b2f68691af53c71579.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/51830f8079acc6b2f68691af53c71579.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/51830f8079acc6b2f68691af53c71579.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/51830f8079acc6b2f68691af53c71579.png', 'size': 'extralarge'}], 'date': {'uts': '1517421874', '#text': '31 Jan 2018, 18:04'}}, {'artist': {'#text': 'AU.RA', 'mbid': '6716f686-7e49-4b9d-ab0e-017f99e0c35f'}, 'name': 'Applause', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Cultivations', 'mbid': ''}, 'url': 'https://www.last.fm/music/AU.RA/_/Applause', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/3874dfb21e68822cfb6ced952408665c.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/3874dfb21e68822cfb6ced952408665c.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/3874dfb21e68822cfb6ced952408665c.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/3874dfb21e68822cfb6ced952408665c.png', 'size': 'extralarge'}], 'date': {'uts': '1517421499', '#text': '31 Jan 2018, 17:58'}}, {'artist': {'#text': 'Manus', 'mbid': ''}, 'name': 'I Got It', 'streamable': '0', 'mbid': '', 'album': {'#text': 'I Got It', 'mbid': ''}, 'url': 'https://www.last.fm/music/Manus/_/I+Got+It', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517421234', '#text': '31 Jan 2018, 17:53'}}, {'artist': {'#text': 'Spiral Stairs', 'mbid': 'ac542576-2a99-4c79-9e84-fb1192b7176c'}, 'name': 'Pig City', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Pig City', 'mbid': ''}, 'url': 'https://www.last.fm/music/Spiral+Stairs/_/Pig+City', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/bc36e9b21aad241e608642710818266a.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/bc36e9b21aad241e608642710818266a.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/bc36e9b21aad241e608642710818266a.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/bc36e9b21aad241e608642710818266a.png', 'size': 'extralarge'}], 'date': {'uts': '1517421038', '#text': '31 Jan 2018, 17:50'}}, {'artist': {'#text': 'Dream Wife', 'mbid': ''}, 'name': 'Fire', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Fire', 'mbid': ''}, 'url': 'https://www.last.fm/music/Dream+Wife/_/Fire', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/1466aecb336fcb985d582bb37a566d2c.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/1466aecb336fcb985d582bb37a566d2c.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/1466aecb336fcb985d582bb37a566d2c.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/1466aecb336fcb985d582bb37a566d2c.png', 'size': 'extralarge'}], 'date': {'uts': '1517420825', '#text': '31 Jan 2018, 17:47'}}, {'artist': {'#text': '⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ', 'mbid': ''}, 'name': ')✧⃛*', 'streamable': '0', 'mbid': '', 'album': {'#text': ')✧⃛*', 'mbid': ''}, 'url': 'https://www.last.fm/music/%E2%A3%8E%E2%A1%87%EA%89%BA%E1%83%9A%E0%BC%BD%E0%AE%87%E2%80%A2%CC%9B)%E0%BE%80%E2%97%9E+%E0%BC%8E%E0%BA%B6+%E0%BC%BD%E0%A7%A3%E0%A7%A2%D8%9E%E0%A7%A2%D8%9E%D8%96+%EA%89%BA%E1%83%9A/_/)%E2%9C%A7%E2%83%9B%2A', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/522fc02043ebac1820ca83f1bfc042ee.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/522fc02043ebac1820ca83f1bfc042ee.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/522fc02043ebac1820ca83f1bfc042ee.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/522fc02043ebac1820ca83f1bfc042ee.png', 'size': 'extralarge'}], 'date': {'uts': '1517420705', '#text': '31 Jan 2018, 17:45'}}, {'artist': {'#text': 'Dommengang', 'mbid': ''}, 'name': 'Lovely Place', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Love Jail', 'mbid': ''}, 'url': 'https://www.last.fm/music/Dommengang/_/Lovely+Place', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'extralarge'}], 'date': {'uts': '1517420183', '#text': '31 Jan 2018, 17:36'}}, {'artist': {'#text': 'Dommengang', 'mbid': ''}, 'name': 'Pastel City', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Love Jail', 'mbid': ''}, 'url': 'https://www.last.fm/music/Dommengang/_/Pastel+City', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'extralarge'}], 'date': {'uts': '1517419985', '#text': '31 Jan 2018, 17:33'}}, {'artist': {'#text': 'Alvvays', 'mbid': '99450990-b24e-4132-bb68-235f8c3e2564'}, 'name': 'Forget About Life', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antisocialites', 'mbid': ''}, 'url': 'https://www.last.fm/music/Alvvays/_/Forget+About+Life', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/0d3f08283a1d329c0a5f3af191d93015.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/0d3f08283a1d329c0a5f3af191d93015.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/0d3f08283a1d329c0a5f3af191d93015.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/0d3f08283a1d329c0a5f3af191d93015.png', 'size': 'extralarge'}], 'date': {'uts': '1517412454', '#text': '31 Jan 2018, 15:27'}}, {'artist': {'#text': 'Ruby Haunt', 'mbid': ''}, 'name': 'Elko', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Abandoned Melodies: Nevada B-Sides', 'mbid': ''}, 'url': 'https://www.last.fm/music/Ruby+Haunt/_/Elko', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/2d6f4ebb43401b0424ec242670bfc362.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/2d6f4ebb43401b0424ec242670bfc362.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/2d6f4ebb43401b0424ec242670bfc362.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/2d6f4ebb43401b0424ec242670bfc362.png', 'size': 'extralarge'}], 'date': {'uts': '1517412324', '#text': '31 Jan 2018, 15:25'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Crumbs', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Crumbs', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517412099', '#text': '31 Jan 2018, 15:21'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Haunt Me', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Haunt+Me', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517411899', '#text': '31 Jan 2018, 15:18'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Blue', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Blue', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517411701', '#text': '31 Jan 2018, 15:15'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Crystal Plane', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Crystal+Plane', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517411580', '#text': '31 Jan 2018, 15:13'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Satellite', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Satellite', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517411423', '#text': '31 Jan 2018, 15:10'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Pool', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Pool', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517411253', '#text': '31 Jan 2018, 15:07'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Forest Floor', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Forest+Floor', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517410981', '#text': '31 Jan 2018, 15:03'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Never Die', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Never+Die', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517410823', '#text': '31 Jan 2018, 15:00'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Saw U Glow', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Saw+U+Glow', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517410623', '#text': '31 Jan 2018, 14:57'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': '(Bathroom Stall) Prayer', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/(Bathroom+Stall)+Prayer', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517410438', '#text': '31 Jan 2018, 14:53'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Crumbs', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Crumbs', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517410320', '#text': '31 Jan 2018, 14:52'}}, {'artist': {'#text': 'Teen Daze', 'mbid': '6ae38268-01a7-413b-8827-80dab10794c9'}, 'name': 'On the Edge of a New Age', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Themes For A New Earth', 'mbid': ''}, 'url': 'https://www.last.fm/music/Teen+Daze/_/On+the+Edge+of+a+New+Age', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/d6a56ba4b8bf102cea1dca8a5c91c1fb.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/d6a56ba4b8bf102cea1dca8a5c91c1fb.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/d6a56ba4b8bf102cea1dca8a5c91c1fb.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/d6a56ba4b8bf102cea1dca8a5c91c1fb.png', 'size': 'extralarge'}], 'date': {'uts': '1517367796', '#text': '31 Jan 2018, 03:03'}}, {'artist': {'#text': 'New Shack', 'mbid': ''}, 'name': 'Ways and Means', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Ways and Means', 'mbid': ''}, 'url': 'https://www.last.fm/music/New+Shack/_/Ways+and+Means', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517367604', '#text': '31 Jan 2018, 03:00'}}, {'artist': {'#text': 'LIL UZI VERT', 'mbid': ''}, 'name': 'XO TOUR Llif3', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Luv Is Rage 2', 'mbid': ''}, 'url': 'https://www.last.fm/music/LIL+UZI+VERT/_/XO+TOUR+Llif3', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/b77f65cf1d3a5df861850ef4834fcae3.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/b77f65cf1d3a5df861850ef4834fcae3.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/b77f65cf1d3a5df861850ef4834fcae3.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/b77f65cf1d3a5df861850ef4834fcae3.png', 'size': 'extralarge'}], 'date': {'uts': '1517367450', '#text': '31 Jan 2018, 02:57'}}, {'artist': {'#text': 'Mouse on Mars', 'mbid': '4d4f5d92-0589-42fa-bc0e-1bd73e17a2ce'}, 'name': 'Dimensional People Part III', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Dimensional People Part III', 'mbid': ''}, 'url': 'https://www.last.fm/music/Mouse+on+Mars/_/Dimensional+People+Part+III', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/ece72347fb1a3e663da5a42ddb4870cf.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/ece72347fb1a3e663da5a42ddb4870cf.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/ece72347fb1a3e663da5a42ddb4870cf.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/ece72347fb1a3e663da5a42ddb4870cf.png', 'size': 'extralarge'}], 'date': {'uts': '1517367221', '#text': '31 Jan 2018, 02:53'}}, {'artist': {'#text': 'Clams Casino', 'mbid': '772a0eb3-fe31-4a08-b583-690296f44900'}, 'name': 'Be Somebody', 'streamable': '0', 'mbid': '', 'album': {'#text': '32 Levels (Deluxe)', 'mbid': ''}, 'url': 'https://www.last.fm/music/Clams+Casino/_/Be+Somebody', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/be367e1d9a11c178b0baadb5e4d83f52.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/be367e1d9a11c178b0baadb5e4d83f52.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/be367e1d9a11c178b0baadb5e4d83f52.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/be367e1d9a11c178b0baadb5e4d83f52.png', 'size': 'extralarge'}], 'date': {'uts': '1517367008', '#text': '31 Jan 2018, 02:50'}}, {'artist': {'#text': 'Cotillon', 'mbid': ''}, 'name': '10 Dish Set', 'streamable': '0', 'mbid': '', 'album': {'#text': 'The Afternoons', 'mbid': ''}, 'url': 'https://www.last.fm/music/Cotillon/_/10+Dish+Set', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/54eb60e77d1809837841d06fc42ecd95.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/54eb60e77d1809837841d06fc42ecd95.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/54eb60e77d1809837841d06fc42ecd95.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/54eb60e77d1809837841d06fc42ecd95.png', 'size': 'extralarge'}], 'date': {'uts': '1517366700', '#text': '31 Jan 2018, 02:45'}}, {'artist': {'#text': 'The Shirts', 'mbid': '0d8f33fa-3691-4550-8f87-46596d83ca49'}, 'name': 'FLIGHT HOME', 'streamable': '0', 'mbid': '', 'album': {'#text': '', 'mbid': ''}, 'url': 'https://www.last.fm/music/The+Shirts/_/FLIGHT+HOME', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517366445', '#text': '31 Jan 2018, 02:40'}}, {'artist': {'#text': 'Samiyam', 'mbid': '6327bdfb-76b9-4a05-b447-01d98f1715dc'}, 'name': 'Slime', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Pizza Party', 'mbid': ''}, 'url': 'https://www.last.fm/music/Samiyam/_/Slime', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/cdf922f83f676aff37a0548cce5a4599.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/cdf922f83f676aff37a0548cce5a4599.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/cdf922f83f676aff37a0548cce5a4599.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/cdf922f83f676aff37a0548cce5a4599.png', 'size': 'extralarge'}], 'date': {'uts': '1517366271', '#text': '31 Jan 2018, 02:37'}}, {'artist': {'#text': 'Lomelda', 'mbid': ''}, 'name': 'Bam Sha Klam', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Thx', 'mbid': ''}, 'url': 'https://www.last.fm/music/Lomelda/_/Bam+Sha+Klam', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/eefc00a8b8eb5c20065ad9ba3eaae859.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/eefc00a8b8eb5c20065ad9ba3eaae859.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/eefc00a8b8eb5c20065ad9ba3eaae859.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/eefc00a8b8eb5c20065ad9ba3eaae859.png', 'size': 'extralarge'}], 'date': {'uts': '1517366046', '#text': '31 Jan 2018, 02:34'}}, {'artist': {'#text': 'Twin Peaks', 'mbid': 'b9bd2ca3-bf1a-4eb0-a89c-f16d95d9457f'}, 'name': 'Surrender (Music from the Spotify Original Series \"Music Happens Here\")', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Surrender (Music from the Spotify Original Series \"Music Happens Here\")', 'mbid': ''}, 'url': 'https://www.last.fm/music/Twin+Peaks/_/Surrender+(Music+from+the+Spotify+Original+Series+%22Music+Happens+Here%22)', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/2ee626bf825056d12b21401479db8297.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/2ee626bf825056d12b21401479db8297.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/2ee626bf825056d12b21401479db8297.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/2ee626bf825056d12b21401479db8297.png', 'size': 'extralarge'}], 'date': {'uts': '1517365713', '#text': '31 Jan 2018, 02:28'}}, {'artist': {'#text': 'Renata Zeiguer', 'mbid': ''}, 'name': 'Bug', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Bug', 'mbid': ''}, 'url': 'https://www.last.fm/music/Renata+Zeiguer/_/Bug', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517365535', '#text': '31 Jan 2018, 02:25'}}, {'artist': {'#text': 'VAPERROR', 'mbid': 'debf2484-3a5a-4b91-82b8-d1887aa5130b'}, 'name': 'Soft Net', 'streamable': '0', 'mbid': '', 'album': {'#text': 'System Delight', 'mbid': ''}, 'url': 'https://www.last.fm/music/VAPERROR/_/Soft+Net', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/e139d63fc5f944b275b346212b60072d.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/e139d63fc5f944b275b346212b60072d.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/e139d63fc5f944b275b346212b60072d.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/e139d63fc5f944b275b346212b60072d.png', 'size': 'extralarge'}], 'date': {'uts': '1517365264', '#text': '31 Jan 2018, 02:21'}}, {'artist': {'#text': 'Carnage', 'mbid': 'da9bd8dc-b9e7-4231-8545-aeab88b67187'}, 'name': 'i SHYNE', 'streamable': '0', 'mbid': '', 'album': {'#text': 'i Shyne', 'mbid': ''}, 'url': 'https://www.last.fm/music/Carnage/_/i+SHYNE', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/1e96e70f0ab2b67ddc47da20ff371020.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/1e96e70f0ab2b67ddc47da20ff371020.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/1e96e70f0ab2b67ddc47da20ff371020.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/1e96e70f0ab2b67ddc47da20ff371020.png', 'size': 'extralarge'}], 'date': {'uts': '1517365110', '#text': '31 Jan 2018, 02:18'}}, {'artist': {'#text': 'Why?', 'mbid': '86d2b4bc-a3ed-43b7-881c-f1d7f2ce3adc'}, 'name': 'Easy - Baths Remix', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Easy (Baths Remix)', 'mbid': ''}, 'url': 'https://www.last.fm/music/Why%3F/_/Easy+-+Baths+Remix', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/f6022422cd5ae6164d0a9bbd32409812.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/f6022422cd5ae6164d0a9bbd32409812.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/f6022422cd5ae6164d0a9bbd32409812.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/f6022422cd5ae6164d0a9bbd32409812.png', 'size': 'extralarge'}], 'date': {'uts': '1517364845', '#text': '31 Jan 2018, 02:14'}}, {'artist': {'#text': 'Hovvdy', 'mbid': ''}, 'name': 'In the Sun', 'streamable': '0', 'mbid': '', 'album': {'#text': 'In the Sun', 'mbid': ''}, 'url': 'https://www.last.fm/music/Hovvdy/_/In+the+Sun', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517364663', '#text': '31 Jan 2018, 02:11'}}], '@attr': {'user': 'sbohannon', 'page': '1', 'perPage': '50', 'totalPages': '1256', 'total': '62776'}}, 'track': [{'artist': {'#text': 'Madonna', 'mbid': '79239441-bfd5-4981-a70c-55c3f15c1287'}, 'name': 'Open Your Heart', 'streamable': '0', 'mbid': '8748a759-af14-4d11-8aaf-ebbcea07bf9f', 'album': {'#text': 'Celebration (double disc version)', 'mbid': ''}, 'url': 'https://www.last.fm/music/Madonna/_/Open+Your+Heart', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/5724a6d380584439c4e84e5b57d31ccb.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/5724a6d380584439c4e84e5b57d31ccb.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/5724a6d380584439c4e84e5b57d31ccb.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/5724a6d380584439c4e84e5b57d31ccb.png', 'size': 'extralarge'}], '@attr': {'nowplaying': 'true'}}, {'artist': {'#text': 'Robert Palmer', 'mbid': 'd5a1b969-1a58-4df3-ac24-40c67462edf2'}, 'name': 'Addicted to Love', 'streamable': '0', 'mbid': 'd61550e0-6de4-4d75-9faf-a331f64ebe82', 'album': {'#text': 'Riptide', 'mbid': '8b7151cf-e3b3-4c02-bebf-a1830a7f1d6d'}, 'url': 'https://www.last.fm/music/Robert+Palmer/_/Addicted+to+Love', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/40e179c282b24bdbcbc5259ddcc78d1e.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/40e179c282b24bdbcbc5259ddcc78d1e.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/40e179c282b24bdbcbc5259ddcc78d1e.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/40e179c282b24bdbcbc5259ddcc78d1e.png', 'size': 'extralarge'}], 'date': {'uts': '1517452698', '#text': '01 Feb 2018, 02:38'}}, {'artist': {'#text': \"T'Pau\", 'mbid': ''}, 'name': 'Heart and Soul', 'streamable': '0', 'mbid': '', 'album': {'#text': \"Heart And Soul - The Very Best Of T'Pau\", 'mbid': ''}, 'url': 'https://www.last.fm/music/T%27Pau/_/Heart+and+Soul', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/9924dbcdf86b4b5a9b7eecd755333f93.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/9924dbcdf86b4b5a9b7eecd755333f93.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/9924dbcdf86b4b5a9b7eecd755333f93.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/9924dbcdf86b4b5a9b7eecd755333f93.png', 'size': 'extralarge'}], 'date': {'uts': '1517452440', '#text': '01 Feb 2018, 02:34'}}, {'artist': {'#text': 'Simple Minds', 'mbid': 'f41490ce-fe39-435d-86c0-ab5ce098b423'}, 'name': \"Don't You (Forget About Me)\", 'streamable': '0', 'mbid': '316352ac-0a96-4cfd-a5fb-d32e0344f000', 'album': {'#text': 'Once Upon A Time (Super Deluxe)', 'mbid': ''}, 'url': 'https://www.last.fm/music/Simple+Minds/_/Don%27t+You+(Forget+About+Me)', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/ee6126006d29b5e9d46732217dc7a850.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/ee6126006d29b5e9d46732217dc7a850.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/ee6126006d29b5e9d46732217dc7a850.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/ee6126006d29b5e9d46732217dc7a850.png', 'size': 'extralarge'}], 'date': {'uts': '1517451987', '#text': '01 Feb 2018, 02:26'}}, {'artist': {'#text': 'The Smiths', 'mbid': '40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27'}, 'name': 'Girlfriend In A Coma - 2011 Remastered Version', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Strangeways, Here We Come', 'mbid': '832c3cd6-effa-3e5f-a6e1-273cfd2d9c27'}, 'url': 'https://www.last.fm/music/The+Smiths/_/Girlfriend+In+A+Coma+-+2011+Remastered+Version', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'extralarge'}], 'date': {'uts': '1517451865', '#text': '01 Feb 2018, 02:24'}}, {'artist': {'#text': 'iLoveMakonnen', 'mbid': '047c7563-6c32-4619-a0b6-1dcf218b3e1b'}, 'name': 'Tuesday', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Tuesday', 'mbid': ''}, 'url': 'https://www.last.fm/music/iLoveMakonnen/_/Tuesday', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/1401673dd0bf4ad3ca15825ffd3e76e8.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/1401673dd0bf4ad3ca15825ffd3e76e8.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/1401673dd0bf4ad3ca15825ffd3e76e8.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/1401673dd0bf4ad3ca15825ffd3e76e8.png', 'size': 'extralarge'}], 'date': {'uts': '1517451651', '#text': '01 Feb 2018, 02:20'}}, {'artist': {'#text': 'Carnage', 'mbid': 'da9bd8dc-b9e7-4231-8545-aeab88b67187'}, 'name': 'I Like Tuh', 'streamable': '0', 'mbid': '', 'album': {'#text': 'I Like Tuh', 'mbid': ''}, 'url': 'https://www.last.fm/music/Carnage/_/I+Like+Tuh', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/1b4c1f77875ae6ab6340ded151e928d5.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/1b4c1f77875ae6ab6340ded151e928d5.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/1b4c1f77875ae6ab6340ded151e928d5.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/1b4c1f77875ae6ab6340ded151e928d5.png', 'size': 'extralarge'}], 'date': {'uts': '1517451464', '#text': '01 Feb 2018, 02:17'}}, {'artist': {'#text': 'The Smiths', 'mbid': '40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27'}, 'name': 'Girlfriend In A Coma - 2011 Remastered Version', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Strangeways, Here We Come', 'mbid': '832c3cd6-effa-3e5f-a6e1-273cfd2d9c27'}, 'url': 'https://www.last.fm/music/The+Smiths/_/Girlfriend+In+A+Coma+-+2011+Remastered+Version', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/286f7c3701a74f19b4ef41c380bad119.png', 'size': 'extralarge'}], 'date': {'uts': '1517431931', '#text': '31 Jan 2018, 20:52'}}, {'artist': {'#text': 'Whitney Houston', 'mbid': '0307edfc-437c-4b48-8700-80680e66a228'}, 'name': 'I Wanna Dance with Somebody (Who Loves Me)', 'streamable': '0', 'mbid': 'df219e94-4f8c-4667-91b3-5dc276c25fdc', 'album': {'#text': 'Whitney', 'mbid': '9ce4a628-0608-42e5-8c4b-f0794c706e22'}, 'url': 'https://www.last.fm/music/Whitney+Houston/_/I+Wanna+Dance+with+Somebody+(Who+Loves+Me)', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/43a38e56fa6d46d4ae4efb62beb6b815.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/43a38e56fa6d46d4ae4efb62beb6b815.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/43a38e56fa6d46d4ae4efb62beb6b815.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/43a38e56fa6d46d4ae4efb62beb6b815.png', 'size': 'extralarge'}], 'date': {'uts': '1517431639', '#text': '31 Jan 2018, 20:47'}}, {'artist': {'#text': 'Yello', 'mbid': 'c616aef1-e21f-46f8-864f-b7bad96f41b2'}, 'name': 'Oh Yeah', 'streamable': '0', 'mbid': '247bae04-dbf3-40a5-90c0-fd7921e80353', 'album': {'#text': 'Essential Yello', 'mbid': '0c3dc1a5-e30d-3f77-958a-1ebda2dc2759'}, 'url': 'https://www.last.fm/music/Yello/_/Oh+Yeah', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/a46f13de1bc94a07ca062fe3b989a167.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/a46f13de1bc94a07ca062fe3b989a167.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/a46f13de1bc94a07ca062fe3b989a167.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/a46f13de1bc94a07ca062fe3b989a167.png', 'size': 'extralarge'}], 'date': {'uts': '1517431454', '#text': '31 Jan 2018, 20:44'}}, {'artist': {'#text': 'Janet Jackson', 'mbid': '6be2828f-6c0d-4059-99d4-fa18acf1a296'}, 'name': 'What Have You Done For Me Lately - Album Edit', 'streamable': '0', 'mbid': '', 'album': {'#text': 'The Best (UK Version)', 'mbid': ''}, 'url': 'https://www.last.fm/music/Janet+Jackson/_/What+Have+You+Done+For+Me+Lately+-+Album+Edit', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/9255c7bb3f9245b9a94598c45d21c03e.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/9255c7bb3f9245b9a94598c45d21c03e.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/9255c7bb3f9245b9a94598c45d21c03e.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/9255c7bb3f9245b9a94598c45d21c03e.png', 'size': 'extralarge'}], 'date': {'uts': '1517431173', '#text': '31 Jan 2018, 20:39'}}, {'artist': {'#text': 'Migos', 'mbid': '0221734a-35a8-40f7-b5c5-2f61a200bc7c'}, 'name': 'MotorSport', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Culture II', 'mbid': ''}, 'url': 'https://www.last.fm/music/Migos/_/MotorSport', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/51830f8079acc6b2f68691af53c71579.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/51830f8079acc6b2f68691af53c71579.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/51830f8079acc6b2f68691af53c71579.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/51830f8079acc6b2f68691af53c71579.png', 'size': 'extralarge'}], 'date': {'uts': '1517422774', '#text': '31 Jan 2018, 18:19'}}, {'artist': {'#text': 'Migos', 'mbid': '0221734a-35a8-40f7-b5c5-2f61a200bc7c'}, 'name': 'White Sand', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Culture II', 'mbid': ''}, 'url': 'https://www.last.fm/music/Migos/_/White+Sand', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/51830f8079acc6b2f68691af53c71579.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/51830f8079acc6b2f68691af53c71579.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/51830f8079acc6b2f68691af53c71579.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/51830f8079acc6b2f68691af53c71579.png', 'size': 'extralarge'}], 'date': {'uts': '1517422490', '#text': '31 Jan 2018, 18:14'}}, {'artist': {'#text': 'Migos', 'mbid': '0221734a-35a8-40f7-b5c5-2f61a200bc7c'}, 'name': 'Gang Gang', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Culture II', 'mbid': ''}, 'url': 'https://www.last.fm/music/Migos/_/Gang+Gang', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/51830f8079acc6b2f68691af53c71579.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/51830f8079acc6b2f68691af53c71579.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/51830f8079acc6b2f68691af53c71579.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/51830f8079acc6b2f68691af53c71579.png', 'size': 'extralarge'}], 'date': {'uts': '1517422309', '#text': '31 Jan 2018, 18:11'}}, {'artist': {'#text': 'Migos', 'mbid': '0221734a-35a8-40f7-b5c5-2f61a200bc7c'}, 'name': 'Too Much Jewelry', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Culture II', 'mbid': ''}, 'url': 'https://www.last.fm/music/Migos/_/Too+Much+Jewelry', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/51830f8079acc6b2f68691af53c71579.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/51830f8079acc6b2f68691af53c71579.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/51830f8079acc6b2f68691af53c71579.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/51830f8079acc6b2f68691af53c71579.png', 'size': 'extralarge'}], 'date': {'uts': '1517422063', '#text': '31 Jan 2018, 18:07'}}, {'artist': {'#text': 'Migos', 'mbid': '0221734a-35a8-40f7-b5c5-2f61a200bc7c'}, 'name': 'Stir Fry', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Culture II', 'mbid': ''}, 'url': 'https://www.last.fm/music/Migos/_/Stir+Fry', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/51830f8079acc6b2f68691af53c71579.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/51830f8079acc6b2f68691af53c71579.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/51830f8079acc6b2f68691af53c71579.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/51830f8079acc6b2f68691af53c71579.png', 'size': 'extralarge'}], 'date': {'uts': '1517421874', '#text': '31 Jan 2018, 18:04'}}, {'artist': {'#text': 'AU.RA', 'mbid': '6716f686-7e49-4b9d-ab0e-017f99e0c35f'}, 'name': 'Applause', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Cultivations', 'mbid': ''}, 'url': 'https://www.last.fm/music/AU.RA/_/Applause', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/3874dfb21e68822cfb6ced952408665c.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/3874dfb21e68822cfb6ced952408665c.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/3874dfb21e68822cfb6ced952408665c.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/3874dfb21e68822cfb6ced952408665c.png', 'size': 'extralarge'}], 'date': {'uts': '1517421499', '#text': '31 Jan 2018, 17:58'}}, {'artist': {'#text': 'Manus', 'mbid': ''}, 'name': 'I Got It', 'streamable': '0', 'mbid': '', 'album': {'#text': 'I Got It', 'mbid': ''}, 'url': 'https://www.last.fm/music/Manus/_/I+Got+It', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517421234', '#text': '31 Jan 2018, 17:53'}}, {'artist': {'#text': 'Spiral Stairs', 'mbid': 'ac542576-2a99-4c79-9e84-fb1192b7176c'}, 'name': 'Pig City', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Pig City', 'mbid': ''}, 'url': 'https://www.last.fm/music/Spiral+Stairs/_/Pig+City', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/bc36e9b21aad241e608642710818266a.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/bc36e9b21aad241e608642710818266a.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/bc36e9b21aad241e608642710818266a.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/bc36e9b21aad241e608642710818266a.png', 'size': 'extralarge'}], 'date': {'uts': '1517421038', '#text': '31 Jan 2018, 17:50'}}, {'artist': {'#text': 'Dream Wife', 'mbid': ''}, 'name': 'Fire', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Fire', 'mbid': ''}, 'url': 'https://www.last.fm/music/Dream+Wife/_/Fire', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/1466aecb336fcb985d582bb37a566d2c.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/1466aecb336fcb985d582bb37a566d2c.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/1466aecb336fcb985d582bb37a566d2c.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/1466aecb336fcb985d582bb37a566d2c.png', 'size': 'extralarge'}], 'date': {'uts': '1517420825', '#text': '31 Jan 2018, 17:47'}}, {'artist': {'#text': '⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ', 'mbid': ''}, 'name': ')✧⃛*', 'streamable': '0', 'mbid': '', 'album': {'#text': ')✧⃛*', 'mbid': ''}, 'url': 'https://www.last.fm/music/%E2%A3%8E%E2%A1%87%EA%89%BA%E1%83%9A%E0%BC%BD%E0%AE%87%E2%80%A2%CC%9B)%E0%BE%80%E2%97%9E+%E0%BC%8E%E0%BA%B6+%E0%BC%BD%E0%A7%A3%E0%A7%A2%D8%9E%E0%A7%A2%D8%9E%D8%96+%EA%89%BA%E1%83%9A/_/)%E2%9C%A7%E2%83%9B%2A', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/522fc02043ebac1820ca83f1bfc042ee.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/522fc02043ebac1820ca83f1bfc042ee.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/522fc02043ebac1820ca83f1bfc042ee.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/522fc02043ebac1820ca83f1bfc042ee.png', 'size': 'extralarge'}], 'date': {'uts': '1517420705', '#text': '31 Jan 2018, 17:45'}}, {'artist': {'#text': 'Dommengang', 'mbid': ''}, 'name': 'Lovely Place', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Love Jail', 'mbid': ''}, 'url': 'https://www.last.fm/music/Dommengang/_/Lovely+Place', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'extralarge'}], 'date': {'uts': '1517420183', '#text': '31 Jan 2018, 17:36'}}, {'artist': {'#text': 'Dommengang', 'mbid': ''}, 'name': 'Pastel City', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Love Jail', 'mbid': ''}, 'url': 'https://www.last.fm/music/Dommengang/_/Pastel+City', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/cab76615b9cfab4c33783b700ad82e4e.png', 'size': 'extralarge'}], 'date': {'uts': '1517419985', '#text': '31 Jan 2018, 17:33'}}, {'artist': {'#text': 'Alvvays', 'mbid': '99450990-b24e-4132-bb68-235f8c3e2564'}, 'name': 'Forget About Life', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antisocialites', 'mbid': ''}, 'url': 'https://www.last.fm/music/Alvvays/_/Forget+About+Life', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/0d3f08283a1d329c0a5f3af191d93015.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/0d3f08283a1d329c0a5f3af191d93015.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/0d3f08283a1d329c0a5f3af191d93015.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/0d3f08283a1d329c0a5f3af191d93015.png', 'size': 'extralarge'}], 'date': {'uts': '1517412454', '#text': '31 Jan 2018, 15:27'}}, {'artist': {'#text': 'Ruby Haunt', 'mbid': ''}, 'name': 'Elko', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Abandoned Melodies: Nevada B-Sides', 'mbid': ''}, 'url': 'https://www.last.fm/music/Ruby+Haunt/_/Elko', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/2d6f4ebb43401b0424ec242670bfc362.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/2d6f4ebb43401b0424ec242670bfc362.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/2d6f4ebb43401b0424ec242670bfc362.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/2d6f4ebb43401b0424ec242670bfc362.png', 'size': 'extralarge'}], 'date': {'uts': '1517412324', '#text': '31 Jan 2018, 15:25'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Crumbs', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Crumbs', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517412099', '#text': '31 Jan 2018, 15:21'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Haunt Me', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Haunt+Me', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517411899', '#text': '31 Jan 2018, 15:18'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Blue', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Blue', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517411701', '#text': '31 Jan 2018, 15:15'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Crystal Plane', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Crystal+Plane', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517411580', '#text': '31 Jan 2018, 15:13'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Satellite', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Satellite', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517411423', '#text': '31 Jan 2018, 15:10'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Pool', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Pool', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517411253', '#text': '31 Jan 2018, 15:07'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Forest Floor', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Forest+Floor', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517410981', '#text': '31 Jan 2018, 15:03'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Never Die', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Never+Die', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517410823', '#text': '31 Jan 2018, 15:00'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Saw U Glow', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Saw+U+Glow', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517410623', '#text': '31 Jan 2018, 14:57'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': '(Bathroom Stall) Prayer', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/(Bathroom+Stall)+Prayer', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517410438', '#text': '31 Jan 2018, 14:53'}}, {'artist': {'#text': 'Pleasure Systems', 'mbid': ''}, 'name': 'Crumbs', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Antumbra Pull', 'mbid': ''}, 'url': 'https://www.last.fm/music/Pleasure+Systems/_/Crumbs', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517410320', '#text': '31 Jan 2018, 14:52'}}, {'artist': {'#text': 'Teen Daze', 'mbid': '6ae38268-01a7-413b-8827-80dab10794c9'}, 'name': 'On the Edge of a New Age', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Themes For A New Earth', 'mbid': ''}, 'url': 'https://www.last.fm/music/Teen+Daze/_/On+the+Edge+of+a+New+Age', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/d6a56ba4b8bf102cea1dca8a5c91c1fb.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/d6a56ba4b8bf102cea1dca8a5c91c1fb.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/d6a56ba4b8bf102cea1dca8a5c91c1fb.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/d6a56ba4b8bf102cea1dca8a5c91c1fb.png', 'size': 'extralarge'}], 'date': {'uts': '1517367796', '#text': '31 Jan 2018, 03:03'}}, {'artist': {'#text': 'New Shack', 'mbid': ''}, 'name': 'Ways and Means', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Ways and Means', 'mbid': ''}, 'url': 'https://www.last.fm/music/New+Shack/_/Ways+and+Means', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517367604', '#text': '31 Jan 2018, 03:00'}}, {'artist': {'#text': 'LIL UZI VERT', 'mbid': ''}, 'name': 'XO TOUR Llif3', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Luv Is Rage 2', 'mbid': ''}, 'url': 'https://www.last.fm/music/LIL+UZI+VERT/_/XO+TOUR+Llif3', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/b77f65cf1d3a5df861850ef4834fcae3.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/b77f65cf1d3a5df861850ef4834fcae3.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/b77f65cf1d3a5df861850ef4834fcae3.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/b77f65cf1d3a5df861850ef4834fcae3.png', 'size': 'extralarge'}], 'date': {'uts': '1517367450', '#text': '31 Jan 2018, 02:57'}}, {'artist': {'#text': 'Mouse on Mars', 'mbid': '4d4f5d92-0589-42fa-bc0e-1bd73e17a2ce'}, 'name': 'Dimensional People Part III', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Dimensional People Part III', 'mbid': ''}, 'url': 'https://www.last.fm/music/Mouse+on+Mars/_/Dimensional+People+Part+III', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/ece72347fb1a3e663da5a42ddb4870cf.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/ece72347fb1a3e663da5a42ddb4870cf.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/ece72347fb1a3e663da5a42ddb4870cf.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/ece72347fb1a3e663da5a42ddb4870cf.png', 'size': 'extralarge'}], 'date': {'uts': '1517367221', '#text': '31 Jan 2018, 02:53'}}, {'artist': {'#text': 'Clams Casino', 'mbid': '772a0eb3-fe31-4a08-b583-690296f44900'}, 'name': 'Be Somebody', 'streamable': '0', 'mbid': '', 'album': {'#text': '32 Levels (Deluxe)', 'mbid': ''}, 'url': 'https://www.last.fm/music/Clams+Casino/_/Be+Somebody', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/be367e1d9a11c178b0baadb5e4d83f52.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/be367e1d9a11c178b0baadb5e4d83f52.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/be367e1d9a11c178b0baadb5e4d83f52.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/be367e1d9a11c178b0baadb5e4d83f52.png', 'size': 'extralarge'}], 'date': {'uts': '1517367008', '#text': '31 Jan 2018, 02:50'}}, {'artist': {'#text': 'Cotillon', 'mbid': ''}, 'name': '10 Dish Set', 'streamable': '0', 'mbid': '', 'album': {'#text': 'The Afternoons', 'mbid': ''}, 'url': 'https://www.last.fm/music/Cotillon/_/10+Dish+Set', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/54eb60e77d1809837841d06fc42ecd95.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/54eb60e77d1809837841d06fc42ecd95.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/54eb60e77d1809837841d06fc42ecd95.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/54eb60e77d1809837841d06fc42ecd95.png', 'size': 'extralarge'}], 'date': {'uts': '1517366700', '#text': '31 Jan 2018, 02:45'}}, {'artist': {'#text': 'The Shirts', 'mbid': '0d8f33fa-3691-4550-8f87-46596d83ca49'}, 'name': 'FLIGHT HOME', 'streamable': '0', 'mbid': '', 'album': {'#text': '', 'mbid': ''}, 'url': 'https://www.last.fm/music/The+Shirts/_/FLIGHT+HOME', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517366445', '#text': '31 Jan 2018, 02:40'}}, {'artist': {'#text': 'Samiyam', 'mbid': '6327bdfb-76b9-4a05-b447-01d98f1715dc'}, 'name': 'Slime', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Pizza Party', 'mbid': ''}, 'url': 'https://www.last.fm/music/Samiyam/_/Slime', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/cdf922f83f676aff37a0548cce5a4599.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/cdf922f83f676aff37a0548cce5a4599.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/cdf922f83f676aff37a0548cce5a4599.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/cdf922f83f676aff37a0548cce5a4599.png', 'size': 'extralarge'}], 'date': {'uts': '1517366271', '#text': '31 Jan 2018, 02:37'}}, {'artist': {'#text': 'Lomelda', 'mbid': ''}, 'name': 'Bam Sha Klam', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Thx', 'mbid': ''}, 'url': 'https://www.last.fm/music/Lomelda/_/Bam+Sha+Klam', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/eefc00a8b8eb5c20065ad9ba3eaae859.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/eefc00a8b8eb5c20065ad9ba3eaae859.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/eefc00a8b8eb5c20065ad9ba3eaae859.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/eefc00a8b8eb5c20065ad9ba3eaae859.png', 'size': 'extralarge'}], 'date': {'uts': '1517366046', '#text': '31 Jan 2018, 02:34'}}, {'artist': {'#text': 'Twin Peaks', 'mbid': 'b9bd2ca3-bf1a-4eb0-a89c-f16d95d9457f'}, 'name': 'Surrender (Music from the Spotify Original Series \"Music Happens Here\")', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Surrender (Music from the Spotify Original Series \"Music Happens Here\")', 'mbid': ''}, 'url': 'https://www.last.fm/music/Twin+Peaks/_/Surrender+(Music+from+the+Spotify+Original+Series+%22Music+Happens+Here%22)', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/2ee626bf825056d12b21401479db8297.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/2ee626bf825056d12b21401479db8297.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/2ee626bf825056d12b21401479db8297.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/2ee626bf825056d12b21401479db8297.png', 'size': 'extralarge'}], 'date': {'uts': '1517365713', '#text': '31 Jan 2018, 02:28'}}, {'artist': {'#text': 'Renata Zeiguer', 'mbid': ''}, 'name': 'Bug', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Bug', 'mbid': ''}, 'url': 'https://www.last.fm/music/Renata+Zeiguer/_/Bug', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517365535', '#text': '31 Jan 2018, 02:25'}}, {'artist': {'#text': 'VAPERROR', 'mbid': 'debf2484-3a5a-4b91-82b8-d1887aa5130b'}, 'name': 'Soft Net', 'streamable': '0', 'mbid': '', 'album': {'#text': 'System Delight', 'mbid': ''}, 'url': 'https://www.last.fm/music/VAPERROR/_/Soft+Net', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/e139d63fc5f944b275b346212b60072d.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/e139d63fc5f944b275b346212b60072d.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/e139d63fc5f944b275b346212b60072d.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/e139d63fc5f944b275b346212b60072d.png', 'size': 'extralarge'}], 'date': {'uts': '1517365264', '#text': '31 Jan 2018, 02:21'}}, {'artist': {'#text': 'Carnage', 'mbid': 'da9bd8dc-b9e7-4231-8545-aeab88b67187'}, 'name': 'i SHYNE', 'streamable': '0', 'mbid': '', 'album': {'#text': 'i Shyne', 'mbid': ''}, 'url': 'https://www.last.fm/music/Carnage/_/i+SHYNE', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/1e96e70f0ab2b67ddc47da20ff371020.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/1e96e70f0ab2b67ddc47da20ff371020.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/1e96e70f0ab2b67ddc47da20ff371020.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/1e96e70f0ab2b67ddc47da20ff371020.png', 'size': 'extralarge'}], 'date': {'uts': '1517365110', '#text': '31 Jan 2018, 02:18'}}, {'artist': {'#text': 'Why?', 'mbid': '86d2b4bc-a3ed-43b7-881c-f1d7f2ce3adc'}, 'name': 'Easy - Baths Remix', 'streamable': '0', 'mbid': '', 'album': {'#text': 'Easy (Baths Remix)', 'mbid': ''}, 'url': 'https://www.last.fm/music/Why%3F/_/Easy+-+Baths+Remix', 'image': [{'#text': 'https://lastfm-img2.akamaized.net/i/u/34s/f6022422cd5ae6164d0a9bbd32409812.png', 'size': 'small'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/64s/f6022422cd5ae6164d0a9bbd32409812.png', 'size': 'medium'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/174s/f6022422cd5ae6164d0a9bbd32409812.png', 'size': 'large'}, {'#text': 'https://lastfm-img2.akamaized.net/i/u/300x300/f6022422cd5ae6164d0a9bbd32409812.png', 'size': 'extralarge'}], 'date': {'uts': '1517364845', '#text': '31 Jan 2018, 02:14'}}, {'artist': {'#text': 'Hovvdy', 'mbid': ''}, 'name': 'In the Sun', 'streamable': '0', 'mbid': '', 'album': {'#text': 'In the Sun', 'mbid': ''}, 'url': 'https://www.last.fm/music/Hovvdy/_/In+the+Sun', 'image': [{'#text': '', 'size': 'small'}, {'#text': '', 'size': 'medium'}, {'#text': '', 'size': 'large'}, {'#text': '', 'size': 'extralarge'}], 'date': {'uts': '1517364663', '#text': '31 Jan 2018, 02:11'}}], '@attr': {'user': 'sbohannon', 'page': '1', 'perPage': '50', 'totalPages': '1256', 'total': '62776'}}\n",
+			"file": "/C/Users/sky_2/Google Drive/turtle.txt",
 			"settings":
 			{
-				"buffer_size": 69341,
+				"buffer_size": 264,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/sky_2/Google Drive/The Dump Site/Lizard/lizard.nes",
+			"contents": "lasplagas@protonmail.ch\nkKD4731#1#mf\n\ndream market\nlasplagas\nP69x1^288uEa\npin: 26002600\n\nPGP\nP69x1^288uEa",
 			"settings":
 			{
-				"buffer_size": 1310760,
-				"encoding": "Hexadecimal",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/sky_2/Documents/Arduino/libraries/Adafruit_SSD1306-master/Adafruit_SSD1306.h",
-			"settings":
-			{
-				"buffer_size": 5769,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "ZZZ-UNK-SD SNATCHER JAPANESE FOR SCC+[DISK 1].DSK\nZZZ-UNK-SD SNATCHER JAPANESE FOR SCC+[DISK 2].DSK\nZZZ-UNK-SD SNATCHER JAPANESE FOR SCC+[DISK 3].DSK",
-			"file": "/G/games/Microsoft/SD Snatcher [T+En]/SD Snatcher (English).m3u",
-			"file_size": 151,
-			"file_write_time": 131637345592316613,
-			"settings":
-			{
-				"buffer_size": 149,
+				"buffer_size": 105,
 				"line_ending": "Windows",
-				"name": "ZZZ-UNK-SD SNATCHER JAPANESE FOR SCC+[DISK 1].DSK"
-			}
-		},
-		{
-			"contents": "Happy Console Gamer\nhttps://www.youtube.com/channel/UC2vUKoTGIwNYq4LO0YWKPIg\n\nMy Life in Gaming\nhttps://www.youtube.com/channel/UCpvtp7mH0Cdq8FQUxcjDq0Q\n\nNakeyJakey\nhttps://www.youtube.com/channel/UCSdma21fnJzgmPodhC9SJ3g\n\nFamicom Dojo\nhttps://www.youtube.com/channel/UCHTsEtGgIv0_LRxP2Yontxw\n\nWWG\nhttps://www.youtube.com/channel/UCI7H1H_8lnxonZ1vIyfvAcg\n\nThis Does Not Compute\nhttps://www.youtube.com/channel/UCEp20NgOZHmgWdbQdHSxgjw\n\nThe Retro Future\nhttps://www.youtube.com/channel/UCefAbzsWZE4uXU-mqQMrr4Q/videos\n\nThe Game Chasers\nhttps://www.youtube.com/channel/UC78PzEVn5zWK4No0dPQHVQw\n\nThe Nostalgia Nerd\nhttps://www.youtube.com/user/nostalgianerdvideos/videos\n\nGame Dave\nhttps://www.youtube.com/channel/UCq5Ki7-K4WSYPNjbOdiZcww\n\nGame Sack\nhttps://www.youtube.com/channel/UCT6LaAC9VckZYJUzutUW3PQ\n\nThe Gaming Historian\nhttps://www.youtube.com/channel/UCnbvPS_rXp4PC21PG2k1UVg\n\nHard4Games\nhttps://www.youtube.com/channel/UCacYHKoNLHrVoN1L9uup86A\n\nIt's a Pixel Thing\nhttps://www.youtube.com/channel/UCBmhEEQ5dCAWfCuTNrSplMw\n\nRigg'd Games\nhttps://www.youtube.com/channel/UC8cZ9g1sopNc50D9NqVBbug\n\nKim Justice\nhttps://www.youtube.com/user/elmyrdehory/videos\n\nModern Vintage Gamer\nhttps://www.youtube.com/channel/UCjFaPUcJU1vwk193mnW_w1w",
-			"settings":
-			{
-				"buffer_size": 1239,
-				"line_ending": "Windows",
-				"name": "Happy Console Gamer"
-			}
-		},
-		{
-			"contents": "for %A in (*.sfc) do \"C:\\Program Files\\7-Zip\\7z.exe\" a -tzip \"%A.zip\" \"%A\"",
-			"file": "/H/1 US - A-C/zipem.bat",
-			"file_size": 77,
-			"file_write_time": 131642525220000000,
-			"settings":
-			{
-				"buffer_size": 74,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "for %%X in (*) do \"C:\\Program Files\\7-Zip\\7z.exe\""
-			}
-		},
-		{
-			"file": "/C/Users/sky_2/Desktop/gamelist.xml",
-			"settings":
-			{
-				"buffer_size": 668574,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "./Adventures of Rocky and Bullwinkle and Friends, The (USA).zip\n./AWS Pro Moves Soccer (USA).zip\n./Barkley Shut Up and Jam 2 (USA).zip\n./Battle Mania Daiginjou (Japan, Korea).zip\n./Berenstain Bears' Camping Adventure, The (USA).zip\n./Blockbuster World Video Game Championship II (USA).zip\n./Boxing Legends of the Ring (USA).zip\n./Brett Hull Hockey '95 (USA).zip\n./Cal Ripken Jr. Baseball (USA).zip\n./Castlevania - Bloodlines (USA).zip\n./Championship Bowling (USA).zip\n./Chavez II (USA).zip\n./Chi Chi's Pro Challenge Golf (USA).zip\n./Clay Fighter (USA).zip\n./College Football USA 96 (USA).zip",
-			"file": "/C/Users/sky_2/Desktop/wrong_games-genesis.txt",
-			"file_size": 2244,
-			"file_write_time": 131643359801520319,
-			"settings":
-			{
-				"buffer_size": 591,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "Actraiser 2"
-			}
-		},
-		{
-			"file": "/C/Users/sky_2/Desktop/wrong_games-snes.txt",
-			"settings":
-			{
-				"buffer_size": 2193,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/sky_2/Desktop/NOCLONES.dat",
-			"settings":
-			{
-				"buffer_size": 205487,
-				"line_ending": "Windows"
+				"name": "lasplagas@protonmail.ch"
 			}
 		}
 	],
@@ -494,7 +412,58 @@
 	},
 	"file_history":
 	[
+		"/C/Users/sky_2/AppData/Local/Temp/scp53726/uploads/sheek wants.txt",
+		"/H/config.txt",
+		"/G/games/Scene Archive/Game Boy Color/_CHARTS/MGSCI_Jul-2000-OS/mgsci8.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa409364.10854/Readme.txt",
+		"/G/games/Nintendo/Super Nintendo/Translations/English/BS Super Mario USA/BS_SMB_USA.txt",
+		"/G/Uploads/snes/DOPE ASS SETTINGS FOR TWEEK.txt",
+		"/G/games/RetroPie Stuff/piodized_v2.0.sfv",
+		"/C/Users/sky_2/AppData/Local/Temp/scp45291/home/pi/.skyscraper/skipped-arcadedb.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa318132.20324/PPTRFIX.TXT",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa315448.14554/PPTRFIX.TXT",
+		"/C/Users/sky_2/Desktop/Trained/GBC/WAREZ/GAMEBOY/CGB/sour.txt",
+		"/C/Users/sky_2/Desktop/Trained/GBC/Readme.txt",
+		"/C/Users/sky_2/Desktop/Translations/SNES/Shin Seikoku - La Wares [T+Eng1.00-Dynamic-Designs]/La Wares v1.00 Readme.txt",
+		"/C/Users/sky_2/Desktop/Translations/SNES/The Great Battle II Last Fighter Twin/tgb2-readme.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa309992.4789/sherlock.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa307612.724/readme.txt",
+		"/C/Users/sky_2/Google Drive/Repro Stuff/PS2/FreeMcBoot/README-installer.txt",
+		"/C/Users/sky_2/Google Drive/piodized/nes/gamelist.xml.bak",
+		"/C/Users/sky_2/Google Drive/piodized/atari7800/gamelist.xml",
+		"/C/Users/sky_2/Google Drive/piodized/scummvm/gamelist.xml",
+		"/C/Users/sky_2/Google Drive/piodized/nes/gamelist.xml",
+		"/C/Users/sky_2/Google Drive/piodized/snes/gamelist.xml",
+		"/C/Users/sky_2/AppData/Local/Temp/scp34592/home/pi/.skyscraper/skipped-localdb.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa216328.42535/readme.txt",
+		"/C/Users/sky_2/Google Drive/piodized/gamelist.xml",
+		"/C/Users/sky_2/Google Drive/piodized/atari5200/gamelist.xml",
+		"/G/games/Game Engine Recreations/ScummVM/_ReadMe_.txt",
+		"/C/Users/sky_2/Google Drive/metamask.txt",
+		"/C/Users/sky_2/Google Drive/Repro Stuff/PS2/FreeMcBoot/README.txt",
+		"/C/Users/sky_2/Google Drive/Repro Stuff/PS2/Modbo 4.0 Diagrams/readme.txt",
+		"/G/games/RetroPie Stuff/RetroPie Stuff.sfv",
+		"/C/Users/sky_2/Google Drive/ASCII/piodized.ans",
+		"/C/Users/sky_2/Desktop/piodized/snes/updates.xml",
+		"/C/Users/sky_2/Desktop/piodized/snes/gamelist.xml",
+		"/C/Users/sky_2/Desktop/piodized/megadrive/gamelist.xml",
+		"/C/Users/sky_2/Desktop/piodized/atarilynx/gamelist.xml",
+		"/C/Users/sky_2/Google Drive/The Dump Site/Lizard/lizard.nes",
+		"/C/Users/sky_2/Desktop/piodized/pcengine/gamelist.xml",
+		"/C/Users/sky_2/Documents/Arduino/libraries/Adafruit_SSD1306-master/Adafruit_SSD1306.h",
+		"/G/games/Microsoft/SD Snatcher [T+En]/SD Snatcher (English).m3u",
+		"/H/1 US - A-C/zipem.bat",
+		"/C/Users/sky_2/Desktop/wrong_games-genesis.txt",
 		"/C/Users/sky_2/Desktop/gamelist.xml",
+		"/C/Users/sky_2/Desktop/piodized/segacd/gamelist.xml",
+		"/C/Users/sky_2/Desktop/piodized/ngpc/gamelist.xml",
+		"/C/Users/sky_2/Desktop/piodized/virtualboy/gamelist.xml",
+		"/C/Users/sky_2/Desktop/piodized/gba/gamelist.xml",
+		"/C/Users/sky_2/Desktop/piodized/gbc/gamelist.xml",
+		"/C/Users/sky_2/Desktop/piodized/nes/gamelist.xml",
+		"/C/Users/sky_2/Desktop/piodized/gb/gamelist.xml",
+		"/C/Users/sky_2/Desktop/wrong_games-snes.txt",
+		"/C/Users/sky_2/Desktop/NOCLONES.dat",
 		"/C/Users/sky_2/AppData/Local/Temp/scp29618/home/pi/RetroPie/roms/megadrive/_Megadrive_missing.txt",
 		"/C/Users/sky_2/Desktop/rondo/Patch/Dracula X ISO (Binchunker).cue",
 		"/C/Users/sky_2/Desktop/rondo/For users with BIN-CUE rips/instructions.txt",
@@ -561,7 +530,6 @@
 		"/D/projects/urkelbot/.gitignore",
 		"/K/06 Program Flow Control in Python/attached_files/030 Challenge - If Then Else/lecture-30-challenge.txt",
 		"/E/juarez/Apps/JetBrains.IntelliJ.IDEA.Ultimate.2017.1.5.Incl.KeyMaker-DVT/d251cje3/d-000je/I_LOVE_DVT/readme.txt",
-		"/C/Users/sky_2/Google Drive/Repro Stuff/PS2/Modbo 4.0 Diagrams/readme.txt",
 		"/K/system/config.txt",
 		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa15924.11772/config.txt",
 		"/K/config.txt",
@@ -571,57 +539,7 @@
 		"/C/Users/sky_2/AppData/Local/Temp/scp35252/uploads/want.txt",
 		"/C/Users/sky_2/AppData/Local/Temp/scp35306/uploads/requests.txt",
 		"/E/juarez/Apps/WinRAR 5.50 incl Patch 32bit + 64bit/Patch_WinRar_5.50/ReadMe.txt",
-		"/E/juarez/Apps/Directory Opus Pro v12.2 Build 6138 Multilingual/Fix with instructions/Read first!.txt",
-		"/C/Users/sky_2/AppData/Local/Temp/scp35503/uploads/requests.txt",
-		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa0.622/readme.txt",
-		"/D/projects/urkelbot/hackers.txt",
-		"/E/juarez/Apps/L0pht.Holdings.L0phtCrack.Enterprise.v7.0.15.X64.Incl.Keygen-AMPED/ampaoc01/amped/AMPED/amped.txt",
-		"/C/Users/sky_2/OpenVPN/config/ca.crt",
-		"/C/Users/sky_2/OpenVPN/config/ephraim.ovpn",
-		"/C/Users/sky_2/OpenVPN/config/crash.ovpn",
-		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa0.983/MCSCI-5.TXT",
-		"/C/Users/sky_2/Desktop/phantom.motd.tcl",
-		"/C/Users/sky_2/AppData/Local/Temp/scp31959/uploads/want.txt",
-		"/C/Users/sky_2/AppData/Local/Temp/scp35617/uploads/want.txt",
-		"/G/mame/roms/_ReadMe_.txt",
-		"/G/games/Other/Scene/_DOX/32bit_Rocks_Major_Ass_DOX_CONSOLE-ALLIANCE/001.TXT",
-		"/G/games/Other/Scene/_DOX/MCI_Bust_Announcement_DOX_CONSOLE-iND/MCIBUST!.TXT",
-		"/G/games/Other/Scene/_DOX/LSD_Lives_On_DOX_CONSOLE-LSD/LSD-LIVE.TXT",
-		"/G/games/Other/Scene/_DOX/FUCK_Changes_Name_To_BGD_DOX_CONSOLE-BGD/FUCK2BGD.TXT",
-		"/D/projects/python/hello.py",
-		"/D/wrasslin/PWG BOLA 2016/BOLA2016.jpg",
-		"/D/projects/urkelbot/urkel.py",
-		"/C/Users/Sky/AppData/Local/Temp/scp24205/uploads/want.txt",
-		"/C/Program Files/OpenVPN/config/client.ovpn",
-		"/C/Users/Sky/AppData/Local/Temp/scp00687/home/sky/ca.crt",
-		"/C/Users/Sky/AppData/Local/Temp/scp00942/uploads/want.txt",
-		"/C/Users/Sky/AppData/Local/Temp/scp44535/uploads/want.txt",
-		"/H/games/ps2/DreamMixTVWorldFighters.7z",
-		"/H/games/amiga/_DOX/10000_Ohm_ASCII_Collection_DOX_AMIGA-ARTCORE/AC!-OHM.TXT",
-		"/C/Users/Sky/AppData/Local/Temp/scp00627/uploads/want.txt",
-		"/H/games/amiga/_DOX/Virus_Warning_AMIGA-SKIDROW/SR-VIR1.TXT",
-		"/C/Users/Sky/AppData/Local/Temp/scp30956/uploads/want.txt",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.512/AGG_0193.TXT",
-		"/C/Users/Sky/AppData/Local/Temp/scp32932/uploads/want.txt",
-		"/C/Users/Sky/AppData/Local/Temp/scp48813/games/kuribo's scene archive/gb/_TRAINERS/True_Lies_Plus1_Trainer_GB-ASGARD/ASG-REL.NFO",
-		"/C/Users/Sky/AppData/Local/Temp/scp14676/uploads/want.txt",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.466/Lastminute.txt",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.335/ecoder.txt",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.142/os-genhi.txt",
-		"/H/games/genesis/_DOX/Chiki_Chiki_Boys_Manual_DOX_SMD-DEXTROSE/chikiusa.txt",
-		"/D/projects/datahelicopter/res/ascii_logo.txt",
-		"/E/juarez/Apps/FlashFXP v4.1.3 Build 1658 Final Multilingual/key.txt",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.838/sk-upuap.txt",
-		"/G/roms/gbc/Corrupt_Console_Issue_3-CC/corr!003.txt",
-		"/G/roms/gbc/Corrupt_Console_Issue_2-CC/corr!002.txt",
-		"/G/roms/gbc/Corrupt_Console_Issue_4-CC/corr!004.txt",
-		"/C/Users/Sky/AppData/Local/Temp/Rar$DIa0.195/readme.txt",
-		"/G/dreamcast/Dreamcast Self-Booting_Toolkit-ECHELON/TUTORIAL.TXT",
-		"/G/dreamcast/PBA_Bowling_2001_USA_DC-BELOKK/PBA Bowling 2001-Belokk.txt",
-		"/D/projects/datahelicopter/dh-wp/index.php",
-		"/D/projects/datahelicopter/intro/scss/style.scss",
-		"/D/projects/datahelicopter/intro/CODEF-master/tutorials/81_music.html",
-		"/D/projects/datahelicopter/intro/footer.txt"
+		"/E/juarez/Apps/Directory Opus Pro v12.2 Build 6138 Multilingual/Fix with instructions/Read first!.txt"
 	],
 	"find":
 	{
@@ -639,134 +557,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			".zip",
-			"lite",
-			"address",
-			"ping",
-			"idea",
-			"Nikon",
-			"phantom",
-			"mur",
-			"rust",
-			"numplayers",
-			"rust",
-			"get_status",
-			"get_st",
-			"rust-ser",
-			"./",
-			"./elements",
-			"./core",
-			"h2",
-			"hr {",
-			"contact-form",
-			"col-xs-1",
-			"darken($mint",
-			"h1",
-			"tags",
-			"darkblue",
-			"tag",
-			"4rem",
-			"header",
-			"25",
-			"evolve",
-			"pokestop",
-			"softban",
-			"trans",
-			"radius",
-			"dup",
-			"pokeball",
-			"incub",
-			"hr {",
-			"        <!--",
-			"$red",
-			"more",
-			"more-link",
-			"chimney-pro",
-			"chimney_pro",
-			"nopad",
-			":before",
-			"Red Bank",
-			"nashville",
-			"Memphis",
-			"East Ridge",
-			"East Brainerd",
-			"Collegedale",
-			"Cleveland",
-			"Chattanooga",
-			"Tyrone",
-			"GA",
-			"Smyrna",
-			"Sandy Springs",
-			"Roswell",
-			"Rome",
-			"Peachtree City",
-			"Marietta",
-			"Kennesaw",
-			"Johns Creek",
-			"East Point",
-			"Dunwoody",
-			"Duluth",
-			"Decatur",
-			"Dalton",
-			"Cartersville",
-			"Atlanta",
-			"Alpharetta",
-			"Tuscaloosa",
-			"Tusca",
-			"Talladega",
-			"Scottsboro",
-			"Rainsville",
-			"Montgomery",
-			"Jasper",
-			"Huntsville",
-			"Gadsden",
-			"Florence",
-			"Decatur",
-			"Cullman",
-			"Centre",
-			"Birmingham",
-			"Athens",
-			"Anniston",
-			"web",
-			"Montgomery",
-			"Montgomery, AL",
-			"Rainsville",
-			"Red Bank",
-			"Nashville",
-			"Memphis",
-			"East Ridge",
-			"East Brainerd",
-			"Collegedale",
-			"Cleveland",
-			"Chattanooga",
-			"Tyrone",
-			"GA",
-			"Smyrna",
-			"Sandy Springs",
-			"Roswell",
-			"Rome",
-			"Peachtree City",
-			"Marietta",
-			"Kennesaw",
-			"Johns Creek",
-			"East Point",
-			"Easy Point",
-			"Dunwoody",
-			"Decatur",
-			"Dalton",
-			"Cartersville",
-			"Atlanta",
-			"Alpharetta",
-			"AL",
-			"Tuscaloosa",
-			"Talladega",
-			"Scottsboro",
-			"Rainsville",
-			"Jasper",
-			"Huntsville",
-			"Gadsden",
-			"Florence",
-			"Decatur"
+			".png",
+			".nes",
+			"aigina",
+			"advanced",
+			".nes",
+			"sweet home",
+			"star wars",
+			"lagran",
+			"labyr",
+			"lagrange",
+			"holy diver",
+			"fire emblem",
+			"final fantasy",
+			"cocoron",
+			"cosmic wars",
+			"chaos world",
+			"ninden",
+			"samurai piz",
+			"aigina",
+			"american dream",
+			"antarctic",
+			"armadillo",
+			"astro fan",
+			"attack animal",
+			"banana",
+			"bikku",
+			"bio miracle",
+			"bio sen",
+			"cadillac",
+			"antarctic",
+			"music power",
+			"Akumajou ",
+			"Akumajou Densetsu (J) [T+Eng1.0_Vice].nes",
+			"Aigina no Yogen - Balubalouk no Densetsu Yori (J) T+Eng1.1 Psyklax.nes",
+			"music power",
+			"akira",
+			")</name>",
+			" (Unknown) (Proto)</name>",
+			")</name>",
+			" (USA) (Proto)</name>",
+			")</name>",
+			" (USA)</name>",
+			")</name>",
+			" (USA) (Unl)</name>",
+			" (USA) (Demo)</name>",
+			")</name>",
+			" (USA)</name>",
+			" (USA) (Proto)</name>",
+			"BahamutLagoon",
+			"cross-",
+			")</name>",
+			" (USA) (Proto)</name>",
+			")</name>",
+			" (USA, Europe)</name>",
+			"separa",
+			"lightenin",
+			"lightening",
+			"final zone",
+			"ultimate mortal",
+			"nhl",
+			"nhl '94",
+			"lightening",
+			"columns",
+			"bare knuck",
+			")</name>",
+			" (USA, Europe) (July 1993)</name>",
+			")</name>",
+			"</name>",
+			" (USA, Australia) (February 1995)</name>",
+			"</name>",
+			" (USA, Australia) (March 1995)</name>",
+			")</name>",
+			" (USA, Europe) (En,Fr,De,Es)</name>",
+			")</name>",
+			"</name>",
+			" (USA) (Alt 1)</name>",
+			")</name>",
+			" (Japan, USA) (Rev B)</name>",
+			" (USA, Europe) (Rev 1)</name>",
+			")</name>",
+			" (USA) (1994)</name>",
+			" (USA) (October 1993)</name>",
+			" (USA) (En,Ja)</name>",
+			" (World) (En,Ja) (Rev A)</name>",
+			")</name>",
+			" (USA) (v1.1)</name>",
+			")</name>",
+			" (USA, Europe) (En,Fr,It)</name>",
+			" (USA, Europe) (September 1994)</name>",
+			" (USA, Europe) (Rev B)</name>",
+			")</name>",
+			" (USA, Europe) (May 1994)</name>",
+			" (USA, Europe) (J-Cart)</name>",
+			")</name>",
+			" (USA, Europe) (v1.2)</name>",
+			")</name>",
+			" (Japan, USA) (Rev A)</name>",
+			" (USA, Europe) (En,Ja) (Virtual Console)</name>",
+			")</name>",
+			" (USA) (En,Fr,De,Es,It)</name>",
+			" (USA, Australia)</name>",
+			" (USA, Europe) (v1.1)</name>",
+			" (Japan, USA) (v1.1)</name>",
+			"Golden Axe III",
+			"golden axe III",
+			"golden axe (world)",
+			" (USA, Europe) (Rev A)</name>",
+			"</name>",
+			" (USA, Europe) (En,Ja)</name>",
+			" (World) (Rev B)</name>",
+			"gain ground",
+			" (USA, Europe) (En,Fr,De,Es,It,Sv)</name>",
+			" (Japan, USA)</name>",
+			"FZ",
+			" (World) (v1.1)</name>",
+			" (USA, Korea)</name>",
+			" (World) (Rev A)</name>",
+			" (USA, Europe) (En,Fr,De,Es,It)</name>",
+			"super slam",
+			"bomberman",
+			"venom",
+			"venom\\",
+			"venom",
+			"tetris ",
+			"tetris",
+			"tetris & Doctor",
+			"tetris",
+			"secret of the star"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -774,6 +692,23 @@
 		"regex": false,
 		"replace_history":
 		[
+			".zip",
+			" (Proto)</name>",
+			"</name>",
+			" (Unlicensed)</name>",
+			" (Demo)</name>",
+			"</name>",
+			" (Proto)</name>",
+			"</name>",
+			" source=\"\"",
+			"</name>",
+			" (Europe)</name>",
+			"</name>",
+			" (Proto)</name>",
+			"(Proto)</name>",
+			"</name>",
+			" (Aladdin Compact Cartridge)</name>",
+			"</name>",
 			"Lord Nikon",
 			"get_table",
 			"",
@@ -884,35 +819,18 @@
 			"Red Bank",
 			"East Brainerd",
 			"East Ridge",
-			"Collegedale",
-			"Red Bank",
-			"East Brainerd",
-			"East Point",
-			"Atlanta",
-			"Dunwoody",
-			"Tyrone",
-			"Duluth",
-			"Smyrna",
-			"Peachtree City",
-			"Sandy Springs",
-			"Johns Creek",
-			"Kennesaw",
-			"Marietta",
-			"Decatur",
-			"Roswell",
-			"Alpharetta",
-			"orange"
+			"Collegedale"
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 13,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -942,7 +860,7 @@
 						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -951,7 +869,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2539,
+						"buffer_size": 2670,
 						"regions":
 						{
 						},
@@ -971,7 +889,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -980,7 +898,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22033,
+						"buffer_size": 22211,
 						"regions":
 						{
 						},
@@ -1025,71 +943,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/sky_2/Google Drive/metamask.txt",
+					"file": "/G/games/Nintendo/Super Nintendo/Translations/English/Far East of Eden Zero/TM Zero readme.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 783,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								428,
-								428
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 69341,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29,
-								29
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Users/sky_2/Google Drive/The Dump Site/Lizard/lizard.nes",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1310760,
+						"buffer_size": 11949,
 						"regions":
 						{
 						},
@@ -1105,77 +968,19 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 156.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/C/Users/sky_2/Documents/Arduino/libraries/Adafruit_SSD1306-master/Adafruit_SSD1306.h",
+					"buffer": 4,
+					"file": "/C/Users/sky_2/Google Drive/turtle.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5769,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2310,
-								2310
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 765.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/G/games/Microsoft/SD Snatcher [T+En]/SD Snatcher (English).m3u",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 149,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								149,
-								149
-							]
-						],
-						"settings":
-						{
-							"auto_name": "ZZZ-UNK-SD SNATCHER JAPANESE FOR SCC+[DISK 1].DSK",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1239,
+						"buffer_size": 264,
 						"regions":
 						{
 						},
@@ -1183,123 +988,7 @@
 						[
 							[
 								0,
-								1239
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Happy Console Gamer",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/H/1 US - A-C/zipem.bat",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 74,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								74,
-								74
-							]
-						],
-						"settings":
-						{
-							"auto_name": "for %%X in (*) do \"C:\\Program Files\\7-Zip\\7z.exe\"",
-							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/C/Users/sky_2/Desktop/gamelist.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 668574,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								117919,
-								117923
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 29051.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/C/Users/sky_2/Desktop/wrong_games-genesis.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 591,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								591,
-								591
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Actraiser 2",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/C/Users/sky_2/Desktop/wrong_games-snes.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								838,
-								838
+								0
 							]
 						],
 						"settings":
@@ -1314,30 +1003,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "/C/Users/sky_2/Desktop/NOCLONES.dat",
+					"buffer": 5,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 205487,
+						"buffer_size": 105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								105,
+								93
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 6,
-							"translate_tabs_to_spaces": true
+							"auto_name": "lasplagas@protonmail.ch",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 35786.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1389,7 +1076,7 @@
 	"project": "urkelbot.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 73.0
 	},
 	"save_all_on_build": true,
 	"select_file":

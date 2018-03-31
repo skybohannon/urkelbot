@@ -38,6 +38,9 @@ for coin in crypto_list:
     elif coin["id"] == "binance-coin":
         bnb_price = float(coin["price_usd"])
         bnb_change = float(coin["percent_change_24h"])
+    elif coin["id"] == "neo":
+        neo_price = float(coin["price_usd"])
+        neo_change = float(coin["percent_change_24h"])
 
 crypto_output = "<b>BTC</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                 "<b>BCH</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
@@ -46,8 +49,9 @@ crypto_output = "<b>BTC</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                 "<b>BNB</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                 "<b>ICX</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                 "<b>NANO</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
+                "<b>NEO</b>: ${:,.2f}  (<i>{:+.2f}%</i>)\n" \
                 "<b>XLM</b>: ${:,.3f}  (<i>{:+.2f}%</i>)\n" \
                 "<b>XRP</b>: ${:,.2f}  (<i>{:+.2f}%</i>)" \
-                .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnb_price, bnb_change, icx_price, icx_change, nano_price, nano_change, xlm_price, xlm_change, xrp_price, xrp_change)
+                .format(btc_price, btc_change, bch_price, bch_change, eth_price, eth_change, ltc_price, ltc_change, bnb_price, bnb_change, icx_price, icx_change, nano_price, nano_change, neo_price, neo_change, xlm_price, xlm_change, xrp_price, xrp_change)
 
 print(crypto_output)
