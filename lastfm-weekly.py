@@ -11,7 +11,7 @@ def weekly(type, user):
 
     def getcharts(type, user):
         global weekly_chart
-        urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getweekly" + type + "chart&user=" + username + "&api_key=" + api_key + "&format=json"
+        urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getyearly" + type + "chart&user=" + username + "&api_key=" + api_key + "&format=json"
         webURL = urllib.request.urlopen(urlData)
         data = webURL.read()
         encoding = webURL.info().get_content_charset('utf-8')

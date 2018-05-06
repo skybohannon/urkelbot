@@ -18,6 +18,8 @@ def top10(type, user):
             urlData = "https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=" + username + "&api_key=" + api_key + "&period=1month&format=json"
         elif type == "alltime":
             urlData = "https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=" + username + "&api_key=" + api_key + "&period=overall&format=json"
+        elif type == "year":
+            urlData = "https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=" + username + "&api_key=" + api_key + "&period=12month&format=json"
 
         webURL = urllib.request.urlopen(urlData)
         data = webURL.read()
@@ -26,13 +28,16 @@ def top10(type, user):
 
         if type == "week":
             chart.update(chart["weeklyartistchart"])
-            top_10 = "<b>{}'s Top 10 Artists of the Week</b>:\n\n".format(user.capitalize())
+            top_10 = "<b>{}'s Top 10 Artists of the Week</b>\n\n".format(user.capitalize())
         elif type == "month":
             chart.update(chart["topartists"])
-            top_10 = "<b>{}'s Top 10 Artists of the Month</b>:\n\n".format(user.capitalize())
+            top_10 = "<b>{}'s Top 10 Artists of the Month</b>\n\n".format(user.capitalize())
         elif type == "alltime":
             chart.update(chart["topartists"])
-            top_10 = "<b>{}'s Top 10 Artists of All Time</b>:\n\n".format(user.capitalize())
+            top_10 = "<b>{}'s Top 10 Artists of All Time</b>\n\n".format(user.capitalize())
+        elif type == "year":
+            chart.update(chart["topartists"])
+            top_10 = "<b>{}'s Top 10 Artists of The Past Year</b>\n\n".format(user.capitalize())
 
         top_artists = {}
         counter = 0
@@ -54,10 +59,10 @@ def top10(type, user):
             return top_10
 
         except KeyError:
-            return "You have less than 10 artists, listen to some more music already!"
+            return "I think you need to listen to more music! You have less than 10 artists listened to in the past week."
 
     except UnboundLocalError:
         top_10 = "Could not find user {}".format(user)
 
-print(top10("month","sky"))
-print(top10("week","brandon"))
+print(top10("year","sky"))
+print(top10("year","brett"))
