@@ -19,7 +19,7 @@ def top10(user):
         encoding = webURL.info().get_content_charset('utf-8')
         weekly_chart = json.loads(data.decode(encoding))
         weekly_chart.update(weekly_chart["weeklyartistchart"])
-
+        track_art = chart["track"][0]["image"][3:4][0]["#text"]
         top_artists = {}
         counter = 0
         for item in weekly_chart["artist"]:

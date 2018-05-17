@@ -13,7 +13,7 @@ def top10(type, user):
             api_key = usernames[user]["key"]
 
         if type == "week":
-            urlData = "https://ws.audioscrobbler.com/2.0/?method=user.getweeklyartistchart&user=" + username + "&api_key=" + api_key + "&format=json"
+            urlData = "https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=" + username + "&api_key=" + api_key + "&period=7day&format=json"
         elif type == "month":
             urlData = "https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=" + username + "&api_key=" + api_key + "&period=1month&format=json"
         elif type == "alltime":
@@ -27,17 +27,22 @@ def top10(type, user):
         chart = json.loads(data.decode(encoding))
 
         if type == "week":
-            chart.update(chart["weeklyartistchart"])
+            chart.update(chart["topartists"])
             top_10 = "<b>{}'s Top 10 Artists of the Week</b>\n\n".format(user.capitalize())
+            track_art = chart["artist"][0]["image"][3:4][0]["#text"]
         elif type == "month":
             chart.update(chart["topartists"])
             top_10 = "<b>{}'s Top 10 Artists of the Month</b>\n\n".format(user.capitalize())
+            track_art = chart["artist"][0]["image"][3:4][0]["#text"]
         elif type == "alltime":
             chart.update(chart["topartists"])
             top_10 = "<b>{}'s Top 10 Artists of All Time</b>\n\n".format(user.capitalize())
+            track_art = chart["artist"][0]["image"][3:4][0]["#text"]
         elif type == "year":
             chart.update(chart["topartists"])
             top_10 = "<b>{}'s Top 10 Artists of The Past Year</b>\n\n".format(user.capitalize())
+            track_art = chart["artist"][0]["image"][3:4][0]["#text"]
+
 
         top_artists = {}
         counter = 0
@@ -64,5 +69,4 @@ def top10(type, user):
     except UnboundLocalError:
         top_10 = "Could not find user {}".format(user)
 
-print(top10("year","sky"))
-print(top10("year","brett"))
+print(top10("week","sky"))

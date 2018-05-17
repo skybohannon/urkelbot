@@ -11,7 +11,7 @@ info = client.get_account()
 balance = client.get_asset_balance(asset="BTC")
 balance_output = "<b>Binance balances</b>: \n\n"
 for balances in info["balances"]:
-    if float(balances["free"]) > 0.5:
+    if float(balances["free"]) > 0.25:
         balance_output = balance_output + "<b>{}</b>: {:.2f}\n".format(balances["asset"], float(balances["free"]))
 
 
