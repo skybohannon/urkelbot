@@ -42,7 +42,7 @@ def _initialize(bot):
     plugins.register_user_command(["scores"])
     plugins.register_user_command(["fortune"])
     plugins.register_user_command(["np"])
-    plugins.register_user_command(["top10"])
+    plugins.register_user_command(["artists"])
     plugins.register_user_command(["tracks"])
 
 def uptime(bot, event):
@@ -568,7 +568,7 @@ def tracks(bot, event, type, user):
 
     yield from bot.coro_send_message(event.conv_id, top_10)
 
-def top10(bot, event, type, user):
+def artists(bot, event, type, user):
     user = user.lower()
 
     with open(file_path + "lastfm.json", "r") as f:
