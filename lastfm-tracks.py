@@ -52,8 +52,6 @@ def tracks(type, user):
             }
             counter += 1
 
-
-
         try:
             for i in range(0, 10):
                 top_10 = top_10 + "<b>" + str(i + 1) + "</b>. " +top_tracks[i]["artist"] + " - " + top_tracks[i]["track"] + " (<i>" + top_tracks[i][
