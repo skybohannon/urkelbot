@@ -308,34 +308,16 @@
 			"file": "urkel.py",
 			"settings":
 			{
-				"buffer_size": 21791,
+				"buffer_size": 27810,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "lasplagas@protonmail.ch\nkKD4731#1#mf\nprotonirockerxow.onion\n\ndream market\nlasplagas\nP69x1^288uEa\npin: 26002600\n\nPGP\nP69x1^288uEa\n\nhttp://jd6yhuwcivehvdt4.onion\nhttp://t3e6ly3uoif4zcw2.onion\nhttp://7ep7acrkunzdcw3l.onion\nhttp://vilpaqbrnvizecjo.onion\nhttp://igyifrhnvxq33sy5.onion\nhttp://6qlocfg6zq2kyacl.onion\nhttp://x3x2dwb7jasax6tq.onion\nhttp://bkjcpa2klkkmowwq.onion\nhttp://xytjqcfendzeby22.onion\nhttp://nhib6cwhfsoyiugv.onion\nhttp://k3pd243s57fttnpa.onion\n\n154mm wide \n122.2mm height (126.7mm  from controller conectors to back)\n18mm high at controller connectors (heighest)\n16mm high at cartridge connector ",
-			"file": "/C/Users/sky_2/Google Drive/lasplagas@protonmail.ch",
-			"file_size": 481,
-			"file_write_time": 131695871371100275,
+			"file": "lastfm.json",
 			"settings":
 			{
-				"buffer_size": 612,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/juarez/Audio/Ableton.Live.Suite.v9.7.3.Incl.Patched.and.Keygen-R2R/r2r-6199/R2R/R2R.txt",
-			"settings":
-			{
-				"buffer_size": 309,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/sky_2/AppData/Local/Temp/Rar$DIa7624.29480/README.txt",
-			"settings":
-			{
-				"buffer_size": 7659,
+				"buffer_size": 743,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -421,6 +403,13 @@
 	},
 	"file_history":
 	[
+		"/M/lasplagas@protonmail.ch",
+		"/E/juarez/Apps/SketchUp Pro 2018 18.0.16975 (x64)/Readme.txt",
+		"/C/Users/sky_2/Desktop/plex.bat",
+		"/M/lp.txt",
+		"/C/Users/sky_2/Google Drive/lasplagas@protonmail.ch",
+		"/E/juarez/Audio/Ableton.Live.Suite.v9.7.3.Incl.Patched.and.Keygen-R2R/r2r-6199/R2R/R2R.txt",
+		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa7624.29480/README.txt",
 		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa7624.28032/README-installer.txt",
 		"/M/Program Files (x86)/Bitcoin/readme.txt",
 		"/C/Users/sky_2/Google Drive/Crypto/wallet.dat",
@@ -428,7 +417,6 @@
 		"/M/Users/pnz/Documents/chelsea address.txt",
 		"/M/ProgramData/hash.dat",
 		"/C/Users/sky_2/Desktop/3DS/IDO-9a4459b5476508369ae904c824905f87",
-		"/C/Users/sky_2/Google Drive/lasplagas@protonmail.ch",
 		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa8548.4443/TUTORIAL.TXT",
 		"/H/config.txt",
 		"/C/Users/sky_2/Desktop/translations/Burning TwinBee_ The Rescue of Dr. Cinnamon FDS/ReadMe-DvD_Translations-TwinBee_2.txt",
@@ -542,13 +530,7 @@
 		"/C/Users/sky_2/Downloads/lecture-60-challenge.txt",
 		"/C/Users/sky_2/Downloads/lecture-56-challenge (2).txt",
 		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa35760.32310/sample.txt",
-		"/C/Users/sky_2/Downloads/lecture-58-challenge (1).txt",
-		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa63740.31172/challenge.py",
-		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa65552.29995/challenge.py",
-		"/C/Users/sky_2/Downloads/lecture-56-challenge (1).txt",
-		"/C/Users/sky_2/Downloads/lecture-56-challenge.txt",
-		"/C/Users/sky_2/Downloads/lecture-58-challenge.txt",
-		"/C/Users/sky_2/AppData/Local/Temp/Rar$DIa36588.17099/challenge.py"
+		"/C/Users/sky_2/Downloads/lecture-58-challenge (1).txt"
 	],
 	"find":
 	{
@@ -839,7 +821,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -866,10 +848,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 41.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -898,7 +880,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -907,15 +889,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21791,
+						"buffer_size": 27810,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								631,
-								631
+								1124,
+								1124
 							]
 						],
 						"settings":
@@ -952,96 +934,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/sky_2/Google Drive/lasplagas@protonmail.ch",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 612,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								612,
-								461
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/juarez/Audio/Ableton.Live.Suite.v9.7.3.Incl.Patched.and.Keygen-R2R/r2r-6199/R2R/R2R.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 309,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								309,
-								309
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/C/Users/sky_2/AppData/Local/Temp/Rar$DIa7624.29480/README.txt",
+					"buffer": 3,
+					"file": "lastfm.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7659,
+						"buffer_size": 743,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								365,
+								365
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "/C/Users/sky_2/Google Drive/Crypto/wallet_10_04_2013_23_20_07.aes.json",
 					"semi_transient": false,
 					"settings":
@@ -1065,7 +992,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
