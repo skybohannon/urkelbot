@@ -125,6 +125,9 @@ def rising(bot, event):
     player3Name = data[6].text.strip()
     player3Team = data[7].text.strip()
     player3Price = data[8].text.strip()
+    player4Name = data[9].text.strip()
+    player4Team = data[10].text.strip()
+    player4Price = data[11].text.strip()
 
     lineup = {
         1: {"playerName": player1Name,
@@ -136,6 +139,9 @@ def rising(bot, event):
         3: {"playerName": player3Name,
             "playerTeam": player3Team,
             "playerPrice": player3Price},
+        4: {"playerName": player4Name,
+            "playerTeam": player4Team,
+            "playerPrice": player4Price}
     }
 
     player1 = '<b>' + lineup[1]["playerName"] + '</b> ' + lineup[1]["playerTeam"] + ' <i>' + lineup[1][
@@ -143,14 +149,16 @@ def rising(bot, event):
     player2 = '<b>' + lineup[2]["playerName"] + '</b> ' + lineup[2]["playerTeam"] + ' <i>' + lineup[2][
         "playerPrice"] + '</i><br />'
     player3 = '<b>' + lineup[3]["playerName"] + '</b> ' + lineup[3]["playerTeam"] + ' <i>' + lineup[3][
+        "playerPrice"] + '</i><br />'
+    player4 = '<b>' + lineup[4]["playerName"] + '</b> ' + lineup[4]["playerTeam"] + ' <i>' + lineup[4][
         "playerPrice"] + '</i>'
 
-    risingOutput = '<b>FPL Soon To Rise</b><br /><br />' + ''.join(player1) + ''.join(player2) + ''.join(player3)
+    risingOutput = '<b>FPL Soon To Rise</b><br /><br />' + ''.join(player1) + ''.join(player2) + ''.join(player3) + ''.join(player4)
     yield from bot.coro_send_message(event.conv_id, risingOutput)
 
 
 def standings(bot, event):
-    url = 'https://fplmystats.com/league/116940/'
+    url = 'https://fplmystats.com/league/316908/'
     page = urllib.request.urlopen(url)
     soup = BeautifulSoup(page.read(), "html.parser")
 

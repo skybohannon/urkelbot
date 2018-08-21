@@ -1,7 +1,7 @@
 import urllib.request
 from bs4 import BeautifulSoup
 
-url = 'https://fplmystats.com/league/116940/'
+url = 'https://fplmystats.com/league/316908/'
 page = urllib.request.urlopen(url)
 soup = BeautifulSoup(page.read(), "html.parser")
 
